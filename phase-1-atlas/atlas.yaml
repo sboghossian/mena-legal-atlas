@@ -1,0 +1,1270 @@
+AE:
+  country: United Arab Emirates
+  region: GCC
+  legal_system: civil_law_with_sharia_influence
+  languages:
+  - arabic
+  - english
+  calendar: gregorian
+  citation_style: federal_law_no_X_of_YYYY
+  authorities:
+    official_gazette:
+      name: UAE Official Gazette (Al-Jarīdah al-Rasmīyah)
+      url: https://uaelegislation.gov.ae/en/official-gazette
+      format: pdf
+      auth: cloudflare_WAF
+      notes: Issued by Ministry of Justice. Full archive online since 1971.
+      url_check:
+        status: forbidden_403
+        code: 403
+        checked_at: '2026-05-16'
+    consolidated:
+    - name: UAE Legislation Portal
+      url: https://uaelegislation.gov.ae
+      operator: MOJ
+      notes: Federal laws, decree-laws, cabinet resolutions. Bilingual.
+      url_check:
+        status: forbidden_403
+        code: 403
+        checked_at: '2026-05-16'
+    - name: eLaws (MOJ legacy)
+      url: https://elaws.moj.gov.ae
+      notes: Geo-blocked from non-UAE IPs.
+      url_check:
+        status: timeout
+        code: null
+        checked_at: '2026-05-16'
+    apex_courts:
+    - Federal Supreme Court
+    - Court of Cassation (Dubai)
+    - Court of Cassation (Abu Dhabi)
+    - DIFC Courts (common-law, English-language)
+    - ADGM Courts (common-law, English-language)
+    key_regulators:
+    - Central Bank (CBUAE) - rulebook.centralbank.ae
+    - Securities and Commodities Authority (SCA)
+    - Federal Tax Authority (FTA)
+    - DFSA (DIFC financial regulator)
+    - FSRA (ADGM financial regulator)
+  worldwidelaw:
+    working: 7
+    blocked: 8
+    dominant_blocker: cloudflare_WAF + geo_ip_block
+  unblock_hints:
+  - Federal MOJ portal is cloudflare-WAF gated; pursue MOU with MOJ Open Data team rather than scraping
+  - Bayanat (data.bayanat.ae) sometimes hosts MOJ datasets — check periodically
+  - SCA API requires CSRF auth — request a public API key via SCA contact form
+  - TDRC tax appeals are protected by Tax Procedures Law Art 7 confidentiality — unscrapeable by design
+  priority:
+    haqq_icp: high
+    tractability: low_for_federal_high_for_freezones
+    upstream_gap: medium
+  notes: Free zones (DIFC, ADGM) have the best open access. Federal is the hard part.
+BH:
+  country: Bahrain
+  region: GCC
+  legal_system: civil_law_with_sharia_influence
+  languages:
+  - arabic
+  - english
+  calendar: gregorian
+  citation_style: law_no_X_for_YYYY
+  authorities:
+    official_gazette:
+      name: Al-Jarīdah al-Rasmīyah
+      url: https://www.legalaffairs.gov.bh/
+      format: pdf
+      auth: none_in_principle
+      notes: Issued by Legal Affairs Directorate.
+      url_check:
+        status: live
+        code: 200
+        checked_at: '2026-05-16'
+    consolidated:
+    - name: LLOC (Legislation and Legal Opinion Commission)
+      url: https://www.lloc.gov.bh
+      notes: lloc.gov.bh = legalaffairs.gov.bh (same operator). DNS currently unresolvable from non-BH ranges.
+      url_check:
+        status: live
+        code: 200
+        checked_at: '2026-05-16'
+    apex_courts:
+    - Court of Cassation
+    - Constitutional Court (ccb.bh)
+    key_regulators:
+    - Central Bank of Bahrain - cbb.gov.bh (rulebook on Thomson Reuters - paywalled)
+    - National Bureau for Revenue (NBR)
+  worldwidelaw:
+    working: 1
+    blocked: 5
+    dominant_blocker: dns_unreachable + waf
+  unblock_hints:
+  - Try resolving lloc.gov.bh from a Bahraini residential proxy
+  - CBB rulebook is on a TR subdomain; only working path is direct partnership with CBB
+  - ccb.bh returns 403; try via google cache + archive.org
+  - data.gov.bh has zero legal datasets — file a request issue
+  priority:
+    haqq_icp: medium
+    tractability: low
+    upstream_gap: high
+  notes: One of the worst access situations in the GCC despite small corpus size.
+KW:
+  country: Kuwait
+  region: GCC
+  legal_system: civil_law_with_sharia_influence
+  languages:
+  - arabic
+  calendar: gregorian
+  citation_style: law_no_X_for_YYYY
+  authorities:
+    official_gazette:
+      name: Kuwait Al-Yawm (Kuwait Today)
+      url: https://www.alkuwait-alyoum.com
+      format: pdf
+      url_check:
+        status: dns_error
+        code: null
+        checked_at: '2026-05-16'
+    consolidated:
+    - name: e.gov.kw legal portal
+      url: https://www.e.gov.kw/sites/kgoenglish/Pages/Visitors/Laws.aspx
+      url_check:
+        status: not_found_404
+        code: 404
+        checked_at: '2026-05-16'
+    apex_courts:
+    - Court of Cassation
+    - Constitutional Court
+    key_regulators:
+    - Central Bank of Kuwait (CBK)
+    - Capital Markets Authority (CMA)
+    - Kuwait Tax Authority (MOF)
+  worldwidelaw:
+    working: 1
+    blocked: 2
+    dominant_blocker: unknown
+  unblock_hints:
+  - Kuwait National Assembly (kna.kw) publishes draft + enacted laws
+  - Kuwait Bar Association archives may be the most complete unofficial source
+  priority:
+    haqq_icp: medium
+    tractability: medium
+    upstream_gap: high
+  notes: HAQQ has limited GCC presence outside UAE/SA — Kuwait is low-customer-density.
+OM:
+  country: Oman
+  region: GCC
+  legal_system: civil_law_with_sharia_influence
+  languages:
+  - arabic
+  - english
+  calendar: gregorian
+  citation_style: royal_decree_no_X_of_YYYY
+  authorities:
+    official_gazette:
+      name: Al-Jarīdah al-Rasmīyah
+      url: https://qanoon.om
+      format: html_pdf
+      notes: Run by Ministry of Justice and Legal Affairs.
+      url_check:
+        status: live
+        code: 200
+        checked_at: '2026-05-16'
+    consolidated:
+    - name: Qanoon Portal
+      url: https://qanoon.om
+      operator: MOJ
+      url_check:
+        status: live
+        code: 200
+        checked_at: '2026-05-16'
+    apex_courts:
+    - Supreme Court
+    - Administrative Court
+    key_regulators:
+    - Central Bank of Oman (CBO)
+    - Tax Authority
+    - Capital Market Authority
+  worldwidelaw:
+    working: 3
+    blocked: 0
+    dominant_blocker: none
+  unblock_hints:
+  - Oman is the cleanest GCC case — qanoon.om is well-structured
+  - Extend existing scrapers to capture Royal Decrees archive back to 1971
+  priority:
+    haqq_icp: medium
+    tractability: high
+    upstream_gap: low
+  notes: Strong starting point for "GCC complete" milestone.
+QA:
+  country: Qatar
+  region: GCC
+  legal_system: civil_law_with_sharia_influence
+  languages:
+  - arabic
+  - english
+  calendar: gregorian
+  citation_style: law_no_X_of_YYYY
+  authorities:
+    official_gazette:
+      name: Al-Jarīdah al-Rasmīyah
+      url: https://www.almeezan.qa
+      format: html
+      notes: Run by Ministry of Justice. Bilingual.
+      url_check:
+        status: server_error_5xx
+        code: 500
+        checked_at: '2026-05-16'
+    consolidated:
+    - name: Al Meezan
+      url: https://www.almeezan.qa
+      operator: MOJ
+      url_check:
+        status: server_error_5xx
+        code: 500
+        checked_at: '2026-05-16'
+    apex_courts:
+    - Court of Cassation
+    - QFC Civil and Commercial Court
+    key_regulators:
+    - Qatar Central Bank (QCB)
+    - QFC Regulatory Tribunal (QFCRT)
+    - General Tax Authority (GTA)
+  worldwidelaw:
+    working: 4
+    blocked: 3
+    dominant_blocker: unknown
+  unblock_hints:
+  - Al Meezan is well-structured — almost a model portal for the region
+  - QFC has separate English-language regime; combine for full coverage
+  priority:
+    haqq_icp: medium
+    tractability: high
+    upstream_gap: medium
+  notes: Best-organized civil-law portal in the GCC.
+SA:
+  country: Saudi Arabia
+  region: GCC
+  legal_system: islamic_law_with_codified_statutes
+  languages:
+  - arabic
+  - partial_english
+  calendar: hijri_primary_gregorian_secondary
+  citation_style: royal_decree_no_X_of_YYYY_hijri
+  authorities:
+    official_gazette:
+      name: Umm al-Qurā Gazette
+      url: https://www.uqn.gov.sa
+      format: pdf
+      notes: Published weekly. Full archive online.
+      url_check:
+        status: timeout
+        code: null
+        checked_at: '2026-05-16'
+    consolidated:
+    - name: Bureau of Experts (BoE) Laws Portal
+      url: https://laws.boe.gov.sa
+      operator: Council of Ministers Bureau of Experts
+      url_check:
+        status: timeout
+        code: null
+        checked_at: '2026-05-16'
+    - name: National Center for Archives and Records (NCAR)
+      url: https://www.ncar.gov.sa
+      url_check:
+        status: timeout
+        code: null
+        checked_at: '2026-05-16'
+    apex_courts:
+    - Supreme Court
+    - Supreme Administrative Court (Diwan al-Mazalim)
+    - Court of Appeal (multiple)
+    key_regulators:
+    - Saudi Central Bank (SAMA)
+    - Capital Market Authority (CMA)
+    - General Authority of Zakat and Tax (ZATCA)
+    - Communications, Space & Technology Commission (CST)
+    - Saudi Data and AI Authority (SDAIA)
+  worldwidelaw:
+    working: 0
+    blocked: 11
+    dominant_blocker: requires_auth + cloudflare
+  unblock_hints:
+  - laws.boe.gov.sa is THE source for codified statutes — pursue scraping with Saudi residential proxy
+  - Hijri-Gregorian conversion is non-trivial — must implement both ways
+  - MOJ portal (moj.gov.sa) publishes Supreme Court rulings since 2017 reform — high priority
+  - Najiz (najiz.sa) e-court service has public-decisions endpoint behind login wall
+  - SAMA rulebook is public PDF — clean win
+  - SDAIA has its own AI/data laws portal — newly relevant
+  priority:
+    haqq_icp: high
+    tractability: medium
+    upstream_gap: critical
+  notes: 'Highest-impact gap in the entire region. SA is a top-3 HAQQ ICP market and
+
+    has ZERO working scrapers in upstream. Hijri calendar handling is the
+
+    technical wedge that excludes most non-MENA contributors.
+
+    '
+EG:
+  country: Egypt
+  region: Mashriq
+  legal_system: civil_law_french_influence
+  languages:
+  - arabic
+  calendar: gregorian
+  citation_style: law_no_X_for_YYYY
+  authorities:
+    official_gazette:
+      name: Al-Waqāʾiʿ al-Miṣriyyah
+      url: https://manshurat.org
+      format: pdf
+      notes: Primary aggregator is Manshurat (Cabinet-linked).
+      url_check:
+        status: live
+        code: 200
+        checked_at: '2026-05-16'
+    consolidated:
+    - name: Manshurat
+      url: https://manshurat.org
+      operator: Information and Decision Support Center (IDSC)
+      url_check:
+        status: live
+        code: 200
+        checked_at: '2026-05-16'
+    - name: ECA Legal Corpus
+      url: https://eca.gov.eg
+      url_check:
+        status: timeout
+        code: null
+        checked_at: '2026-05-16'
+    apex_courts:
+    - Court of Cassation (Mahkamat al-Naqd)
+    - Supreme Constitutional Court (SCC)
+    - Council of State (Majlis al-Dawla)
+    key_regulators:
+    - Central Bank of Egypt (CBE)
+    - Financial Regulatory Authority (FRA)
+    - Egyptian Tax Authority (ETA)
+  worldwidelaw:
+    working: 3
+    blocked: 7
+    dominant_blocker: unknown
+  unblock_hints:
+  - Manshurat is the de facto national legal database — extend coverage from current Legal Corpus scraper
+  - Court of Cassation digital archive needs Arabic-OCR pipeline for pre-2010 decisions
+  - SCC publishes rulings PDF — relatively clean
+  priority:
+    haqq_icp: high
+    tractability: medium
+    upstream_gap: high
+  notes: Largest Arabic-speaking legal system. High-value target.
+IQ:
+  country: Iraq
+  region: Mashriq
+  legal_system: civil_law_french_influence_plus_kurdish_overlay
+  languages:
+  - arabic
+  - kurdish
+  - english_partial
+  calendar: gregorian
+  citation_style: law_no_X_for_YYYY
+  authorities:
+    official_gazette:
+      name: Al-Waqāʾiʿ al-ʿIrāqiyyah
+      url: https://www.moj.gov.iq
+      format: pdf
+      notes: Published by MOJ. KRG has separate gazette in Erbil.
+      url_check:
+        status: live
+        code: 200
+        checked_at: '2026-05-16'
+    consolidated:
+    - name: Iraqi Legal Database (ILD)
+      url: https://iraqld.hjc.iq
+      operator: Higher Judicial Council
+      url_check:
+        status: forbidden_403
+        code: 403
+        checked_at: '2026-05-16'
+    - name: KRG Legal Database
+      url: https://perleman.org
+      notes: Kurdistan Regional Government legislation in Kurdish + Arabic.
+      url_check:
+        status: live
+        code: 200
+        checked_at: '2026-05-16'
+    apex_courts:
+    - Federal Supreme Court (iraqfsc.iq)
+    - Court of Cassation
+    - KRG Court of Cassation (separate)
+    key_regulators:
+    - Central Bank of Iraq (CBI)
+    - Securities Commission (ISC)
+  worldwidelaw:
+    working: 0
+    blocked: 3
+    dominant_blocker: unknown
+  unblock_hints:
+  - iraqld.hjc.iq is the obvious starting point — test whether captcha is bypassable
+  - KRG corpus is a separate scraper — don't conflate with federal
+  - Pre-2003 Saddam-era laws still in force in many areas — needs historical coverage
+  priority:
+    haqq_icp: medium
+    tractability: low
+    upstream_gap: high
+  notes: 'Politically loaded — KRG vs Federal authority is contested. Abbas/Sherif
+
+    review required before publishing. Treat as two parallel jurisdictions.
+
+    '
+JO:
+  country: Jordan
+  region: Mashriq
+  legal_system: civil_law_french_influence
+  languages:
+  - arabic
+  calendar: gregorian
+  citation_style: law_no_X_for_YYYY
+  authorities:
+    official_gazette:
+      name: Al-Jarīdah al-Rasmīyah
+      url: http://www.pm.gov.jo/print
+      format: pdf
+      url_check:
+        status: live
+        code: 200
+        checked_at: '2026-05-16'
+    consolidated:
+    - name: Legislation Bureau (LOB)
+      url: https://lob.jo
+      operator: Prime Minister's Office
+      url_check:
+        status: dns_error
+        code: null
+        checked_at: '2026-05-16'
+    apex_courts:
+    - Court of Cassation
+    - Constitutional Court
+    - High Administrative Court
+    key_regulators:
+    - Central Bank of Jordan (CBJ)
+    - Income and Sales Tax Department (ISTD)
+    - Securities Commission (JSC)
+  worldwidelaw:
+    working: 1
+    blocked: 4
+    dominant_blocker: unknown
+  unblock_hints:
+  - lob.jo is the official source — extend to capture regulations and PM decisions
+  - Jordan E-Government has bilingual subset worth indexing
+  priority:
+    haqq_icp: medium
+    tractability: high
+    upstream_gap: medium
+  notes: One of the more tractable Mashriq jurisdictions.
+LB:
+  country: Lebanon
+  region: Mashriq
+  legal_system: civil_law_french_influence_with_personal_status_pluralism
+  languages:
+  - arabic
+  - french
+  calendar: gregorian
+  citation_style: law_no_X_dated_YYYY-MM-DD
+  authorities:
+    official_gazette:
+      name: Al-Jarīdah al-Rasmīyah (Journal Officiel de la République Libanaise)
+      url: https://www.pcm.gov.lb
+      format: pdf
+      notes: Issued by Presidency of Council of Ministers. Weekly. Digital archive incomplete pre-2003.
+      url_check:
+        status: unknown
+        code: null
+        checked_at: '2026-05-16'
+    consolidated:
+    - name: LegiLiban (parliament-linked)
+      url: https://legiliban.ul.edu.lb
+      notes: Currently DNS-unreachable. May have moved or been deprecated.
+      url_check:
+        status: unknown
+        code: null
+        checked_at: '2026-05-16'
+    - name: USJ Legal Informatics (CEDROMA)
+      url: https://www.usj.edu.lb/cedroma
+      notes: Saint Joseph University academic mirror, often more reliable than official sources.
+      url_check:
+        status: live
+        code: 200
+        checked_at: '2026-05-16'
+    - name: Lebanese Parliament archive
+      url: https://www.lp.gov.lb
+      url_check:
+        status: timeout
+        code: null
+        checked_at: '2026-05-16'
+    apex_courts:
+    - Court of Cassation (Mahkamat al-Tamyīz)
+    - Constitutional Council (Majlis Dustūrī)
+    - State Council (Majlis Shūrā al-Dawlah)
+    key_regulators:
+    - Banque du Liban (BDL)
+    - Capital Markets Authority (CMA)
+    - Tax Authority (MOF)
+    - Personal status courts (18 confessional regimes — non-codified)
+  worldwidelaw:
+    working: 0
+    blocked: 6
+    dominant_blocker: dns_unreachable + login_required
+  unblock_hints:
+  - First fix: ping LegiLiban current status via archive.org and USJ contacts
+  - PCM gazette PDFs are the most stable primary source — direct PDF crawl works
+  - Partner with USJ CEDROMA (Saint Joseph University academic mirror) for a maintained data feed
+  - Personal status laws are NOT codified — needs special treatment (out-of-scope for v1)
+  priority:
+    haqq_icp: critical
+    tractability: medium
+    upstream_gap: critical
+  notes: 'Stephane''s diaspora wedge. Zero working scrapers + critical HAQQ ICP +
+
+    Stephane''s direct network. Strongest single bet in the entire Atlas.
+
+    '
+PS:
+  country: Palestine
+  region: Mashriq
+  legal_system: hybrid_ottoman_british_jordanian_egyptian
+  languages:
+  - arabic
+  - english_partial
+  calendar: gregorian
+  citation_style: varies_by_era
+  authorities:
+    official_gazette:
+      name: Al-Waqāʾiʿ al-Filasṭīniyyah
+      url: https://maqam.najah.edu
+      format: pdf
+      notes: Issued by PA in West Bank. Gaza has separate Hamas-issued gazette.
+      url_check:
+        status: dns_error
+        code: null
+        checked_at: '2026-05-16'
+    consolidated:
+    - name: Al-Muqtafi
+      url: https://muqtafi.birzeit.edu
+      operator: Birzeit University Institute of Law
+      notes: De facto national legal database. Academic, well-maintained.
+      url_check:
+        status: timeout
+        code: null
+        checked_at: '2026-05-16'
+    - name: Maqam (An-Najah)
+      url: https://maqam.najah.edu
+      operator: An-Najah National University
+      url_check:
+        status: live
+        code: 200
+        checked_at: '2026-05-16'
+    apex_courts:
+    - Supreme Court (Ramallah)
+    - High Constitutional Court
+    - Sharia Courts (personal status)
+    key_regulators:
+    - Palestine Monetary Authority (PMA)
+    - Palestine Capital Market Authority
+    - Tax Department
+  worldwidelaw:
+    working: 0
+    blocked: 1
+    dominant_blocker: unknown
+  unblock_hints:
+  - Al-Muqtafi (Birzeit) is the academic gold standard — partner directly with Institute of Law
+  - Layered legal system means citation conventions vary by era — needs explicit period tagging
+  - PA vs Hamas legislation divergence post-2007 needs explicit handling
+  priority:
+    haqq_icp: low
+    tractability: medium
+    upstream_gap: high
+  notes: 'Politically loaded. Abbas/Sherif review required. Academic partnership with
+
+    Birzeit is the highest-leverage path.
+
+    '
+SY:
+  country: Syria
+  region: Mashriq
+  legal_system: civil_law_french_influence
+  languages:
+  - arabic
+  calendar: gregorian
+  citation_style: law_no_X_for_YYYY
+  authorities:
+    official_gazette:
+      name: Al-Jarīdah al-Rasmīyah
+      url: https://parliament.gov.sy
+      format: pdf
+      url_check:
+        status: unknown
+        code: null
+        checked_at: '2026-05-16'
+    consolidated:
+    - name: Syrian People's Assembly
+      url: https://parliament.gov.sy
+      url_check:
+        status: unknown
+        code: null
+        checked_at: '2026-05-16'
+    apex_courts:
+    - Court of Cassation
+    - Supreme Constitutional Court
+    key_regulators:
+    - Central Bank of Syria
+    - Syrian Tax Authority
+  worldwidelaw:
+    working: 1
+    blocked: 0
+    dominant_blocker: none
+  unblock_hints:
+  - Parliament site is the only viable primary source
+  - Sanctions exposure — confirm with Abbas before publishing scraper or hosting corpus
+  - Post-Dec 2024 transition may invalidate or amend large parts of the corpus — track explicitly
+  priority:
+    haqq_icp: low
+    tractability: medium
+    upstream_gap: low
+  notes: 'Currently in legal transition (post Dec 2024). Corpus is unstable —
+
+    legitimacy of pre-transition laws is contested. Atlas should explicitly
+
+    timestamp Syrian sources.
+
+    '
+DZ:
+  country: Algeria
+  region: Maghreb
+  legal_system: civil_law_french_influence
+  languages:
+  - arabic
+  - french
+  calendar: gregorian
+  citation_style: ordonnance_or_loi_no_X-Y_du_DD-MM-YYYY
+  authorities:
+    official_gazette:
+      name: Journal Officiel (Al-Jarīdah al-Rasmīyah)
+      url: https://www.joradp.dz
+      format: pdf_html
+      notes: Run by Secrétariat Général du Gouvernement.
+      url_check:
+        status: live
+        code: 200
+        checked_at: '2026-05-16'
+    consolidated:
+    - name: JORADP
+      url: https://www.joradp.dz
+      operator: Government Secretariat
+      url_check:
+        status: live
+        code: 200
+        checked_at: '2026-05-16'
+    apex_courts:
+    - Cour Suprême
+    - Conseil Constitutionnel (now Cour constitutionnelle)
+    - Conseil d'État
+    key_regulators:
+    - Bank of Algeria
+    - DGI (tax)
+    - COSOB (securities)
+  worldwidelaw:
+    working: 4
+    blocked: 2
+    dominant_blocker: server_unreachable
+  unblock_hints:
+  - DGI tax portal returns 500 — wait for govt to fix or pivot to MOF gazette
+  - Coverage already strong — focus on case law completeness (CourSupreme has WordPress API)
+  priority:
+    haqq_icp: medium
+    tractability: high
+    upstream_gap: low
+  notes: Strongest Maghreb coverage in upstream. Maintain rather than build.
+LY:
+  country: Libya
+  region: Maghreb
+  legal_system: civil_law_french_italian_influence
+  languages:
+  - arabic
+  - italian_historical
+  calendar: gregorian
+  citation_style: law_no_X_for_YYYY
+  authorities:
+    official_gazette:
+      name: Al-Jarīdah al-Rasmīyah
+      url: https://aladel.gov.ly
+      format: pdf
+      notes: Bifurcated state — Tripoli (GNU) and Benghazi (HoR) issue separate gazettes.
+      url_check:
+        status: live
+        code: 200
+        checked_at: '2026-05-16'
+    consolidated:
+    - name: Ministry of Justice (Tripoli)
+      url: https://aladel.gov.ly
+      url_check:
+        status: live
+        code: 200
+        checked_at: '2026-05-16'
+    - name: LawSocietyLY archive
+      url: https://lawsocietyly.org
+      url_check:
+        status: dns_error
+        code: null
+        checked_at: '2026-05-16'
+    apex_courts:
+    - Supreme Court (Tripoli)
+    - Constitutional Chamber
+    key_regulators:
+    - Central Bank of Libya (CBL) - bifurcated
+  worldwidelaw:
+    working: 1
+    blocked: 1
+    dominant_blocker: unknown
+  unblock_hints:
+  - Bifurcation must be explicit — two parallel corpora since 2014
+  - DCAF (Geneva Centre for Security Sector Governance) Libya page is best non-official aggregator
+  priority:
+    haqq_icp: low
+    tractability: low
+    upstream_gap: high
+  notes: Same political-instability caveats as Syria. Treat as two jurisdictions.
+MA:
+  country: Morocco
+  region: Maghreb
+  legal_system: civil_law_french_influence_with_islamic_personal_status
+  languages:
+  - arabic
+  - french
+  calendar: gregorian
+  citation_style: dahir_no_X-Y_du_DD-MM-YYYY
+  authorities:
+    official_gazette:
+      name: Bulletin Officiel (Al-Jarīdah al-Rasmīyah)
+      url: http://www.sgg.gov.ma
+      format: pdf
+      notes: Issued by Secrétariat Général du Gouvernement.
+      url_check:
+        status: not_found_404
+        code: 404
+        checked_at: '2026-05-16'
+    consolidated:
+    - name: Adala (MOJ portal)
+      url: http://adala.justice.gov.ma
+      url_check:
+        status: live
+        code: 200
+        checked_at: '2026-05-16'
+    - name: SGG Bulletin Officiel
+      url: http://www.sgg.gov.ma
+      url_check:
+        status: not_found_404
+        code: 404
+        checked_at: '2026-05-16'
+    apex_courts:
+    - Cour de Cassation
+    - Cour Constitutionnelle
+    key_regulators:
+    - Bank Al-Maghrib
+    - DGI (tax)
+    - AMMC (capital markets)
+    - Conseil de la Concurrence
+  worldwidelaw:
+    working: 3
+    blocked: 3
+    dominant_blocker: unknown
+  unblock_hints:
+  - SGG Bulletin Officiel PDF archive is the gold standard primary source
+  - Adala has decent coverage but inconsistent metadata — needs normalization
+  priority:
+    haqq_icp: medium
+    tractability: high
+    upstream_gap: medium
+  notes: Comparatively easy. Maintain + extend rather than rebuild.
+MR:
+  country: Mauritania
+  region: Maghreb
+  legal_system: islamic_law_with_french_civil_overlay
+  languages:
+  - arabic
+  - french
+  calendar: gregorian
+  citation_style: ordonnance_no_X_du_DD-MM-YYYY
+  authorities:
+    official_gazette:
+      name: Journal Officiel
+      url: https://www.journalofficiel.dj
+      format: pdf
+      url_check:
+        status: live
+        code: 200
+        checked_at: '2026-05-16'
+    consolidated:
+    - name: Secrétariat Général du Gouvernement
+      url: https://www.sgg.gov.mr
+      url_check:
+        status: dns_error
+        code: null
+        checked_at: '2026-05-16'
+    apex_courts:
+    - Cour Suprême
+    - Conseil Constitutionnel
+    key_regulators:
+    - Banque Centrale de Mauritanie
+  worldwidelaw:
+    working: 1
+    blocked: 0
+    dominant_blocker: none
+  unblock_hints:
+  - Smallest corpus in MENA — entire codified law set fits in a few hundred PDFs
+  - SGG is reachable but slow — use polite rate limit
+  priority:
+    haqq_icp: very_low
+    tractability: high
+    upstream_gap: low
+  notes: Small but tractable. Low priority unless completionism mandates it.
+TN:
+  country: Tunisia
+  region: Maghreb
+  legal_system: civil_law_french_influence
+  languages:
+  - arabic
+  - french
+  calendar: gregorian
+  citation_style: loi_no_X-Y_du_DD-MM-YYYY
+  authorities:
+    official_gazette:
+      name: Journal Officiel de la République Tunisienne (JORT)
+      url: https://www.iort.gov.tn
+      format: pdf
+      notes: Issued by Imprimerie Officielle.
+      url_check:
+        status: unknown
+        code: null
+        checked_at: '2026-05-16'
+    consolidated:
+    - name: JORT
+      url: https://www.iort.gov.tn
+      url_check:
+        status: unknown
+        code: null
+        checked_at: '2026-05-16'
+    - name: LegislationTN
+      url: https://legislation.tn
+      url_check:
+        status: timeout
+        code: null
+        checked_at: '2026-05-16'
+    apex_courts:
+    - Cour de Cassation
+    - Tribunal Administratif
+    key_regulators:
+    - Banque Centrale de Tunisie (BCT)
+    - DGI (tax)
+    - CMF (financial markets)
+  worldwidelaw:
+    working: 2
+    blocked: 4
+    dominant_blocker: unknown
+  unblock_hints:
+  - JORT site has been stable for years — direct PDF crawl
+  - Post-2021 political situation has produced procedural irregularities — flag as needed
+  priority:
+    haqq_icp: medium
+    tractability: high
+    upstream_gap: medium
+YE:
+  country: Yemen
+  region: Arabian_Peninsula
+  legal_system: civil_law_with_sharia_influence
+  languages:
+  - arabic
+  calendar: hijri_and_gregorian
+  citation_style: law_no_X_for_YYYY
+  authorities:
+    official_gazette:
+      name: Al-Jarīdah al-Rasmīyah
+      url: https://www.yemen.gov.ye
+      format: pdf
+      notes: Bifurcated state — IRG (Aden, internationally recognized) and Houthi-controlled (Sanaa) issue parallel laws since
+        2014/2015.
+      url_check:
+        status: timeout
+        code: null
+        checked_at: '2026-05-16'
+    consolidated:
+    - name: Ministry of Legal Affairs
+      url: https://yemenmla.gov.ye
+      notes: Currently of uncertain status given conflict.
+      url_check:
+        status: dns_error
+        code: null
+        checked_at: '2026-05-16'
+    - name: Sabq Law (private aggregator)
+      url: https://sabqlaw.net
+      url_check:
+        status: dns_error
+        code: null
+        checked_at: '2026-05-16'
+    apex_courts:
+    - Supreme Court (de jure single, de facto bifurcated)
+    key_regulators:
+    - Central Bank of Yemen - bifurcated between Aden and Sanaa branches
+  worldwidelaw:
+    working: 0
+    blocked: 0
+    dominant_blocker: missing_entirely
+  unblock_hints:
+  - File "New Source" issue upstream — Yemen has zero coverage
+  - Pre-2014 unified corpus is the most realistic v1 target
+  - Post-2014 parallel corpora need explicit IRG/Houthi labeling
+  - Yemeni Bar Association archives may be the most complete remaining record
+  - University of Sanaa Law School historically maintained academic mirrors
+  priority:
+    haqq_icp: low
+    tractability: low
+    upstream_gap: maximum
+  notes: 'The ONLY MENA country with zero entries in worldwidelaw. Greenfield
+
+    contribution opportunity, but politically and operationally hard.
+
+    '
+SD:
+  country: Sudan
+  region: Africa
+  legal_system: civil_law_with_islamic_law_overlay_in_transition
+  languages:
+  - arabic
+  - english_partial
+  calendar: gregorian
+  citation_style: law_no_X_for_YYYY
+  authorities:
+    official_gazette:
+      name: Sudan Gazette
+      url: https://moj.gov.sd
+      format: pdf
+      notes: Disrupted by 2023-2024 conflict.
+      url_check:
+        status: live
+        code: 200
+        checked_at: '2026-05-16'
+    consolidated:
+    - name: Ministry of Justice
+      url: https://moj.gov.sd
+      url_check:
+        status: live
+        code: 200
+        checked_at: '2026-05-16'
+    apex_courts:
+    - Supreme Court
+    - Constitutional Court
+    key_regulators:
+    - Central Bank of Sudan
+  worldwidelaw:
+    working: 0
+    blocked: 1
+    dominant_blocker: unknown
+  unblock_hints:
+  - Pre-2019 corpus is most legally certain
+  - Civil war ongoing — most authorities offline
+  - University of Khartoum Faculty of Law historically maintained academic archives
+  priority:
+    haqq_icp: very_low
+    tractability: very_low
+    upstream_gap: high
+  notes: Defer until conflict stabilizes.
+SO:
+  country: Somalia
+  region: Horn
+  legal_system: pluralist_civil_islamic_xeer_customary
+  languages:
+  - somali
+  - arabic
+  - italian_historical
+  - english
+  calendar: gregorian
+  citation_style: varies
+  authorities:
+    official_gazette:
+      name: Faafinta Rasmiga ah ee Jamhuuriyadda Federaalka Soomaaliya
+      url: https://moj.gov.so
+      format: pdf
+      url_check:
+        status: live
+        code: 200
+        checked_at: '2026-05-16'
+    consolidated:
+    - name: Ministry of Justice
+      url: https://moj.gov.so
+      url_check:
+        status: live
+        code: 200
+        checked_at: '2026-05-16'
+    apex_courts:
+    - Supreme Court (Mogadishu)
+    - Constitutional Court (provisional)
+    key_regulators:
+    - Central Bank of Somalia
+  worldwidelaw:
+    working: 0
+    blocked: 1
+    dominant_blocker: unknown
+  unblock_hints:
+  - Federal vs Federal Member State (Puntland, Somaliland) divergence is structural
+  - Xeer customary law is uncodified — out-of-scope for v1
+  - Diaspora law schools (Hargeisa, Mogadishu Univ) maintain partial archives
+  priority:
+    haqq_icp: very_low
+    tractability: very_low
+    upstream_gap: high
+  notes: Lowest priority. Cover only after every other MENA jurisdiction is at v1.
+DJ:
+  country: Djibouti
+  region: Horn
+  legal_system: civil_law_french_influence_with_sharia_personal_status
+  languages:
+  - french
+  - arabic
+  calendar: gregorian
+  citation_style: loi_no_X-Y_du_DD-MM-YYYY
+  authorities:
+    official_gazette:
+      name: Journal Officiel de la République de Djibouti
+      url: https://www.journalofficiel.dj
+      format: pdf
+      url_check:
+        status: live
+        code: 200
+        checked_at: '2026-05-16'
+    consolidated:
+    - name: Présidence
+      url: https://www.presidence.dj
+      url_check:
+        status: live
+        code: 200
+        checked_at: '2026-05-16'
+    apex_courts:
+    - Cour Suprême
+    - Conseil Constitutionnel
+    key_regulators:
+    - Banque Centrale de Djibouti
+  worldwidelaw:
+    working: 1
+    blocked: 0
+    dominant_blocker: none
+  unblock_hints:
+  - Smallest viable MENA corpus
+  - Already covered upstream — maintain only
+  priority:
+    haqq_icp: very_low
+    tractability: high
+    upstream_gap: low
+KM:
+  country: Comoros
+  region: Africa
+  legal_system: civil_law_french_influence_with_sharia
+  languages:
+  - french
+  - arabic
+  - comorian
+  calendar: gregorian
+  citation_style: loi_no_X_du_DD-MM-YYYY
+  authorities:
+    official_gazette:
+      name: Journal Officiel de l'Union des Comores
+      url: https://www.beit-salam.km
+      format: pdf
+      url_check:
+        status: live
+        code: 200
+        checked_at: '2026-05-16'
+    consolidated: []
+    apex_courts:
+    - Cour Suprême
+    key_regulators:
+    - Banque Centrale des Comores
+  worldwidelaw:
+    working: 0
+    blocked: 1
+    dominant_blocker: unknown
+  unblock_hints:
+  - Tiny corpus — fits in a few hundred PDFs
+  - Often shared with Comorian diaspora at La Reunion (French) — French sources may mirror
+  priority:
+    haqq_icp: very_low
+    tractability: low
+    upstream_gap: high
+  notes: Skip in v1 unless completionism demands it.
+IR:
+  country: Iran
+  region: Non-Arab_MENA
+  legal_system: islamic_law_with_civil_codes
+  languages:
+  - farsi
+  - arabic_for_religious_texts
+  calendar: solar_hijri_jalali_calendar
+  citation_style: law_of_DD-MM-YYYY_solar_hijri
+  authorities:
+    official_gazette:
+      name: Rūznāme-ye Rasmī
+      url: https://www.rrk.ir
+      format: pdf
+      url_check:
+        status: dns_error
+        code: null
+        checked_at: '2026-05-16'
+    consolidated:
+    - name: Qavanin (DOTIC)
+      url: https://qavanin.ir
+      operator: Office of the President - Center for Codification of Laws
+      url_check:
+        status: timeout
+        code: null
+        checked_at: '2026-05-16'
+    apex_courts:
+    - Supreme Court
+    - Constitutional Council (Guardian Council)
+    - Administrative Justice Court
+    key_regulators:
+    - Central Bank of Iran (CBI)
+    - Securities and Exchange Organization (SEO)
+    - Iranian National Tax Administration (INTA)
+  worldwidelaw:
+    working: 0
+    blocked: 2
+    dominant_blocker: unknown
+  unblock_hints:
+  - Solar Hijri (Jalali) calendar conversion is the technical wedge
+  - Sanctions exposure for hosting Iranian legal data — confirm with Abbas
+  - DOTIC qavanin.ir is the gold-standard official source
+  - Farsi language requires separate NLP pipeline from Arabic
+  priority:
+    haqq_icp: low
+    tractability: low
+    upstream_gap: high
+  notes: 'Sanctions and language barrier make this politically and technically
+
+    distinct from Arab MENA. Often excluded from "Arab Legal Atlas" framing.
+
+    Decision required: include or carve out into separate sub-project.
+
+    '
+IL:
+  country: Israel
+  region: Non-Arab_MENA
+  legal_system: common_law_with_civil_law_codifications_and_jewish_law_in_personal_status
+  languages:
+  - hebrew
+  - arabic
+  - english_partial
+  calendar: gregorian_with_hebrew_for_religious
+  citation_style: law_name_year_section
+  authorities:
+    official_gazette:
+      name: Reshumot
+      url: https://www.gov.il/he/departments/publications/?OfficeId=...
+      format: pdf
+      url_check:
+        status: forbidden_403
+        code: 403
+        checked_at: '2026-05-16'
+    consolidated:
+    - name: Nevo (commercial)
+      url: https://www.nevo.co.il
+      url_check:
+        status: live
+        code: 200
+        checked_at: '2026-05-16'
+    - name: Knesset
+      url: https://main.knesset.gov.il/Activity/Legislation/Laws
+      url_check:
+        status: live
+        code: 247
+        checked_at: '2026-05-16'
+    apex_courts:
+    - Supreme Court (Beit ha-Mishpat ha-Elyon)
+    - Supreme Rabbinical Court (personal status for Jews)
+    - Sharia Courts (personal status for Muslims)
+    key_regulators:
+    - Bank of Israel
+    - Israel Securities Authority (ISA)
+    - Tax Authority
+  worldwidelaw:
+    working: 0
+    blocked: 7
+    dominant_blocker: anti_bot_and_paywall
+  unblock_hints:
+  - Knesset publishes laws under permissive terms — direct PDF/HTML crawl
+  - Supreme Court rulings via gov.il are publicly accessible but anti-bot protected
+  - Nevo is the dominant commercial database — out-of-scope for open data
+  - Hebrew-RTL processing is the technical wedge
+  priority:
+    haqq_icp: low
+    tractability: medium
+    upstream_gap: high
+  notes: 'Politically sensitive in MENA framing. Stephane''s stated peace-first
+
+    posture suggests including without commentary. Abbas review required.
+
+    '
+TR:
+  country: Turkey
+  region: Non-Arab_MENA
+  legal_system: civil_law_swiss_french_german_influence
+  languages:
+  - turkish
+  - english_partial
+  calendar: gregorian
+  citation_style: law_no_X_dated_DD-MM-YYYY
+  authorities:
+    official_gazette:
+      name: Resmî Gazete
+      url: https://www.resmigazete.gov.tr
+      format: pdf_html
+      url_check:
+        status: live
+        code: 200
+        checked_at: '2026-05-16'
+    consolidated:
+    - name: Mevzuat Bilgi Sistemi
+      url: https://www.mevzuat.gov.tr
+      operator: Presidency
+      url_check:
+        status: live
+        code: 200
+        checked_at: '2026-05-16'
+    apex_courts:
+    - Anayasa Mahkemesi (Constitutional Court)
+    - Yargıtay (Court of Cassation)
+    - Danıştay (Council of State)
+    key_regulators:
+    - Central Bank (TCMB)
+    - SPK (capital markets)
+    - GİB (revenue / tax)
+    - Rekabet Kurumu (competition)
+  worldwidelaw:
+    working: 9
+    blocked: 4
+    dominant_blocker: anti_bot
+  unblock_hints:
+  - Best-covered MENA country in upstream — maintain rather than build
+  - Anti-bot on a few courts can likely be bypassed with proper UA + rate limiting
+  priority:
+    haqq_icp: medium
+    tractability: high
+    upstream_gap: low
+  notes: 'Whether Turkey is "MENA" is contested. Included here because HAQQ has
+
+    Turkish-speaking customers and Turkey is in the regional regulatory
+
+    conversation.
+
+    '
