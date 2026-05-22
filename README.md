@@ -101,6 +101,28 @@ filtered before merge — see [`linkup-smoke-test.md`](linkup-smoke-test.md) and
 Honest caveat: building a *document-level* laws catalog by AI search caps at ~3% precision —
 MENA portals are search-DB SPAs whose law text no crawler indexes. The benchmark documents why.
 
+## Coverage map
+
+![MENA legal-source coverage: where the law lives vs where you can reach it](viz/coverage-map.png)
+
+Two-panel choropleth (regenerate via [`viz/build_map.py`](viz/build_map.py)):
+- **Where the law lives** — source coverage, ~80% of jurisdictions complete across 5 categories.
+- **Where you can reach it** — only 36% of catalogued sources produce machine-readable data.
+
+The gap between the two panels is the core finding: in MENA, mapping the law is largely solved; *retrieving* it is not.
+
+## Benchmark vs Legal Data Hunter
+
+[`phase-2-enrichment/BENCHMARK-vs-legal-data-hunter.md`](phase-2-enrichment/BENCHMARK-vs-legal-data-hunter.md)
+compares this atlas against [Legal Data Hunter](https://legaldatahunter.com/) (the global
+crawler / `worldwidelaw/legal-sources`, which this atlas is built on), using LDH's live public
+`status.json`:
+
+- LDH is **56% complete globally** but only **41% across MENA** (163 sources) — MENA is its weakest slice.
+- This atlas surfaced **152 official MENA source domains LDH does not yet track** — direct candidates for upstream collection scripts.
+
+They're complementary: Legal Data Hunter retrieves; this atlas maps where MENA's law lives and feeds that map back upstream.
+
 ## Roadmap
 
 - **v1.0 (now)** — researcher-compiled Atlas + Phase 0 audit + URL validation

@@ -9,3 +9,10 @@ __pycache__/
 .env.*
 *.key
 secrets.*
+
+# viz: regenerable vendor + data blobs (see viz/README.md to refetch)
+viz/d3.v7.min.js
+viz/topojson-client.min.js
+viz/countries-50m.json
+viz/ldh-status.json
+viz/coverage-map.html
