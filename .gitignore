@@ -3,3 +3,9 @@ __pycache__/
 *.pyc
 .venv/
 .DS_Store
+
+# secrets — never commit API keys (Linkup etc.)
+.env
+.env.*
+*.key
+secrets.*

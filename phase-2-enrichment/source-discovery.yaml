@@ -1,0 +1,935 @@
+jurisdictions:
+- cc: AE
+  country: United Arab Emirates
+  known_count: 4
+  new_sources:
+  - domain: dlp.dubai.gov.ae
+    kind: official
+    example_url: https://dlp.dubai.gov.ae/en/Pages/OfficialGazette.aspx
+    name: Official Gazette
+    found_by: United Arab Emirates official gazette website
+  - domain: abudhabi.gov.ae
+    kind: official
+    example_url: https://www.abudhabi.gov.ae/en/policies-and-legislations
+    name: Policies & legislations - Government of Abu Dhabi
+    found_by: United Arab Emirates official gazette website
+  - domain: legal.dubai.gov.ae
+    kind: official
+    example_url: https://legal.dubai.gov.ae/en/Services/Pages/Official-Gazette.aspx
+    name: Official-Gazette | Legal Affairs Department of Dubai
+    found_by: United Arab Emirates official gazette website
+  - domain: slc.dubai.gov.ae
+    kind: official
+    example_url: https://slc.dubai.gov.ae/en/services/gazette/Pages/default.aspx
+    name: Official Gazette
+    found_by: United Arab Emirates official gazette website
+  - domain: judiciariesworldwide.fjc.gov
+    kind: official
+    example_url: https://judiciariesworldwide.fjc.gov/country-profile/united-arab-emirates
+    name: United Arab Emirates | Judiciaries Worldwide
+    found_by: United Arab Emirates supreme court or court of cassation official website
+  - domain: adjd.gov.ae
+    kind: official
+    example_url: https://www.adjd.gov.ae/en/pages/courts.aspx
+    name: Courts of Appeal - Abu Dhabi
+    found_by: United Arab Emirates supreme court or court of cassation official website
+  discovered_at: '2026-05-22'
+- cc: BH
+  country: Bahrain
+  known_count: 6
+  new_sources:
+  - domain: mia.gov.bh
+    kind: official
+    example_url: https://www.mia.gov.bh/official-gazette/?lang=en
+    name: Official Gazette – Ministry of Information | وزارة الاعلام | Kingdom of
+      Bahrain
+    found_by: Bahrain official gazette website
+  - domain: msia.gov.bh
+    kind: official
+    example_url: http://www.msia.gov.bh/en/official-gazette/Pages/default.aspx
+    name: Official Gazette Home
+    found_by: Bahrain official gazette website
+  - domain: pdp.gov.bh
+    kind: official
+    example_url: https://www.pdp.gov.bh/en/regulations.html
+    name: The Law | | Kingdom Of Bahrain
+    found_by: Bahrain consolidated legislation portal government
+  - domain: mola.gov.bh
+    kind: official
+    example_url: https://www.mola.gov.bh/Legislation/Laws/
+    name: Laws - Ministry of Legal Affairs – Kingdom of Bahrain
+    found_by: Bahrain consolidated legislation portal government
+  - domain: guides.loc.gov
+    kind: aggregator
+    example_url: https://guides.loc.gov/law-bahrain/legislative
+    name: 'Legislative - Guide to Law Online: Bahrain - Research Guides at Library
+      of Congress'
+    found_by: Bahrain consolidated legislation portal government
+  - domain: mofa.gov.bh
+    kind: official
+    example_url: https://www.mofa.gov.bh/en/legislative-authority
+    name: Legislative Authority
+    found_by: Bahrain consolidated legislation portal government
+  - domain: moj.gov.bh
+    kind: official
+    example_url: https://www.moj.gov.bh/en/
+    name: Ministry of Justice, Islamic Affairs and Waqf
+    found_by: Bahrain supreme court or court of cassation official website
+  discovered_at: '2026-05-22'
+- cc: KW
+  country: Kuwait
+  known_count: 4
+  new_sources:
+  - domain: guides.loc.gov
+    kind: aggregator
+    example_url: https://guides.loc.gov/law-kuwait/legislative
+    name: 'Legislative - Guide to Law Online: Kuwait - Research Guides at Library
+      of Congress'
+    found_by: Kuwait official gazette website
+  - domain: mof.gov.kw
+    kind: official
+    example_url: https://www.mof.gov.kw/Desicions/DecreeWithLaw/PDF/pdf1.pdf
+    name: 1- Law no. 20 for 1992 AL-KUWAIT AL-YAWM (Gazette)
+    found_by: Kuwait official gazette website
+  - domain: cait.gov.kw
+    kind: official
+    example_url: https://cait.gov.kw/en/projects/kuwait-government-online-portal-egovkw/
+    name: Kuwait Government Online portal (e.gov.kw)
+    found_by: Kuwait consolidated legislation portal government
+  - domain: congress.gov
+    kind: official
+    example_url: https://www.congress.gov/crs-product/R47390
+    name: 'Kuwait: Issues for the 119th Congress | Congress.gov | Library of Congress'
+    found_by: Kuwait consolidated legislation portal government
+  - domain: wipo.int
+    kind: aggregator
+    example_url: https://www.wipo.int/wipolex/en/legislation/details/6148
+    name: Constitution of Kuwait, Kuwait, WIPO Lex
+    found_by: Kuwait consolidated legislation portal government
+  - domain: moj.gov.kw
+    kind: official
+    example_url: https://www.moj.gov.kw/EN/Pages/default.aspx
+    name: Ministry of Justice - وزارة العدل
+    found_by: Kuwait supreme court or court of cassation official website
+  - domain: lawandjusticegroup.com
+    kind: official
+    example_url: https://www.lawandjusticegroup.com/courts-clerks-services-ministry-of-justice-kuwait/
+    name: Courts Clerks Services – Ministry of Justice – Kuwait – Law & Justice Group
+      | Attorney FAT
+    found_by: Kuwait supreme court or court of cassation official website
+  - domain: moj.gov.bh
+    kind: official
+    example_url: https://www.moj.gov.bh/en/contact-us/ministry-contacts
+    name: Ministry of Justice, Islamic Affairs and Waqf
+    found_by: Kuwait ministry of justice legislation database official
+  discovered_at: '2026-05-22'
+- cc: OM
+  country: Oman
+  known_count: 1
+  new_sources:
+  - domain: wipo.int
+    kind: aggregator
+    example_url: https://www.wipo.int/wipolex/en/legislation/details/6118
+    name: Basic Law of the Sultanate of Oman (promulgated by the Royal Decree No.
+      101/96), Oman, WIP
+    found_by: Oman consolidated legislation portal government
+  - domain: cpa.gov.om
+    kind: official
+    example_url: https://cpa.gov.om/en/pages/omangovernmentalwebsites.aspx
+    name: Consumer Protection Authority E-Portal Oman Government Websites
+    found_by: Oman consolidated legislation portal government
+  - domain: sjc.gov.om
+    kind: official
+    example_url: https://www.sjc.gov.om/?culture=en
+    name: ':: Supreme Judiciary Council - Sultanate of Oman ::'
+    found_by: Oman supreme court or court of cassation official website
+  - domain: admincourt.gov.om
+    kind: official
+    example_url: https://www.admincourt.gov.om/InnerPage.aspx?ID=2f69fcd5-73f7-4dc8-8ff6-14a70f48c379&culture=en
+    name: ':: Supreme Judiciary Council - Sultanate of Oman ::'
+    found_by: Oman supreme court or court of cassation official website
+  - domain: omanportal.gov.om
+    kind: official
+    example_url: https://omanportal.gov.om/wps/portal/index/cr/justice/regularcourts/!ut/p/a0/04_Sj9CPykssy0xPLMnMz0vMAfGjzOL9Aw3NDD38Dbz9_UINDRw9DEIC_Z3cjCz8TfWDU_P0C7IdFQHaIH_s/?lang=en
+    name: Regular courts - Omanuna Portal
+    found_by: Oman supreme court or court of cassation official website
+  - domain: portal.sjc.gov.om
+    kind: official
+    example_url: https://portal.sjc.gov.om/
+    name: Supreme Judiciary Council
+    found_by: Oman supreme court or court of cassation official website
+  - domain: mjla.gov.om
+    kind: official
+    example_url: https://www.mjla.gov.om/eng/
+    name: Ministry of Justice and Legal Affairs - Sultanate of Oman
+    found_by: Oman ministry of justice legislation database official
+  - domain: stg-portal.service.gov.om
+    kind: official
+    example_url: https://stg-portal.service.gov.om/ministry-of-justice-and-legal-affairs
+    name: Ministry of Justice and Legal Affairs - Home - Gov.om
+    found_by: Oman ministry of justice legislation database official
+  - domain: guides.loc.gov
+    kind: aggregator
+    example_url: https://guides.loc.gov/law-oman/legislative
+    name: 'Legislative - Guide to Law Online: Oman - Research Guides at Library of
+      Congress'
+    found_by: Oman ministry of justice legislation database official
+  - domain: opendata.gov.om
+    kind: official
+    example_url: https://opendata.gov.om/en/publishers/1dec190b-26c3-476d-b5a5-9d4182f023dc
+    name: Ministry of Justice & legal Affairs - Open Data Portal
+    found_by: Oman ministry of justice legislation database official
+  discovered_at: '2026-05-22'
+- cc: QA
+  country: Qatar
+  known_count: 1
+  new_sources:
+  - domain: moj.gov.qa
+    kind: official
+    example_url: https://www.moj.gov.qa/en/Pages/Official_Gazette_Dept.aspx
+    name: Home Official Gazette Department
+    found_by: Qatar official gazette website
+  - domain: guides.loc.gov
+    kind: aggregator
+    example_url: https://guides.loc.gov/law-qatar/legal-guides
+    name: 'Legal Guides - Guide to Law Online: Qatar - Research Guides at Library
+      of Congress'
+    found_by: Qatar official gazette website
+  - domain: gco.gov.qa
+    kind: official
+    example_url: https://www.gco.gov.qa/en/media-centre/top-news/
+    name: Top News | Government Communications Office
+    found_by: Qatar official gazette website
+  - domain: qfz.gov.qa
+    kind: official
+    example_url: https://qfz.gov.qa/resources/laws/
+    name: Laws - Qatar Free Zones
+    found_by: Qatar consolidated legislation portal government
+  - domain: maint.loc.gov
+    kind: aggregator
+    example_url: https://maint.loc.gov/law/help/guide/nations/qatar.php
+    name: 'Guide to Law Online: Qatar | Law Library of Congress'
+    found_by: Qatar consolidated legislation portal government
+  - domain: sjc.gov.qa
+    kind: official
+    example_url: https://www.sjc.gov.qa/en
+    name: Supreme Judicial Council Portal for Electronic Court Services
+    found_by: Qatar supreme court or court of cassation official website
+  - domain: qicdrc.gov.qa
+    kind: official
+    example_url: https://www.qicdrc.gov.qa/courts/court
+    name: The Court | QICDRC
+    found_by: Qatar supreme court or court of cassation official website
+  - domain: data.gov.qa
+    kind: official
+    example_url: https://www.data.gov.qa/explore/
+    name: Explore — State of Qatar Open Data
+    found_by: Qatar ministry of justice legislation database official
+  discovered_at: '2026-05-22'
+- cc: SA
+  country: Saudi Arabia
+  known_count: 5
+  new_sources:
+  - domain: saudigazette.com.sa
+    kind: official
+    example_url: https://saudigazette.com.sa/
+    name: Home - Latest News from Saudi Arabia and the World
+    found_by: Saudi Arabia official gazette website
+  - domain: loc.gov
+    kind: aggregator
+    example_url: https://www.loc.gov/item/sn97058110/
+    name: Saudi gazette | Library of Congress
+    found_by: Saudi Arabia official gazette website
+  - domain: spa.gov.sa
+    kind: official
+    example_url: https://spa.gov.sa/en
+    name: The official Saudi Press Agency
+    found_by: Saudi Arabia official gazette website
+  - domain: my.gov.sa
+    kind: official
+    example_url: https://my.gov.sa/en/content/165
+    name: Digital Government Legislation | National Platform (National Portal)
+    found_by: Saudi Arabia consolidated legislation portal government
+  - domain: moi.gov.sa
+    kind: official
+    example_url: https://www.moi.gov.sa/wps/portal/!ut/p/z1/rVLBToNAFPyV9sCx2bcsAnvcmFpQrNoGhb00y4Ltmu5CFUX_XuAOSOI7vZfMTN5MBnGUIG7ElzqKWpVGnNs75e4BQscJsGPfPRC2BubeRHRHAYcY0EsPuN6wwPEiAD_aXEHIgnhHnwgBRhD_C38IcG9P8Z8RR1yauqpPKNWlWuSqEcaCbj2VuljI0tSFqS3oLgvei-PnuXfXESupcpRiITPIABxMCXZpRuWrl0nqyVxQDFnRIz-aDsq9wWfW9oSZ9tvezMCwLgzeQ8binNLgo4m1gaajLgJA-xnJTIjZ_ymGZ4ndTjWnrbZ6u1w4a_vTdeS7Rsm8Au0Lgyodx9onepWAetT6sN2uROb_kIYtl7_JhUJf/dz/d5/L2dBISEvZ0FBIS9nQSEh/
+    name: Rules, Regulations,Guidelines
+    found_by: Saudi Arabia consolidated legislation portal government
+  - domain: guides.loc.gov
+    kind: aggregator
+    example_url: https://guides.loc.gov/law-saudi-arabia/legal-guides
+    name: 'Legal Guides - Guide to Law Online: Saudi Arabia - Research Guides at Library
+      of Congress'
+    found_by: Saudi Arabia consolidated legislation portal government
+  - domain: dga.gov.sa
+    kind: official
+    example_url: https://dga.gov.sa/en/node/1858
+    name: Saudi Ministry of Justice | Digital Government Authority
+    found_by: Saudi Arabia ministry of justice legislation database official
+  discovered_at: '2026-05-22'
+- cc: EG
+  country: Egypt
+  known_count: 2
+  new_sources:
+  - domain: egyptian-gazette.com
+    kind: official
+    example_url: https://egyptian-gazette.com/
+    name: Egyptian Gazette - Oldest daily Newspaper in the middle east
+    found_by: Egypt official gazette website
+  - domain: loc.gov
+    kind: aggregator
+    example_url: https://www.loc.gov/item/eg19910502_01/
+    name: 'The Arab Republic of Egypt Presidency''s Official Gazette; v. 34/ no. 18
+      (cont.) | Library '
+    found_by: Egypt official gazette website
+  - domain: egypt.gov.eg
+    kind: official
+    example_url: https://www.egypt.gov.eg/english/laws/default.aspx
+    name: Egypt’s Government Services Portal - Laws and Constitution
+    found_by: Egypt consolidated legislation portal government
+  - domain: guides.loc.gov
+    kind: aggregator
+    example_url: https://guides.loc.gov/law-egypt/legal-guides
+    name: 'Legal Guides - Guide to Law Online: Egypt - Research Guides at Library
+      of Congress'
+    found_by: Egypt consolidated legislation portal government
+  - domain: esc.gov.eg
+    kind: official
+    example_url: https://esc.gov.eg/en/homepage/
+    name: The Egyptian State Council – Official website
+    found_by: Egypt consolidated legislation portal government
+  - domain: westvirginiacourtrecords.us
+    kind: official
+    example_url: https://westvirginiacourtrecords.us/supreme-court
+    name: How Does The West Virginia Supreme Court Work? | WestVirginiaCourtRecords.us
+    found_by: Egypt supreme court or court of cassation official website
+  discovered_at: '2026-05-22'
+- cc: IQ
+  country: Iraq
+  known_count: 4
+  new_sources:
+  - domain: guides.loc.gov
+    kind: aggregator
+    example_url: https://guides.loc.gov/law-iraq/legislative
+    name: 'Legislative - Guide to Law Online: Iraq - Research Guides at Library of
+      Congress'
+    found_by: Iraq consolidated legislation portal government
+  - domain: parliament.krd
+    kind: official
+    example_url: https://www.parliament.krd/english/parliament-business/legislation/
+    name: Legislation | Kurdistan Parliament - Iraq
+    found_by: Iraq consolidated legislation portal government
+  - domain: congress.gov
+    kind: official
+    example_url: https://www.congress.gov/bill/110th-congress/house-bill/744/text
+    name: 'Text - H.R.744 - 110th Congress (2007-2008): Iraq Policy Revitalization
+      and Congressional '
+    found_by: Iraq consolidated legislation portal government
+  - domain: iq.parliament.iq
+    kind: official
+    example_url: https://iq.parliament.iq/en/wp-content/uploads/sites/3/2024/04/Constitution-of-the-Republic-of-Iraq.pdf
+    name: Constitution-of-the-Republic-of-Iraq.pdf
+    found_by: Iraq consolidated legislation portal government
+  - domain: constituteproject.org
+    kind: aggregator
+    example_url: https://www.constituteproject.org/constitution/Iraq_2005.pdf?lang=en
+    name: Iraq's Constitution of 2005
+    found_by: Iraq consolidated legislation portal government
+  - domain: fjc.gov
+    kind: official
+    example_url: https://www.fjc.gov/content/iraq
+    name: IRAQ | Federal Judicial Center
+    found_by: Iraq supreme court or court of cassation official website
+  - domain: justice.gov
+    kind: official
+    example_url: https://www.justice.gov/archive/iraq/index.html
+    name: 'USDOJ: Department of Justice Activities in Iraq Homepage'
+    found_by: Iraq ministry of justice legislation database official
+  discovered_at: '2026-05-22'
+- cc: JO
+  country: Jordan
+  known_count: 2
+  new_sources:
+  - domain: portal.jordan.gov.jo
+    kind: official
+    example_url: https://portal.jordan.gov.jo/wps/portal/Home/GovernmentEntities/Ministries/MinistryServiceDetails_en/ministry+of+culture/department+of+the+national+library/services/official+gazette+photocopying,+royal+speeches+,+cultural+agreements+and+parliament+memorandums?lang=en&content_id=com.ibm.workplace.wcm.api.WCM_Content/Official
+    name: Official Gazette Photocopying, Royal Speeches , Cultural ...
+    found_by: Jordan official gazette website
+  - domain: guides.loc.gov
+    kind: aggregator
+    example_url: https://guides.loc.gov/law-jordan/legal-guides
+    name: 'Legal Guides - Guide to Law Online: Jordan - Research Guides at Library
+      of Congress'
+    found_by: Jordan official gazette website
+  - domain: form.jordan.gov.jo
+    kind: official
+    example_url: https://form.jordan.gov.jo/wps/portal/Home/GovernmentEntities/Agencies/Agency/Legislation%20and%20Opinion%20Bureau?nameEntity=Legislation+and+Opinion+Bureau&entityType=otherEntity
+    name: Legislation and Opinion Bureau
+    found_by: Jordan consolidated legislation portal government
+  - domain: gbd.gov.jo
+    kind: official
+    example_url: https://gbd.gov.jo/en/government-websites
+    name: Government Websites
+    found_by: Jordan consolidated legislation portal government
+  - domain: state.gov
+    kind: official
+    example_url: https://www.state.gov/reports/2025-investment-climate-statements/jordan
+    name: Jordan - United States Department of State
+    found_by: Jordan consolidated legislation portal government
+  - domain: moj.gov.jo
+    kind: official
+    example_url: https://moj.gov.jo/default/en
+    name: Home Page - Ministry of Justice
+    found_by: Jordan supreme court or court of cassation official website
+  - domain: jo.usembassy.gov
+    kind: official
+    example_url: https://jo.usembassy.gov/jordanian-legal-system/
+    name: Jordanian Legal System - U.S. Embassy in Jordan
+    found_by: Jordan supreme court or court of cassation official website
+  - domain: justice.gov
+    kind: official
+    example_url: https://www.justice.gov/osg/brief/jordan-v-united-states-0
+    name: Office of the Solicitor General | Jordan v. United States | United States
+      Department of Ju
+    found_by: Jordan supreme court or court of cassation official website
+  - domain: jordan.gov.jo
+    kind: official
+    example_url: https://jordan.gov.jo/en/CustomPages/OpenDataItemDetails?hdn=3058&name=Ministry+Of+Justice
+    name: List of court names and classifications - Jordan Gate
+    found_by: Jordan supreme court or court of cassation official website
+  discovered_at: '2026-05-22'
+- cc: LB
+  country: Lebanon
+  known_count: 6
+  new_sources:
+  - domain: loc.gov
+    kind: aggregator
+    example_url: https://www.loc.gov/item/lcwaN0017991/
+    name: Lebanon - Legal Gazette (Al-Jarīdah Al-Rasmīyah) | Library of Congress
+    found_by: Lebanon official gazette website
+  - domain: guides.loc.gov
+    kind: aggregator
+    example_url: https://guides.loc.gov/law-lebanon/legal-guides
+    name: 'Legal Guides - Guide to Law Online: Lebanon - Research Guides at Library
+      of Congress'
+    found_by: Lebanon consolidated legislation portal government
+  - domain: congress.gov
+    kind: official
+    example_url: https://www.congress.gov/crs-product/IF11617
+    name: Lebanon | Congress.gov | Library of Congress
+    found_by: Lebanon consolidated legislation portal government
+  - domain: tra.gov.lb
+    kind: official
+    example_url: https://www.tra.gov.lb/Useful-Links-Governmental-Institutions
+    name: Governmental Institutions - TRA - Telecommunications Regulatory Authority
+    found_by: Lebanon consolidated legislation portal government
+  - domain: judiciariesworldwide.fjc.gov
+    kind: official
+    example_url: https://judiciariesworldwide.fjc.gov/country-profile/lebanon
+    name: Lebanon | Judiciaries Worldwide - Federal Judicial Center |
+    found_by: Lebanon supreme court or court of cassation official website
+  - domain: justice.gov
+    kind: official
+    example_url: https://www.justice.gov/eoir/country/lebanon-contents
+    name: Executive Office for Immigration Review | Lebanese Republic
+    found_by: Lebanon ministry of justice legislation database official
+  - domain: justice.gov.lb
+    kind: official
+    example_url: https://www.justice.gov.lb/
+    name: justicegov - الصفحة الرئيسية
+    found_by: Lebanon ministry of justice legislation database official
+  discovered_at: '2026-05-22'
+- cc: PS
+  country: Palestine
+  known_count: 2
+  new_sources:
+  - domain: ogb.gov.ps
+    kind: official
+    example_url: https://ogb.gov.ps/en
+    name: ديوان الجريدة الرسمية
+    found_by: Palestine official gazette website
+  - domain: palestinegazette.com
+    kind: official
+    example_url: https://palestinegazette.com/about-us
+    name: About Us - The Palestine Gazette | Connecting Palestine Globally
+    found_by: Palestine official gazette website
+  - domain: nla.gov.au
+    kind: official
+    example_url: https://nla.gov.au/nla.cat-vn3409206
+    name: 'The Palestine gazette : official gazette of the government of Palestine
+      | Catalogue | Nati'
+    found_by: Palestine official gazette website
+  - domain: legislation.palestinelegal.org
+    kind: official
+    example_url: https://legislation.palestinelegal.org/
+    name: Home - Legislation
+    found_by: Palestine consolidated legislation portal government
+  - domain: moj.pna.ps
+    kind: official
+    example_url: https://moj.pna.ps/en/
+    name: Ministry of Justice - Palestine
+    found_by: Palestine ministry of justice legislation database official
+  - domain: security-legislation.ps
+    kind: official
+    example_url: https://security-legislation.ps/about-the-database/
+    name: About the Database - Palestine - Legal Databases
+    found_by: Palestine ministry of justice legislation database official
+  discovered_at: '2026-05-22'
+- cc: SY
+  country: Syria
+  known_count: 1
+  new_sources:
+  - domain: spo.gov.sy
+    kind: official
+    example_url: http://www.spo.gov.sy/en/pdetails.php?id=31&ft=6
+    name: 'Syrian Patent Office /SPO/:: The Gazette ::: The Gazette'
+    found_by: Syria official gazette website
+  - domain: guides.loc.gov
+    kind: aggregator
+    example_url: https://guides.loc.gov/law-syria/legislative
+    name: 'Legislative - Guide to Law Online: Syria - Research Guides at Library of
+      Congress'
+    found_by: Syria consolidated legislation portal government
+  - domain: congress.gov
+    kind: official
+    example_url: https://www.congress.gov/crs-product/RL33487
+    name: 'Syria: Transition and U.S. Policy | Congress.gov | Library of Congress'
+    found_by: Syria consolidated legislation portal government
+  - domain: justice.gov
+    kind: official
+    example_url: https://www.justice.gov/eoir/country/syria-contents
+    name: Executive Office for Immigration Review | Syrian Arab Republic
+    found_by: Syria ministry of justice legislation database official
+  discovered_at: '2026-05-22'
+- cc: DZ
+  country: Algeria
+  known_count: 1
+  new_sources:
+  - domain: gazettes.africa
+    kind: official
+    example_url: https://gazettes.africa/gazettes/dz/2022
+    name: Algeria Gazettes 2022 - Gazettes.Africa
+    found_by: Algeria official gazette website
+  - domain: guides.loc.gov
+    kind: aggregator
+    example_url: https://guides.loc.gov/law-algeria/legal-guides
+    name: 'Legal Guides - Guide to Law Online: Algeria - Research Guides at Library
+      of Congress'
+    found_by: Algeria official gazette website
+  - domain: algeriagazette.com
+    kind: official
+    example_url: https://algeriagazette.com/
+    name: Algeria Gazette
+    found_by: Algeria official gazette website
+  - domain: constituteproject.org
+    kind: aggregator
+    example_url: https://www.constituteproject.org/constitution/Algeria_2020
+    name: Algeria 2020 Constitution - Constitute
+    found_by: Algeria consolidated legislation portal government
+  - domain: congress.gov
+    kind: official
+    example_url: https://www.congress.gov/crs-product/IF11116
+    name: Algeria | Congress.gov | Library of Congress
+    found_by: Algeria consolidated legislation portal government
+  - domain: coursupreme.dz
+    kind: official
+    example_url: https://coursupreme.dz/en/home/
+    name: Home - Supreme Court
+    found_by: Algeria supreme court or court of cassation official website
+  - domain: mjustice.gov.dz
+    kind: official
+    example_url: https://www.mjustice.gov.dz/en/modernisation-of-justice/
+    name: Modernisation of Justice - وزارة العدل
+    found_by: Algeria ministry of justice legislation database official
+  discovered_at: '2026-05-22'
+- cc: LY
+  country: Libya
+  known_count: 2
+  new_sources:
+  - domain: guides.loc.gov
+    kind: aggregator
+    example_url: https://guides.loc.gov/law-libya/legal-guides
+    name: 'Legal Guides - Guide to Law Online: Libya - Research Guides at Library
+      of Congress'
+    found_by: Libya official gazette website
+  - domain: security-legislation.ly
+    kind: official
+    example_url: https://security-legislation.ly/latest-laws/constitutional-declaration-of-2011-consolidated/
+    name: Constitutional Declaration of 2011- Consolidated - Libya - DCAF Legal Databases
+    found_by: Libya consolidated legislation portal government
+  - domain: lcjs.security-legislation.ly
+    kind: official
+    example_url: https://lcjs.security-legislation.ly/en
+    name: Libyan Criminal Justice System | Welcome | DCAF Libyan Criminal Justice
+      System
+    found_by: Libya ministry of justice legislation database official
+  discovered_at: '2026-05-22'
+- cc: MA
+  country: Morocco
+  known_count: 2
+  new_sources:
+  - domain: instabrightgazette.com
+    kind: official
+    example_url: https://www.instabrightgazette.com/store/products/sabi-ni-ate-k
+    name: Sabi ni Ate K
+    found_by: Morocco official gazette website
+  - domain: guides.loc.gov
+    kind: aggregator
+    example_url: https://guides.loc.gov/law-morocco/legislative
+    name: 'Legislative - Guide to Law Online: Morocco - Research Guides at Library
+      of Congress'
+    found_by: Morocco consolidated legislation portal government
+  - domain: constituteproject.org
+    kind: aggregator
+    example_url: https://www.constituteproject.org/constitution/Morocco_2011
+    name: Morocco 2011 Constitution - Constitute
+    found_by: Morocco consolidated legislation portal government
+  - domain: rnesm.justice.gov.ma
+    kind: official
+    example_url: https://rnesm.justice.gov.ma/index.aspx?redirected=1&lang=en-US
+    name: Morocco Ministry of Justice - National Collateral Registry
+    found_by: Morocco ministry of justice legislation database official
+  discovered_at: '2026-05-22'
+- cc: MR
+  country: Mauritania
+  known_count: 2
+  new_sources:
+  - domain: guides.loc.gov
+    kind: aggregator
+    example_url: https://guides.loc.gov/law-mauritania/legal-guides
+    name: 'Legal Guides - Guide to Law Online: Mauritania - Research Guides at Library
+      of Congress'
+    found_by: Mauritania official gazette website
+  - domain: state.gov
+    kind: official
+    example_url: https://www.state.gov/reports/2025-investment-climate-statements/mauritania
+    name: Mauritania - United States Department of State
+    found_by: Mauritania official gazette website
+  - domain: loc.gov
+    kind: aggregator
+    example_url: https://www.loc.gov/item/guide-to-law-online/mauritania/
+    name: 'Introduction - Guide to Law Online: Mauritania - Research Guides at Library
+      of Congress'
+    found_by: Mauritania consolidated legislation portal government
+  - domain: anrpts.gov.mr
+    kind: official
+    example_url: https://anrpts.gov.mr/en
+    name: National Agency for the Population Register and Secure ...
+    found_by: Mauritania consolidated legislation portal government
+  - domain: justice.gov
+    kind: official
+    example_url: https://www.justice.gov/eoir/country/mauritania-contents
+    name: Executive Office for Immigration Review | Islamic Republic of Mauritania
+    found_by: Mauritania ministry of justice legislation database official
+  discovered_at: '2026-05-22'
+- cc: TN
+  country: Tunisia
+  known_count: 2
+  new_sources:
+  - domain: loc.gov
+    kind: aggregator
+    example_url: https://www.loc.gov/resource/llflg.2003348216_20140605_01/?st=gallery
+    name: Official Gazette of the Republic of Tunisia. Legal, Regulatory, and Judicial
+      Announcements
+    found_by: Tunisia official gazette website
+  - domain: guides.loc.gov
+    kind: aggregator
+    example_url: https://guides.loc.gov/law-tunisia/legislative
+    name: 'Legislative - Guide to Law Online: Tunisia - Research Guides at Library
+      of Congress'
+    found_by: Tunisia consolidated legislation portal government
+  - domain: justice.gov
+    kind: official
+    example_url: https://www.justice.gov/eoir/tunisia-contents
+    name: Executive Office for Immigration Review | Tunisia Contents
+    found_by: Tunisia ministry of justice legislation database official
+  - domain: justice.gov.et
+    kind: official
+    example_url: https://justice.gov.et/en/resource-tag/tunisia/
+    name: tunisia - Ministry of Justice
+    found_by: Tunisia ministry of justice legislation database official
+  discovered_at: '2026-05-22'
+- cc: YE
+  country: Yemen
+  known_count: 3
+  new_sources:
+  - domain: guides.loc.gov
+    kind: aggregator
+    example_url: https://guides.loc.gov/law-yemen/legal-guides
+    name: 'Legal Guides - Guide to Law Online: Yemen - Research Guides at Library
+      of Congress'
+    found_by: Yemen consolidated legislation portal government
+  - domain: congress.gov
+    kind: official
+    example_url: https://www.congress.gov/crs-product/R48942
+    name: 'Yemen: In Brief | Congress.gov | Library of Congress'
+    found_by: Yemen consolidated legislation portal government
+  - domain: wipo.int
+    kind: aggregator
+    example_url: https://www.wipo.int/wipolex/en/legislation/details/19992
+    name: Constitution of the Republic of Yemen, Yemen, WIPO Lex
+    found_by: Yemen consolidated legislation portal government
+  - domain: loc.gov
+    kind: aggregator
+    example_url: https://www.loc.gov/law/help/guide/nations/yemen.php
+    name: 'Introduction - Guide to Law Online: Yemen - Research Guides at Library
+      of Congress'
+    found_by: Yemen ministry of justice legislation database official
+  - domain: justice.gov
+    kind: official
+    example_url: https://www.justice.gov/eoir/country/yemen-topical
+    name: Executive Office for Immigration Review | Yemen
+    found_by: Yemen ministry of justice legislation database official
+  discovered_at: '2026-05-22'
+- cc: SD
+  country: Sudan
+  known_count: 1
+  new_sources:
+  - domain: mojca.gov.ss
+    kind: official
+    example_url: https://mojca.gov.ss/directorate-of-legislation-gazette-publication-and-printing/
+    name: Directorate of Legislation, Gazette, Publication and Printing – Ministry
+      of Justice and Co
+    found_by: Sudan official gazette website
+  - domain: freesudangazette.com
+    kind: official
+    example_url: https://freesudangazette.com/
+    name: Free Sudan Gazette – Free Sudan Gazette is an independent, open-source digital
+      media platf
+    found_by: Sudan official gazette website
+  - domain: guides.loc.gov
+    kind: aggregator
+    example_url: https://guides.loc.gov/law-sudan/legal-guides
+    name: 'Legal Guides - Guide to Law Online: Sudan - Research Guides at Library
+      of Congress'
+    found_by: Sudan official gazette website
+  - domain: refworld.org
+    kind: aggregator
+    example_url: https://www.refworld.org/document-sources/sudan-supreme-court
+    name: 'Sudan: Supreme Court | Refworld'
+    found_by: Sudan supreme court or court of cassation official website
+  - domain: supremecourt.gov
+    kind: official
+    example_url: https://www.supremecourt.gov/opinions/24pdf/24a1153_l5gm.pdf
+    name: SUPREME COURT OF THE UNITED STATES
+    found_by: Sudan supreme court or court of cassation official website
+  - domain: justice.gov.et
+    kind: official
+    example_url: https://justice.gov.et/en/resource-tag/south-sudan/
+    name: south sudan - Ministry of Justice
+    found_by: Sudan ministry of justice legislation database official
+  discovered_at: '2026-05-22'
+- cc: SO
+  country: Somalia
+  known_count: 1
+  new_sources:
+  - domain: guides.loc.gov
+    kind: aggregator
+    example_url: https://guides.loc.gov/law-somalia/legal-guides
+    name: 'Legal Guides - Guide to Law Online: Somalia - Research Guides at Library
+      of Congress'
+    found_by: Somalia official gazette website
+  - domain: somaliagazette.com
+    kind: official
+    example_url: https://somaliagazette.com/
+    name: Somalia Gazette
+    found_by: Somalia official gazette website
+  - domain: gazettes.africa
+    kind: official
+    example_url: https://gazettes.africa/gazettes/so/
+    name: Somalia Gazettes - Gazettes.Africa
+    found_by: Somalia official gazette website
+  - domain: congress.gov
+    kind: official
+    example_url: https://www.congress.gov/crs-product/IF10155
+    name: Somalia | Congress.gov | Library of Congress
+    found_by: Somalia consolidated legislation portal government
+  - domain: constituteproject.org
+    kind: aggregator
+    example_url: https://www.constituteproject.org/constitution/Somalia_2012
+    name: Somalia 2012 Constitution - Constitute
+    found_by: Somalia consolidated legislation portal government
+  - domain: loc.gov
+    kind: aggregator
+    example_url: https://www.loc.gov/item/guide-to-law-online/somalia/
+    name: 'Introduction - Guide to Law Online: Somalia - Research Guides at Library
+      of Congress'
+    found_by: Somalia consolidated legislation portal government
+  - domain: judiciary.gov.so
+    kind: official
+    example_url: https://judiciary.gov.so/supreme-court/
+    name: Supreme Court - The Supreme Court of Somalia
+    found_by: Somalia supreme court or court of cassation official website
+  - domain: supremecourt.gov.so
+    kind: official
+    example_url: https://supremecourt.gov.so/
+    name: Supreme Court of Somalia is under construction
+    found_by: Somalia supreme court or court of cassation official website
+  - domain: moj.govsomaliland.org
+    kind: official
+    example_url: https://moj.govsomaliland.org/
+    name: Ministry of Justice
+    found_by: Somalia ministry of justice legislation database official
+  discovered_at: '2026-05-22'
+- cc: DJ
+  country: Djibouti
+  known_count: 2
+  new_sources:
+  - domain: saudigazette.com.sa
+    kind: official
+    example_url: https://saudigazette.com.sa/article/584044
+    name: SFD to finance Djibouti infrastructure projects - Saudi Gazette
+    found_by: Djibouti official gazette website
+  - domain: wipo.int
+    kind: aggregator
+    example_url: https://www.wipo.int/wipolex/en/legislation/details/19927
+    name: Constitution of the Republic of Djibouti, Djibouti, WIPO Lex
+    found_by: Djibouti consolidated legislation portal government
+  - domain: guides.loc.gov
+    kind: aggregator
+    example_url: https://guides.loc.gov/law-djibouti/legal-guides
+    name: 'Legal Guides - Guide to Law Online: Djibouti - Research Guides at Library
+      of Congress'
+    found_by: Djibouti consolidated legislation portal government
+  - domain: congress.gov
+    kind: official
+    example_url: https://www.congress.gov/crs-product/IF11303
+    name: Djibouti | Congress.gov | Library of Congress
+    found_by: Djibouti consolidated legislation portal government
+  - domain: justice.gov
+    kind: official
+    example_url: https://www.justice.gov/eoir/country/djibouti-topical
+    name: Executive Office for Immigration Review | Djibouti
+    found_by: Djibouti consolidated legislation portal government
+  - domain: justice.gouv.dj
+    kind: official
+    example_url: https://justice.gouv.dj/
+    name: Justice
+    found_by: Djibouti ministry of justice legislation database official
+  discovered_at: '2026-05-22'
+- cc: KM
+  country: Comoros
+  known_count: 1
+  new_sources:
+  - domain: lagazettedescomores.com
+    kind: official
+    example_url: https://lagazettedescomores.com/
+    name: La gazette des Comores
+    found_by: Comoros official gazette website
+  - domain: guides.loc.gov
+    kind: aggregator
+    example_url: https://guides.loc.gov/law-comoros/legal-guides
+    name: 'Legal Guides - Guide to Law Online: Comoros - Research Guides at Library
+      of Congress'
+    found_by: Comoros official gazette website
+  - domain: comorosgazette.com
+    kind: official
+    example_url: https://comorosgazette.com/
+    name: Comoros Gazette
+    found_by: Comoros official gazette website
+  - domain: wipo.int
+    kind: aggregator
+    example_url: https://www.wipo.int/wipolex/en/legislation/details/20721
+    name: Constitution of the Union of the Comoros, Comoros, WIPO Lex
+    found_by: Comoros consolidated legislation portal government
+  - domain: constituteproject.org
+    kind: aggregator
+    example_url: https://www.constituteproject.org/constitution/Comoros_2018
+    name: Comoros 2018 Constitution - Constitute
+    found_by: Comoros consolidated legislation portal government
+  - domain: justice.gouv.km
+    kind: official
+    example_url: https://justice.gouv.km/en/home/
+    name: Ministry of Justice – Union of the Comoros
+    found_by: Comoros ministry of justice legislation database official
+  discovered_at: '2026-05-22'
+- cc: IR
+  country: Iran
+  known_count: 2
+  new_sources:
+  - domain: loc.gov
+    kind: aggregator
+    example_url: https://www.loc.gov/item/lcwaN0017935/
+    name: Iran - Legal Gazette (Rūznāmeh-e Rasmī-e Jumhūrī-e Islāmī-e Īrān) | Library
+      of Congress
+    found_by: Iran official gazette website
+  - domain: guides.loc.gov
+    kind: aggregator
+    example_url: https://guides.loc.gov/law-iran/legal-guides
+    name: 'Legal Guides - Guide to Law Online: Iran - Research Guides at Library of
+      Congress'
+    found_by: Iran official gazette website
+  - domain: pressgazette.co.uk
+    kind: official
+    example_url: https://pressgazette.co.uk/subject/iran/
+    name: Iran Archives - Press Gazette
+    found_by: Iran official gazette website
+  - domain: iran.gov.ir
+    kind: official
+    example_url: https://iran.gov.ir/en/
+    name: Government Electronic Services Information Getway
+    found_by: Iran consolidated legislation portal government
+  - domain: ojp.gov
+    kind: official
+    example_url: https://www.ojp.gov/ncjrs/virtual-library/abstracts/justice-system-islamic-republic-iran
+    name: JUSTICE SYSTEM OF THE ISLAMIC REPUBLIC OF IRAN | Office of Justice Programs
+    found_by: Iran ministry of justice legislation database official
+  discovered_at: '2026-05-22'
+- cc: IL
+  country: Israel
+  known_count: 3
+  new_sources:
+  - domain: guides.loc.gov
+    kind: aggregator
+    example_url: https://guides.loc.gov/law-israel/legislative
+    name: 'Legislative - Guide to Law Online: Israel - Research Guides at Library
+      of Congress'
+    found_by: Israel official gazette website
+  - domain: wipo.int
+    kind: aggregator
+    example_url: https://www.wipo.int/wipolex/en/legislation/details/16941
+    name: 'Basic Law: The Government, 2001 (consolidated version of 2016), Israel,
+      WIPO Lex'
+    found_by: Israel consolidated legislation portal government
+  - domain: fjc.gov
+    kind: official
+    example_url: https://www.fjc.gov/content/israel
+    name: ISRAEL | Federal Judicial Center
+    found_by: Israel supreme court or court of cassation official website
+  discovered_at: '2026-05-22'
+- cc: TR
+  country: Turkey
+  known_count: 2
+  new_sources:
+  - domain: loc.gov
+    kind: aggregator
+    example_url: https://www.loc.gov/item/lcwaN0017936/
+    name: Turkey - Legal Gazette (T.C. Resmi Gazete) | Library of Congress
+    found_by: Turkey official gazette website
+  - domain: guides.loc.gov
+    kind: aggregator
+    example_url: https://guides.loc.gov/law-turkey/legislative
+    name: 'Legislative - Guide to Law Online: Turkey - Research Guides at Library
+      of Congress'
+    found_by: Turkey consolidated legislation portal government
+  - domain: legislationline.org
+    kind: official
+    example_url: https://legislationline.org/T%C3%BCrkiye
+    name: Türkiye | LEGISLATIONLINE
+    found_by: Turkey consolidated legislation portal government
+  - domain: judiciariesworldwide.fjc.gov
+    kind: official
+    example_url: https://judiciariesworldwide.fjc.gov/country-profile/turkey
+    name: Turkey | Judiciaries Worldwide - Federal Judicial Center |
+    found_by: Turkey supreme court or court of cassation official website
+  - domain: justice.gov.tr
+    kind: official
+    example_url: https://justice.gov.tr/
+    name: REPUBLIC OF TÜRKİYE MINISTRY OF JUSTICE
+    found_by: Turkey ministry of justice legislation database official
+  - domain: diabgm.adalet.gov.tr
+    kind: official
+    example_url: https://diabgm.adalet.gov.tr/Resimler/SayfaDokuman/2492019170148THE_JUDICIAL_SYSTEM_OF_TURKEY_AND_ORGANISATION_OF_THE_MINISTRY_OF_JUSTICE.pdf
+    name: THE JUDICIAL SYSTEM OF TURKEY AND ORGANISATION OF THE MINISTRY OF JUSTICE
+    found_by: Turkey ministry of justice legislation database official
+  discovered_at: '2026-05-22'

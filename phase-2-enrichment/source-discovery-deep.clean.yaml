@@ -1,0 +1,985 @@
+jurisdictions:
+- cc: AE
+  country: United Arab Emirates
+  sources:
+  - domain: services.cbuae.gov.ae
+    kind: official
+    example_url: https://services.cbuae.gov.ae/
+    name: CBUAE Services Portal - Central Bank of the UAE
+    found_by: United Arab Emirates central bank official website
+    verdict: national-gov
+  - domain: sca.gov.ae
+    kind: official
+    example_url: https://www.sca.gov.ae/en/home.aspx
+    name: Capital Market Authority
+    found_by: United Arab Emirates capital markets authority or securities commission
+      official website
+    verdict: national-gov
+  - domain: tax.gov.ae
+    kind: official
+    example_url: https://tax.gov.ae/en/
+    name: Federal Tax Authority - United Arab Emirates
+    found_by: United Arab Emirates tax authority official website
+    verdict: national-gov
+  - domain: mof.gov.ae
+    kind: official
+    example_url: https://mof.gov.ae/en/about-us/our-partners/federal-tax-authority/
+    name: Federal Tax Authority | Ministry of Finance - United Arab Emirates
+    found_by: United Arab Emirates tax authority official website
+    verdict: national-gov
+  - domain: eservices.tax.gov.ae
+    kind: official
+    example_url: https://eservices.tax.gov.ae/
+    name: Federal Tax Authority
+    found_by: United Arab Emirates tax authority official website
+    verdict: national-gov
+  - domain: moet.gov.ae
+    kind: official
+    example_url: https://www.moet.gov.ae/en/regulation-of-competition
+    name: Regulation of Competition | Ministry of Economy & Tourism - UAE
+    found_by: United Arab Emirates competition authority official website
+    verdict: national-gov
+  - domain: icp.gov.ae
+    kind: official
+    example_url: https://icp.gov.ae/en/
+    name: UAE ICP | Federal Authority for Identity, Citizenship, Customs & Port Security
+    found_by: United Arab Emirates competition authority official website
+    verdict: national-gov
+  - domain: added.gov.ae
+    kind: official
+    example_url: https://www.added.gov.ae/en/ipu/understanding-ip/more-about-innovation-and-ip/uae-ip-status
+    name: UAE IP Status | Welcome to Abu Dhabi Intellectual Property Unit
+    found_by: United Arab Emirates intellectual property office official website
+    verdict: national-gov
+  - domain: wipo.int
+    kind: aggregator
+    example_url: https://www.wipo.int/directory/en/contact.jsp?country_id=2&type=ADMIN_IP
+    name: 'Contact Information: United Arab Emirates'
+    found_by: United Arab Emirates intellectual property office official website
+    verdict: aggregator
+  - domain: mohre.gov.ae
+    kind: official
+    example_url: https://www.mohre.gov.ae/en/home.aspx
+    name: Ministry of Human Resources & Emiratisation - MOHRE
+    found_by: United Arab Emirates ministry of labour official website
+    verdict: national-gov
+  - domain: traderegistry.ae
+    kind: official
+    example_url: https://traderegistry.ae/
+    name: UAE Trade Registry Smart Portal - Doing Business in UAE
+    found_by: United Arab Emirates commercial registry or companies registrar official
+    verdict: national
+  - domain: adra.gov.ae
+    kind: official
+    example_url: https://www.adra.gov.ae/en
+    name: Abu Dhabi Registration Authority | ADRA
+    found_by: United Arab Emirates commercial registry or companies registrar official
+    verdict: national-gov
+- cc: BH
+  country: Bahrain
+  sources:
+  - domain: nbr.gov.bh
+    kind: official
+    example_url: https://www.nbr.gov.bh/
+    name: الجهاز الوطني للإيرادات - الرئيسية
+    found_by: Bahrain tax authority official website
+    verdict: national-gov
+  - domain: pdp.gov.bh
+    kind: official
+    example_url: https://www.pdp.gov.bh/en/index.html
+    name: Personal Data Protection Authority | Kingdom Of Bahrain
+    found_by: Bahrain personal data protection authority official website
+    verdict: national-gov
+  - domain: culture.gov.bh
+    kind: official
+    example_url: https://culture.gov.bh/en/mediacenter/news_center/2021/March2021/Name,19301,en.html
+    name: Bahrain Authority for Culture and Antiquities - Kingdom of Bahrain | March
+      2021
+    found_by: Bahrain competition authority official website
+    verdict: national-gov
+  - domain: wipo.int
+    kind: aggregator
+    example_url: https://www.wipo.int/directory/en/details.jsp?country_code=BH
+    name: 'Information by Country: Bahrain'
+    found_by: Bahrain intellectual property office official website
+    verdict: aggregator
+  - domain: moic.gov.bh
+    kind: official
+    example_url: https://www.moic.gov.bh/en/service/323
+    name: Trademarks and Patents | Ministry of Industry and Commerce
+    found_by: Bahrain intellectual property office official website
+    verdict: national-gov
+- cc: KW
+  country: Kuwait
+  sources:
+  - domain: cbk.gov.kw
+    kind: official
+    example_url: https://www.cbk.gov.kw/en
+    name: 'Central Bank of Kuwait: Home'
+    found_by: Kuwait central bank official website
+    verdict: national-gov
+  - domain: cma.gov.kw
+    kind: official
+    example_url: https://www.cma.gov.kw/en/web/cma/home
+    name: Capital Markets Authority-Home - CMA
+    found_by: Kuwait capital markets authority or securities commission official website
+    verdict: national-gov
+  - domain: ifsah.cma.gov.kw
+    kind: official
+    example_url: https://ifsah.cma.gov.kw/
+    name: Capital Markets Authority State of Kuwait - CMA
+    found_by: Kuwait capital markets authority or securities commission official website
+    verdict: national-gov
+  - domain: mof.gov.kw
+    kind: official
+    example_url: https://www.mof.gov.kw/TCRS_Public/en
+    name: Login
+    found_by: Kuwait tax authority official website
+    verdict: national-gov
+  - domain: citra.gov.kw
+    kind: official
+    example_url: https://www.citra.gov.kw/sites/en/LegalReferences/Data_Privacy_Protection_Regulation.pdf
+    name: Data Privacy Protection Regulation
+    found_by: Kuwait personal data protection authority official website
+    verdict: national-gov
+  - domain: cpa.gov.kw
+    kind: official
+    example_url: https://cpa.gov.kw/
+    name: جهاز حماية المنافسة
+    found_by: Kuwait competition authority official website
+    verdict: national-gov
+  - domain: manpower.gov.kw
+    kind: official
+    example_url: https://www.manpower.gov.kw/EmploymentServiceEnglish.aspx
+    name: '- الهيئة العامة للقوى العاملة'
+    found_by: Kuwait ministry of labour official website
+    verdict: national-gov
+  - domain: moj.gov.kw
+    kind: official
+    example_url: https://www.moj.gov.kw/EN/pages/DeptProcedure.aspx?ItemID=628
+    name: Ministry of Justice
+    found_by: Kuwait ministry of labour official website
+    verdict: national-gov
+  - domain: moci.gov.kw
+    kind: official
+    example_url: https://www.moci.gov.kw/en/about-us/deputies-and-departments/assistant-agency-corporate-affairs-and-commercial-licenses/commercial-registry-department/
+    name: Commercial Registry Department
+    found_by: Kuwait commercial registry or companies registrar official
+    verdict: national-gov
+  - domain: cait.gov.kw
+    kind: official
+    example_url: https://cait.gov.kw/en/company-registry/
+    name: CAIT | Company Registry
+    found_by: Kuwait commercial registry or companies registrar official
+    verdict: national-gov
+- cc: OM
+  country: Oman
+  sources:
+  - domain: cbo.gov.om
+    kind: official
+    example_url: https://cbo.gov.om/
+    name: Central Bank Of Oman - CBOHome
+    found_by: Oman central bank official website
+    verdict: national-gov
+  - domain: stg-portal.service.gov.om
+    kind: official
+    example_url: https://stg-portal.service.gov.om/central-bank-of-oman
+    name: Central Bank of Oman - Home - Gov.om
+    found_by: Oman central bank official website
+    verdict: national-gov
+  - domain: opendata.gov.om
+    kind: official
+    example_url: https://opendata.gov.om/en/publishers/43d63b5e-b99e-4f60-9ae7-ea7f6a583d00
+    name: Central Bank of Oman - Open Data Portal
+    found_by: Oman central bank official website
+    verdict: national-gov
+  - domain: fsa.gov.om
+    kind: official
+    example_url: https://fsa.gov.om/
+    name: Financial Services Authority, Sultanate of Oman - Home
+    found_by: Oman capital markets authority or securities commission official website
+    verdict: national-gov
+  - domain: tms.taxoman.gov.om
+    kind: official
+    example_url: https://tms.taxoman.gov.om/portal/
+    name: Sultanate of Oman Tax Authority - Tax Portal
+    found_by: Oman tax authority official website
+    verdict: national-gov
+  - domain: omanportal.gov.om
+    kind: official
+    example_url: https://omanportal.gov.om/wps/portal/index/cr/business/incometax/!ut/p/a0/04_Sj9CPykssy0xPLMnMz0vMAfGjzOL9Aw3NDD38Dbz9_UINDRw9DEIC_Z3cjAzMDfSDU_P0C7IdFQHWLrtI/?lang=en
+    name: Income Tax - Omanuna Portal
+    found_by: Oman tax authority official website
+    verdict: national-gov
+  - domain: mtcit.gov.om
+    kind: official
+    example_url: https://mtcit.gov.om/library-3/legislations-policies-8/laws-75/personal-data-protection-law-1034
+    name: Personal Data Protection Law | MTCIT
+    found_by: Oman personal data protection authority official website
+    verdict: national-gov
+  - domain: cpa.gov.om
+    kind: official
+    example_url: https://cpa.gov.om/en/pages/omangovernmentalwebsites.aspx
+    name: Consumer Protection Authority E-Portal Oman Government Websites
+    found_by: Oman competition authority official website
+    verdict: national-gov
+  - domain: wipo.int
+    kind: aggregator
+    example_url: https://www.wipo.int/directory/en/details.jsp?country_code=OM
+    name: 'Information by Country: Oman'
+    found_by: Oman intellectual property office official website
+    verdict: aggregator
+  - domain: mol.gov.om
+    kind: official
+    example_url: https://www.mol.gov.om/
+    name: وزارة العمل -سلطنة عمان - الرئيسية
+    found_by: Oman ministry of labour official website
+    verdict: national-gov
+  - domain: pamr.gov.om
+    kind: official
+    example_url: https://pamr.gov.om/en-us/eportal/Public/Pages/default.aspx
+    name: Ministry of Labour
+    found_by: Oman ministry of labour official website
+    verdict: national-gov
+  - domain: business.gov.om
+    kind: official
+    example_url: https://www.business.gov.om/ieasy/wp/en/services/search-commercial-registrations/
+    name: Search Commercial Registrations – Oman Business Platform
+    found_by: Oman commercial registry or companies registrar official
+    verdict: national-gov
+- cc: QA
+  country: Qatar
+  sources:
+  - domain: qcb.gov.qa
+    kind: official
+    example_url: https://www.qcb.gov.qa/
+    name: Qatar Central Bank
+    found_by: Qatar central bank official website
+    verdict: national-gov
+  - domain: newap.sw.gov.qa
+    kind: official
+    example_url: https://newap.sw.gov.qa/wps/wcm/connect/SW_InvestorsPortal_Content_Lib/Explore/Financial_Centers/qatarfinancialmarketsauthority
+    name: Qatar Financial Markets Authority
+    found_by: Qatar capital markets authority or securities commission official website
+    verdict: national-gov
+  - domain: gta.gov.qa
+    kind: official
+    example_url: https://gta.gov.qa/en/
+    name: General Tax Authority - GTA | General Tax Authority
+    found_by: Qatar tax authority official website
+    verdict: national-gov
+  - domain: dhareeba.gov.qa
+    kind: official
+    example_url: https://dhareeba.gov.qa/en
+    name: Dhareeba Portal | Dhareeba Portal
+    found_by: Qatar tax authority official website
+    verdict: national-gov
+  - domain: ncsa.gov.qa
+    kind: official
+    example_url: https://ncsa.gov.qa/en/pages/personal-data-privacy-personal-data-privacy-protection-law
+    name: Personal Data & Privacy Protection Law
+    found_by: Qatar personal data protection authority official website
+    verdict: national-gov
+  - domain: assurance.ncsa.gov.qa
+    kind: official
+    example_url: https://assurance.ncsa.gov.qa/en/privacy
+    name: Ncsa
+    found_by: Qatar personal data protection authority official website
+    verdict: national-gov
+  - domain: moci.gov.qa
+    kind: official
+    example_url: https://www.moci.gov.qa/en/about-the-ministry/departments/departments-under-the-assistant-deputy-of-consumer-affairs/the-competition-protection-department/
+    name: The Competition Protection Department – Ministry of Commerce and Industry
+    found_by: Qatar competition authority official website
+    verdict: national-gov
+  - domain: cra.gov.qa
+    kind: official
+    example_url: https://www.cra.gov.qa/-/media/Feature/Publication/Competition-Policy.ashx
+    name: The Competition Policy comprises the Statement of ...
+    found_by: Qatar competition authority official website
+    verdict: national-gov
+  - domain: caa.gov.qa
+    kind: official
+    example_url: https://www.caa.gov.qa/en
+    name: Home | QCAA
+    found_by: Qatar competition authority official website
+    verdict: national-gov
+  - domain: mol.gov.qa
+    kind: official
+    example_url: https://www.mol.gov.qa/En/pages/default.aspx
+    name: Home | Ministry Of Labour
+    found_by: Qatar ministry of labour official website
+    verdict: national-gov
+  - domain: gco.gov.qa
+    kind: official
+    example_url: https://www.gco.gov.qa/en/state-of-qatar/state-institutions/council-of-ministers/members-of-the-cabinet/minister-of-labour/
+    name: Minister of Labour
+    found_by: Qatar ministry of labour official website
+    verdict: national-gov
+  - domain: ecommerce.gov.qa
+    kind: official
+    example_url: https://ecommerce.gov.qa/emerchants/government-processes/
+    name: Government Processes - MCIT Qatar’s eCommerce Portal
+    found_by: Qatar commercial registry or companies registrar official
+    verdict: national-gov
+- cc: SA
+  country: Saudi Arabia
+  sources:
+  - domain: cma.gov.sa
+    kind: official
+    example_url: https://cma.gov.sa/en/Pages/default.aspx
+    name: Capital Market Authority | Home
+    found_by: Saudi Arabia capital markets authority or securities commission official
+      website
+    verdict: national-gov
+  - domain: my.gov.sa
+    kind: official
+    example_url: https://my.gov.sa/en/agencies/17579
+    name: Capital Market Authority | National Platform (National Portal)
+    found_by: Saudi Arabia capital markets authority or securities commission official
+      website
+    verdict: national-gov
+  - domain: mc.gov.sa
+    kind: official
+    example_url: https://mc.gov.sa/en/mediacenter/News/Pages/26-11-17-01.aspx
+    name: Ministry of Commerce & Investment, Capital Market Authority and Saudi Arabian
+      Monetary Age
+    found_by: Saudi Arabia capital markets authority or securities commission official
+      website
+    verdict: national-gov
+  - domain: sdaia.gov.sa
+    kind: official
+    example_url: https://sdaia.gov.sa/en/Research/Pages/DataProtection.aspx
+    name: SDAIA | Data Protection Law
+    found_by: Saudi Arabia personal data protection authority official website
+    verdict: national-gov
+  - domain: dgp.sdaia.gov.sa
+    kind: official
+    example_url: https://dgp.sdaia.gov.sa/wps/portal/pdp/Registration/government/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8ziPR1dzTwMgw2MDMOcTA3MjH39TE29jY0M_I31w9EUhIZZAhUEGvl6OXoaGwQY60cRo98AB3A0IKw_Cq8Sd2MMBZhOBCvA44aC3NAIg0xPRQAsYsOH/dz/d5/L0lDUmlTUSEhL3dHa0FKRnNBLzROV3FpQSEhL2Vu/
+    name: Government organizations
+    found_by: Saudi Arabia personal data protection authority official website
+    verdict: national-gov
+  - domain: gac.gov.sa
+    kind: official
+    example_url: https://gac.gov.sa/index_en.aspx
+    name: General Authority for Competition
+    found_by: Saudi Arabia competition authority official website
+    verdict: national-gov
+  - domain: dga.gov.sa
+    kind: official
+    example_url: https://dga.gov.sa/en/node/3421
+    name: General Authority for Competition | Digital Government Authority
+    found_by: Saudi Arabia competition authority official website
+    verdict: national-gov
+  - domain: saip.gov.sa
+    kind: official
+    example_url: https://www.saip.gov.sa/en/
+    name: Saudi Authority for Intellectual Property
+    found_by: Saudi Arabia intellectual property office official website
+    verdict: national-gov
+  - domain: hrsd.gov.sa
+    kind: official
+    example_url: https://www.hrsd.gov.sa/en
+    name: The official website of the Ministry of HRSD
+    found_by: Saudi Arabia ministry of labour official website
+    verdict: national-gov
+  - domain: scr.bc.gov.sa
+    kind: official
+    example_url: https://scr.bc.gov.sa/str/search.aspx
+    name: Saudi Business Center - Unified Registry of Rights on Movable Assets
+    found_by: Saudi Arabia commercial registry or companies registrar official
+    verdict: national-gov
+- cc: EG
+  country: Egypt
+  sources:
+  - domain: sis.gov.eg
+    kind: official
+    example_url: https://sis.gov.eg/en/egypt/system-of-government/regulatory-authorities/central-bank-of-egypt/
+    name: Central Bank of Egypt
+    found_by: Egypt central bank official website
+    verdict: national-gov
+  - domain: gafi.gov.eg
+    kind: official
+    example_url: https://www.gafi.gov.eg/English/StartaBusiness/Pages/Business-Facts.aspx
+    name: Gafi- Business Facts
+    found_by: Egypt capital markets authority or securities commission official website
+    verdict: national-gov
+  - domain: fra.gov.eg
+    kind: official
+    example_url: https://fra.gov.eg/en/%D8%B3%D9%88%D9%82-%D8%A7%D9%84%D9%85%D8%A7%D9%84/
+    name: Capital Market – الهيئة العامة للرقابة المالية
+    found_by: Egypt capital markets authority or securities commission official website
+    verdict: national-gov
+  - domain: eta.gov.eg
+    kind: official
+    example_url: https://www.eta.gov.eg/en/home
+    name: Home Page | مصلحة الضرائب المصرية
+    found_by: Egypt tax authority official website
+    verdict: national-gov
+  - domain: rta.gov.eg
+    kind: official
+    example_url: https://www.rta.gov.eg/en/related-sites
+    name: Related sites | RTA
+    found_by: Egypt tax authority official website
+    verdict: national-gov
+  - domain: mof.gov.eg
+    kind: official
+    example_url: https://mof.gov.eg/en/posts/projects/600f07b8804b06000713f352/Tax-System-Development
+    name: Tax System Development
+    found_by: Egypt tax authority official website
+    verdict: national-gov
+  - domain: egypt.gov.eg
+    kind: official
+    example_url: https://www.egypt.gov.eg/english/laws/tax/default.aspx
+    name: Egypt’s Government Services Portal - Laws and Constitution
+    found_by: Egypt tax authority official website
+    verdict: national-gov
+  - domain: egypo.gov.eg
+    kind: official
+    example_url: http://www.egypo.gov.eg/default.aspx?lang=en
+    name: Egyption Patent Office
+    found_by: Egypt intellectual property office official website
+    verdict: national-gov
+  - domain: wipo.int
+    kind: aggregator
+    example_url: https://www.wipo.int/directory/en/contact.jsp?country_id=53&type=ADMIN_IP
+    name: 'Contact Information: Egypt'
+    found_by: Egypt intellectual property office official website
+    verdict: aggregator
+  - domain: labour.gov.eg
+    kind: official
+    example_url: https://www.labour.gov.eg/en/
+    name: Home
+    found_by: Egypt ministry of labour official website
+    verdict: national-gov
+  - domain: manpower.gov.eg
+    kind: official
+    example_url: https://www.manpower.gov.eg/index-e.html
+    name: MINISTRY OF MANPOWER
+    found_by: Egypt ministry of labour official website
+    verdict: national-gov
+  - domain: presidency.eg
+    kind: official
+    example_url: https://www.presidency.eg/en/%D8%A7%D9%84%D8%B1%D8%A6%D8%A7%D8%B3%D8%A9/%D8%A5%D9%86%D8%AC%D8%A7%D8%B2%D8%A7%D8%AA-%D9%85%D8%B5%D8%B1-%D9%81%D9%8A-%D8%AC%D9%85%D9%8A%D8%B9-%D8%A7%D9%84%D9%85%D8%AC%D8%A7%D9%84%D8%A7%D8%AA-%D9%81%D9%8A-%D8%A7%D9%84%D9%81%D8%AA%D8%B1%D8%A9-%D9%85%D9%86-2014-%D8%A5%D9%84%D9%89-2021/%D9%85%D8%AD%D9%88%D8%B1-%D8%A8%D9%86%D8%A7%D8%A1-%D8%A7%D9%84%D8%A5%D9%86%D8%B3%D8%A7%D9%86/%D9%88%D8%B2%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%82%D9%88%D9%89-%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D9%84%D8%A9/
+    name: Ministry of Manpower
+    found_by: Egypt ministry of labour official website
+    verdict: national
+  - domain: goeic.gov.eg
+    kind: official
+    example_url: https://www.goeic.gov.eg/en/search
+    name: GOEIC | WebsSite Title
+    found_by: Egypt commercial registry or companies registrar official
+    verdict: national-gov
+- cc: IQ
+  country: Iraq
+  sources:
+  - domain: isc.gov.iq
+    kind: official
+    example_url: https://www.isc.gov.iq/en
+    name: Iraqi Securities Commission
+    found_by: Iraq capital markets authority or securities commission official website
+    verdict: national-gov
+  - domain: csd.gov.iq
+    kind: official
+    example_url: https://csd.gov.iq/en/home-en/
+    name: مركز ايداع الاوراق المالية العراقي – Iraqi CSD
+    found_by: Iraq capital markets authority or securities commission official website
+    verdict: national-gov
+  - domain: mof.gov.iq
+    kind: official
+    example_url: https://mof.gov.iq/en/General-Tax-Authority.aspx
+    name: General Tax Authority | IMOF
+    found_by: Iraq tax authority official website
+    verdict: national-gov
+  - domain: wipo.int
+    kind: aggregator
+    example_url: https://www.wipo.int/directory/en/details.jsp?country_code=IQ
+    name: 'Information by Country: Iraq'
+    found_by: Iraq intellectual property office official website
+    verdict: aggregator
+- cc: JO
+  country: Jordan
+  sources:
+  - domain: cbj.gov.jo
+    kind: official
+    example_url: https://www.cbj.gov.jo/default/en
+    name: Home Page - Central Bank of Jordan
+    found_by: Jordan central bank official website
+    verdict: national-gov
+  - domain: jsc.gov.jo
+    kind: official
+    example_url: https://jsc.gov.jo/Default/en
+    name: Jordan Securities Commission - Amman
+    found_by: Jordan capital markets authority or securities commission official website
+    verdict: national-gov
+  - domain: form.jordan.gov.jo
+    kind: official
+    example_url: https://form.jordan.gov.jo/wps/portal/Home/GovernmentEntities/Agencies/Agency/Jordan%20Securities%20Commission?nameEntity=Jordan+Securities+Commission&entityType=otherEntity
+    name: Jordan Securities Commission
+    found_by: Jordan capital markets authority or securities commission official website
+    verdict: national-gov
+  - domain: portal.jordan.gov.jo
+    kind: official
+    example_url: https://portal.jordan.gov.jo/wps/portal/Home/GovernmentEntities/Ministries/Ministry/Ministry%20of%20Finance/Income%20and%20Sales%20Tax%20Department/!ut/p/z0/fcxRCoJAEIDhq6wHiBGx3hczUdzAVcj2JQZdbUhnRZeo2-cJevzh4wcDLRjGN43oyTFOe9_N6SHjtDmGmcyrSMehLK9JmpW6qHQEtWUowPxH-yVaVaJGMAv654F4cNAqYtr8-hVuEBdi5M5Cm3PnZiuQe1HjZDfR4Eec7YKrny17WF7ZTcog-AEozgK2/
+    name: Income and Sales Tax Department
+    found_by: Jordan tax authority official website
+    verdict: national-gov
+  - domain: modee.gov.jo
+    kind: official
+    example_url: https://www.modee.gov.jo/ebv4.0/root_storage/en/eb_list_page/pdpl.pdf
+    name: Personal Data Protection Law No. (24) of 2023 ( قانـــــــون رقــــــــم24
+    found_by: Jordan personal data protection authority official website
+    verdict: national-gov
+  - domain: wipo.int
+    kind: aggregator
+    example_url: https://www.wipo.int/directory/en/contact.jsp?country_id=86&type=ADMIN_IP
+    name: 'Contact Information: Jordan'
+    found_by: Jordan intellectual property office official website
+    verdict: aggregator
+  - domain: mol.gov.jo
+    kind: official
+    example_url: https://mol.gov.jo/Default/EN/
+    name: Home Page - Ministry of labour
+    found_by: Jordan ministry of labour official website
+    verdict: national-gov
+- cc: LB
+  country: Lebanon
+  sources:
+  - domain: bdl.gov.lb
+    kind: official
+    example_url: https://www.bdl.gov.lb/
+    name: Banque Du Liban - Central Bank of Lebanon
+    found_by: Lebanon central bank official website
+    verdict: national-gov
+  - domain: bccl.gov.lb
+    kind: official
+    example_url: https://bccl.gov.lb/
+    name: Banking Control Commission of Lebanon – BCCL Official Website
+    found_by: Lebanon central bank official website
+    verdict: national-gov
+  - domain: cma.gov.lb
+    kind: official
+    example_url: https://www.cma.gov.lb/
+    name: Home - CMA
+    found_by: Lebanon capital markets authority or securities commission official
+      website
+    verdict: national-gov
+  - domain: finance.gov.lb
+    kind: official
+    example_url: https://www.finance.gov.lb/en-us/Taxation/Na
+    name: Ministry Of Finance
+    found_by: Lebanon tax authority official website
+    verdict: national-gov
+  - domain: wipo.int
+    kind: aggregator
+    example_url: https://www.wipo.int/members/en/contact.jsp?country_id=99
+    name: 'Contact Information: Lebanon'
+    found_by: Lebanon intellectual property office official website
+    verdict: aggregator
+  - domain: labor.gov.lb
+    kind: official
+    example_url: https://www.labor.gov.lb/
+    name: وزارة العمل | الصفحة الرئيسية
+    found_by: Lebanon ministry of labour official website
+    verdict: national-gov
+  - domain: nclw.gov.lb
+    kind: official
+    example_url: https://nclw.gov.lb/en/team/ministry-of-labor/
+    name: Ministry of Labor - NCLW
+    found_by: Lebanon ministry of labour official website
+    verdict: national-gov
+  - domain: dawlati.gov.lb
+    kind: official
+    example_url: http://www.dawlati.gov.lb/en/directory-detail/-/asset_publisher/x28bFmDP0Kyx/content/ministry-of-labor
+    name: Ministry of Labor - Directory Details - DAWLATI
+    found_by: Lebanon ministry of labour official website
+    verdict: national-gov
+- cc: PS
+  country: Palestine
+  sources:
+  - domain: pcma.ps
+    kind: official
+    example_url: https://www.pcma.ps/en/home-3/
+    name: PCMA – PCMA Official Website
+    found_by: Palestine capital markets authority or securities commission official
+      website
+    verdict: national
+  - domain: pcbs.gov.ps
+    kind: official
+    example_url: https://www.pcbs.gov.ps/Document/pdf/privacy-policy-english.pdf
+    name: State of Palestine Palestinian Central Bureau of Statistics ( ...
+    found_by: Palestine personal data protection authority official website
+    verdict: national-gov
+  - domain: wipo.int
+    kind: aggregator
+    example_url: https://www.wipo.int/directory/en/details.jsp?country_code=PS
+    name: 'Information by Country: Palestine'
+    found_by: Palestine intellectual property office official website
+    verdict: aggregator
+  - domain: palbusiness.gov.ps
+    kind: official
+    example_url: https://palbusiness.gov.ps/?lng=en
+    name: eRegistrations - Homepage
+    found_by: Palestine commercial registry or companies registrar official
+    verdict: national-gov
+- cc: SY
+  country: Syria
+  sources:
+  - domain: cb.gov.sy
+    kind: official
+    example_url: https://cb.gov.sy/index.php?lang=2
+    name: Central Bank of Syria - Damascus - مصرف سورية المركزي
+    found_by: Syria central bank official website
+    verdict: national-gov
+  - domain: wipo.int
+    kind: aggregator
+    example_url: https://www.wipo.int/wipolex/en/legislation/details/10789
+    name: Law No. 7/2008 on Competition Protection and Prevention of Monopoly, Syrian
+      Arab Republic,
+    found_by: Syria competition authority official website
+    verdict: aggregator
+- cc: DZ
+  country: Algeria
+  sources:
+  - domain: mtess.gov.dz
+    kind: official
+    example_url: https://www.mtess.gov.dz/en/
+    name: Ministry of Labour, Employment and Social Security
+    found_by: Algeria ministry of labour official website
+    verdict: national-gov
+- cc: LY
+  country: Libya
+  sources:
+  - domain: cbl.gov.ly
+    kind: official
+    example_url: https://cbl.gov.ly/en/
+    name: The Central Bank of Libya - The Central Bank of Libya
+    found_by: Libya central bank official website
+    verdict: national-gov
+  - domain: lcma.gov.ly
+    kind: official
+    example_url: https://lcma.gov.ly/about/
+    name: عن الهيئة – LCMA
+    found_by: Libya capital markets authority or securities commission official website
+    verdict: national-gov
+  - domain: ejraat.gov.ly
+    kind: official
+    example_url: https://ejraat.gov.ly/?l=en
+    name: Libya
+    found_by: Libya tax authority official website
+    verdict: national-gov
+  - domain: gia.gov.ly
+    kind: official
+    example_url: https://www.gia.gov.ly/en/gia-en/
+    name: Home - GIA
+    found_by: Libya competition authority official website
+    verdict: national-gov
+  - domain: lana.gov.ly
+    kind: official
+    example_url: https://lana.gov.ly/post.php?lang=en&id=351958
+    name: Libyan News Agency - Launch of the unified digital system for chambers of
+      commerce
+    found_by: Libya competition authority official website
+    verdict: national-gov
+  - domain: wipo.int
+    kind: aggregator
+    example_url: https://www.wipo.int/directory/en/details.jsp?country_code=LY
+    name: 'Information by Country: Libya'
+    found_by: Libya intellectual property office official website
+    verdict: aggregator
+  - domain: labour.gov.ly
+    kind: official
+    example_url: https://labour.gov.ly/
+    name: وزارة العمل و التأهيل
+    found_by: Libya ministry of labour official website
+    verdict: national-gov
+- cc: MA
+  country: Morocco
+  sources:
+  - domain: tax.gov.ma
+    kind: official
+    example_url: https://www.tax.gov.ma/wps/portal/DGI-Ang/Dgi-Internet-Ang/Moroccan-tax-system
+    name: Morocco Tax Authority
+    found_by: Morocco tax authority official website
+    verdict: national-gov
+  - domain: miepeec.gov.ma
+    kind: official
+    example_url: https://miepeec.gov.ma/?lang=en
+    name: MIEPEEC – Ministère de l’inclusion économique’ de la Petite entreprise,
+      de l,Emploi et des
+    found_by: Morocco ministry of labour official website
+    verdict: national-gov
+  - domain: rnesm.justice.gov.ma
+    kind: official
+    example_url: https://rnesm.justice.gov.ma/public/howto.aspx?lang=en-US
+    name: Morocco Ministry of Justice - National Collateral Registry
+    found_by: Morocco commercial registry or companies registrar official
+    verdict: national-gov
+  - domain: mcinet.gov.ma
+    kind: official
+    example_url: https://www.mcinet.gov.ma/en/content/ompic
+    name: OMPIC | Ministère de l’Industrie et du Commerce
+    found_by: Morocco commercial registry or companies registrar official
+    verdict: national-gov
+- cc: MR
+  country: Mauritania
+  sources:
+  - domain: wipo.int
+    kind: aggregator
+    example_url: https://www.wipo.int/en/web/country-profiles/MR
+    name: 'Explore IP Landscape: Mauritania'
+    found_by: Mauritania intellectual property office official website
+    verdict: aggregator
+- cc: TN
+  country: Tunisia
+  sources:
+  - domain: bct.gov.tn
+    kind: official
+    example_url: https://www.bct.gov.tn/bct/siteprod/index.jsp?la=AN
+    name: Central Bank of Tunisia, Home
+    found_by: Tunisia central bank official website
+    verdict: national-gov
+  - domain: tia.gov.tn
+    kind: official
+    example_url: https://www.tia.gov.tn/en
+    name: TIA - Tunisia Investment Authority
+    found_by: Tunisia capital markets authority or securities commission official
+      website
+    verdict: national-gov
+  - domain: wipo.int
+    kind: aggregator
+    example_url: https://www.wipo.int/members/en/details.jsp?country_id=171
+    name: Country IP Profiles
+    found_by: Tunisia intellectual property office official website
+    verdict: aggregator
+  - domain: emploi.gov.tn
+    kind: official
+    example_url: http://www.emploi.gov.tn/index.php?L=1&id=9
+    name: Useful links – Employment Tunisia, Ministry for the Employment and the Professional
+      Insert
+    found_by: Tunisia ministry of labour official website
+    verdict: national-gov
+  - domain: guide.tia.gov.tn
+    kind: official
+    example_url: https://guide.tia.gov.tn/en/tunisian_labor_law
+    name: Tunisian labour law
+    found_by: Tunisia ministry of labour official website
+    verdict: national-gov
+- cc: YE
+  country: Yemen
+  sources:
+  - domain: centralbank.gov.ye
+    kind: official
+    example_url: https://www.centralbank.gov.ye/Home/index
+    name: Central Bank Of Yemen
+    found_by: Yemen central bank official website
+    verdict: national-gov
+  - domain: nsw.gov.ye
+    kind: official
+    example_url: https://nsw.gov.ye/en
+    name: مركز النافذة الواحدة
+    found_by: Yemen capital markets authority or securities commission official website
+    verdict: national-gov
+  - domain: wipo.int
+    kind: aggregator
+    example_url: https://www.wipo.int/members/en/details.jsp?country_id=188
+    name: 'Information by Country: Yemen'
+    found_by: Yemen intellectual property office official website
+    verdict: aggregator
+- cc: SD
+  country: Sudan
+  sources:
+  - domain: cbos.gov.sd
+    kind: official
+    example_url: https://cbos.gov.sd/en
+    name: Central Bank of Sudan
+    found_by: Sudan central bank official website
+    verdict: national-gov
+  - domain: fma.gov.sd
+    kind: official
+    example_url: https://fma.gov.sd/
+    name: Financial Markets Authority – Fair Financial Environment for sustainable
+      investment
+    found_by: Sudan capital markets authority or securities commission official website
+    verdict: national-gov
+  - domain: tax.gov.sd
+    kind: official
+    example_url: https://tax.gov.sd/en/home/
+    name: Home - SudanTax
+    found_by: Sudan tax authority official website
+    verdict: national-gov
+  - domain: sca.gov.sd
+    kind: official
+    example_url: https://sca.gov.sd/en/sudapass
+    name: Sudanese Cybersecurity Authority
+    found_by: Sudan personal data protection authority official website
+    verdict: national-gov
+  - domain: wipo.int
+    kind: aggregator
+    example_url: https://www.wipo.int/edocs/mdocs/africa/en/wipo_ip_hre_16/wipo_ip_hre_16_t_12_h.pdf
+    name: Republic of Sudan - Ministry of Justice Registrar General of ...
+    found_by: Sudan intellectual property office official website
+    verdict: aggregator
+- cc: SO
+  country: Somalia
+  sources:
+  - domain: centralbank.gov.so
+    kind: official
+    example_url: https://centralbank.gov.so/
+    name: Central Bank of Somalia – CBS
+    found_by: Somalia central bank official website
+    verdict: national-gov
+  - domain: revenuedirectorate.gov.so
+    kind: official
+    example_url: https://www.revenuedirectorate.gov.so/about
+    name: About | Somalia Revenue Directorate
+    found_by: Somalia tax authority official website
+    verdict: national-gov
+  - domain: mof.gov.so
+    kind: official
+    example_url: https://mof.gov.so/departments/revenue-department
+    name: REVENUE DEPARTMENT | Ministry of Finance - Somalia
+    found_by: Somalia tax authority official website
+    verdict: national-gov
+  - domain: mail.dpa.gov.so
+    kind: official
+    example_url: https://mail.dpa.gov.so/
+    name: DPA | Data Protection Authority - Somalia
+    found_by: Somalia personal data protection authority official website
+    verdict: national-gov
+  - domain: dpa.gov.so
+    kind: official
+    example_url: https://www.dpa.gov.so/
+    name: Somali Data Protection Authority
+    found_by: Somalia personal data protection authority official website
+    verdict: national-gov
+  - domain: nca.gov.so
+    kind: official
+    example_url: https://nca.gov.so/
+    name: 'National Communications Authority of Somalia: NCA'
+    found_by: Somalia competition authority official website
+    verdict: national-gov
+  - domain: wipo.int
+    kind: aggregator
+    example_url: https://www.wipo.int/directory/en/details.jsp?country_code=SO
+    name: 'Information by Country: Somalia'
+    found_by: Somalia intellectual property office official website
+    verdict: aggregator
+  - domain: molsa.gov.so
+    kind: official
+    example_url: https://molsa.gov.so/
+    name: HOME - Ministry of labour and social affairs
+    found_by: Somalia ministry of labour official website
+    verdict: national-gov
+  - domain: data.gov.so
+    kind: official
+    example_url: https://www.data.gov.so/en/organization/about/ministry-of-labor-and-social-affairs
+    name: About - Ministry of Labor and Social Affairs - Organizations - Somalia Open
+      Government Ini
+    found_by: Somalia ministry of labour official website
+    verdict: national-gov
+  - domain: moci.gov.so
+    kind: official
+    example_url: https://moci.gov.so/licensing-and-business-registration/
+    name: Licensing and Business Registration - Moci
+    found_by: Somalia commercial registry or companies registrar official
+    verdict: national-gov
+- cc: DJ
+  country: Djibouti
+  sources:
+  - domain: dpfza.gov.dj
+    kind: official
+    example_url: https://dpfza.gov.dj/
+    name: Home | DPFZA
+    found_by: Djibouti competition authority official website
+    verdict: national-gov
+  - domain: wipo.int
+    kind: aggregator
+    example_url: https://www.wipo.int/directory/en/details.jsp?country_code=DJ
+    name: 'Information by Country: Djibouti'
+    found_by: Djibouti intellectual property office official website
+    verdict: aggregator
+- cc: KM
+  country: Comoros
+  sources:
+  - domain: wipo.int
+    kind: aggregator
+    example_url: https://www.wipo.int/members/en/contact.jsp?country_id=92
+    name: 'Contact Information: Comoros'
+    found_by: Comoros intellectual property office official website
+    verdict: aggregator
+- cc: IR
+  country: Iran
+  sources:
+  - domain: milan.mfa.gov.ir
+    kind: official
+    example_url: https://milan.mfa.gov.ir/files/enMilan/newspics/1444841873_139904022011.pdf
+    name: Iran Capital Market Securities and Exchange Organization of Iran
+    found_by: Iran capital markets authority or securities commission official website
+    verdict: national-gov
+  - domain: wipo.int
+    kind: aggregator
+    example_url: https://www.wipo.int/directory/en/details.jsp?country_code=IR
+    name: 'Information by Country: Iran (Islamic Republic of)'
+    found_by: Iran competition authority official website
+    verdict: aggregator
+  - domain: mcls.gov.ir
+    kind: official
+    example_url: https://www.mcls.gov.ir/en/home
+    name: Ministry of Cooperatives Labour and Social Welfare
+    found_by: Iran ministry of labour official website
+    verdict: national-gov
+- cc: IL
+  country: Israel
+  sources:
+  - domain: wipo.int
+    kind: aggregator
+    example_url: https://www.wipo.int/directory/en/details.jsp?country_code=IL
+    name: Country IP Profiles
+    found_by: Israel intellectual property office official website
+    verdict: aggregator
+- cc: TR
+  country: Turkey
+  sources:
+  - domain: tcmb.gov.tr
+    kind: official
+    example_url: https://www.tcmb.gov.tr/wps/wcm/connect/en/tcmb+en
+    name: Central Bank of the Republic of Türkiye
+    found_by: Turkey central bank official website
+    verdict: national-gov
+  - domain: cmb.gov.tr
+    kind: official
+    example_url: https://cmb.gov.tr/
+    name: Capital Markets Board of Türkiye
+    found_by: Turkey capital markets authority or securities commission official website
+    verdict: national-gov
+  - domain: cbfo.gov.tr
+    kind: official
+    example_url: https://www.cbfo.gov.tr/en/capital-markets/capital-markets-board-turkey
+    name: Capital Markets Board of Türkiye | Finance Office of the Presidency of Türkiye
+    found_by: Turkey capital markets authority or securities commission official website
+    verdict: national-gov
+  - domain: en-vdk.hmb.gov.tr
+    kind: official
+    example_url: https://en-vdk.hmb.gov.tr/
+    name: Tax Inspection Board - English
+    found_by: Turkey tax authority official website
+    verdict: national-gov
+  - domain: turkpatent.gov.tr
+    kind: official
+    example_url: https://www.turkpatent.gov.tr/en
+    name: TÜRKPATENT
+    found_by: Turkey intellectual property office official website
+    verdict: national-gov
+  - domain: csgb.gov.tr
+    kind: official
+    example_url: https://www.csgb.gov.tr/en/
+    name: T.C. Çalışma ve Sosyal Güvenlik Bakanlığı | Anasayfa
+    found_by: Turkey ministry of labour official website
+    verdict: national-gov
+  - domain: tccb.gov.tr
+    kind: official
+    example_url: https://www.tccb.gov.tr/en/cabinet/minister-of-labor-and-social-security
+    name: 'Presidency Of The Republic Of Türkiye : Presidential Cabinet'
+    found_by: Turkey ministry of labour official website
+    verdict: national-gov

@@ -1,0 +1,370 @@
+jurisdictions:
+- cc: AE
+  country: United Arab Emirates
+  sources:
+  - domain: judiciariesworldwide.fjc.gov
+    kind: official
+    example_url: https://judiciariesworldwide.fjc.gov/country-profile/united-arab-emirates
+    name: United Arab Emirates | Judiciaries Worldwide
+    found_by: United Arab Emirates supreme court or court of cassation official website
+    verdict: us-gov
+- cc: KW
+  country: Kuwait
+  sources:
+  - domain: congress.gov
+    kind: official
+    example_url: https://www.congress.gov/crs-product/R47390
+    name: 'Kuwait: Issues for the 119th Congress | Congress.gov | Library of Congress'
+    found_by: Kuwait consolidated legislation portal government
+    verdict: us-gov
+  - domain: lawandjusticegroup.com
+    kind: official
+    example_url: https://www.lawandjusticegroup.com/courts-clerks-services-ministry-of-justice-kuwait/
+    name: Courts Clerks Services – Ministry of Justice – Kuwait – Law & Justice Group
+      | Attorney FAT
+    found_by: Kuwait supreme court or court of cassation official website
+    verdict: wrong-or-foreign(.com)
+  - domain: moj.gov.bh
+    kind: official
+    example_url: https://www.moj.gov.bh/en/contact-us/ministry-contacts
+    name: Ministry of Justice, Islamic Affairs and Waqf
+    found_by: Kuwait ministry of justice legislation database official
+    verdict: wrong-or-foreign(.bh)
+- cc: SA
+  country: Saudi Arabia
+  sources:
+  - domain: saudigazette.com.sa
+    kind: official
+    example_url: https://saudigazette.com.sa/
+    name: Home - Latest News from Saudi Arabia and the World
+    found_by: Saudi Arabia official gazette website
+    verdict: commercial-under-cc(.com.sa)
+- cc: EG
+  country: Egypt
+  sources:
+  - domain: egyptian-gazette.com
+    kind: official
+    example_url: https://egyptian-gazette.com/
+    name: Egyptian Gazette - Oldest daily Newspaper in the middle east
+    found_by: Egypt official gazette website
+    verdict: wrong-or-foreign(.com)
+  - domain: westvirginiacourtrecords.us
+    kind: official
+    example_url: https://westvirginiacourtrecords.us/supreme-court
+    name: How Does The West Virginia Supreme Court Work? | WestVirginiaCourtRecords.us
+    found_by: Egypt supreme court or court of cassation official website
+    verdict: us-noise
+- cc: IQ
+  country: Iraq
+  sources:
+  - domain: parliament.krd
+    kind: official
+    example_url: https://www.parliament.krd/english/parliament-business/legislation/
+    name: Legislation | Kurdistan Parliament - Iraq
+    found_by: Iraq consolidated legislation portal government
+    verdict: wrong-or-foreign(.krd)
+  - domain: congress.gov
+    kind: official
+    example_url: https://www.congress.gov/bill/110th-congress/house-bill/744/text
+    name: 'Text - H.R.744 - 110th Congress (2007-2008): Iraq Policy Revitalization
+      and Congressional '
+    found_by: Iraq consolidated legislation portal government
+    verdict: us-gov
+  - domain: fjc.gov
+    kind: official
+    example_url: https://www.fjc.gov/content/iraq
+    name: IRAQ | Federal Judicial Center
+    found_by: Iraq supreme court or court of cassation official website
+    verdict: us-gov
+  - domain: justice.gov
+    kind: official
+    example_url: https://www.justice.gov/archive/iraq/index.html
+    name: 'USDOJ: Department of Justice Activities in Iraq Homepage'
+    found_by: Iraq ministry of justice legislation database official
+    verdict: us-gov
+- cc: JO
+  country: Jordan
+  sources:
+  - domain: state.gov
+    kind: official
+    example_url: https://www.state.gov/reports/2025-investment-climate-statements/jordan
+    name: Jordan - United States Department of State
+    found_by: Jordan consolidated legislation portal government
+    verdict: us-gov
+  - domain: jo.usembassy.gov
+    kind: official
+    example_url: https://jo.usembassy.gov/jordanian-legal-system/
+    name: Jordanian Legal System - U.S. Embassy in Jordan
+    found_by: Jordan supreme court or court of cassation official website
+    verdict: us-gov
+  - domain: justice.gov
+    kind: official
+    example_url: https://www.justice.gov/osg/brief/jordan-v-united-states-0
+    name: Office of the Solicitor General | Jordan v. United States | United States
+      Department of Ju
+    found_by: Jordan supreme court or court of cassation official website
+    verdict: us-gov
+- cc: LB
+  country: Lebanon
+  sources:
+  - domain: congress.gov
+    kind: official
+    example_url: https://www.congress.gov/crs-product/IF11617
+    name: Lebanon | Congress.gov | Library of Congress
+    found_by: Lebanon consolidated legislation portal government
+    verdict: us-gov
+  - domain: judiciariesworldwide.fjc.gov
+    kind: official
+    example_url: https://judiciariesworldwide.fjc.gov/country-profile/lebanon
+    name: Lebanon | Judiciaries Worldwide - Federal Judicial Center |
+    found_by: Lebanon supreme court or court of cassation official website
+    verdict: us-gov
+  - domain: justice.gov
+    kind: official
+    example_url: https://www.justice.gov/eoir/country/lebanon-contents
+    name: Executive Office for Immigration Review | Lebanese Republic
+    found_by: Lebanon ministry of justice legislation database official
+    verdict: us-gov
+- cc: PS
+  country: Palestine
+  sources:
+  - domain: palestinegazette.com
+    kind: official
+    example_url: https://palestinegazette.com/about-us
+    name: About Us - The Palestine Gazette | Connecting Palestine Globally
+    found_by: Palestine official gazette website
+    verdict: wrong-or-foreign(.com)
+  - domain: nla.gov.au
+    kind: official
+    example_url: https://nla.gov.au/nla.cat-vn3409206
+    name: 'The Palestine gazette : official gazette of the government of Palestine
+      | Catalogue | Nati'
+    found_by: Palestine official gazette website
+    verdict: wrong-or-foreign(.au)
+  - domain: legislation.palestinelegal.org
+    kind: official
+    example_url: https://legislation.palestinelegal.org/
+    name: Home - Legislation
+    found_by: Palestine consolidated legislation portal government
+    verdict: wrong-or-foreign(.org)
+- cc: SY
+  country: Syria
+  sources:
+  - domain: congress.gov
+    kind: official
+    example_url: https://www.congress.gov/crs-product/RL33487
+    name: 'Syria: Transition and U.S. Policy | Congress.gov | Library of Congress'
+    found_by: Syria consolidated legislation portal government
+    verdict: us-gov
+  - domain: justice.gov
+    kind: official
+    example_url: https://www.justice.gov/eoir/country/syria-contents
+    name: Executive Office for Immigration Review | Syrian Arab Republic
+    found_by: Syria ministry of justice legislation database official
+    verdict: us-gov
+- cc: DZ
+  country: Algeria
+  sources:
+  - domain: gazettes.africa
+    kind: official
+    example_url: https://gazettes.africa/gazettes/dz/2022
+    name: Algeria Gazettes 2022 - Gazettes.Africa
+    found_by: Algeria official gazette website
+    verdict: wrong-or-foreign(.africa)
+  - domain: algeriagazette.com
+    kind: official
+    example_url: https://algeriagazette.com/
+    name: Algeria Gazette
+    found_by: Algeria official gazette website
+    verdict: wrong-or-foreign(.com)
+  - domain: congress.gov
+    kind: official
+    example_url: https://www.congress.gov/crs-product/IF11116
+    name: Algeria | Congress.gov | Library of Congress
+    found_by: Algeria consolidated legislation portal government
+    verdict: us-gov
+- cc: MA
+  country: Morocco
+  sources:
+  - domain: instabrightgazette.com
+    kind: official
+    example_url: https://www.instabrightgazette.com/store/products/sabi-ni-ate-k
+    name: Sabi ni Ate K
+    found_by: Morocco official gazette website
+    verdict: wrong-or-foreign(.com)
+- cc: MR
+  country: Mauritania
+  sources:
+  - domain: state.gov
+    kind: official
+    example_url: https://www.state.gov/reports/2025-investment-climate-statements/mauritania
+    name: Mauritania - United States Department of State
+    found_by: Mauritania official gazette website
+    verdict: us-gov
+  - domain: justice.gov
+    kind: official
+    example_url: https://www.justice.gov/eoir/country/mauritania-contents
+    name: Executive Office for Immigration Review | Islamic Republic of Mauritania
+    found_by: Mauritania ministry of justice legislation database official
+    verdict: us-gov
+- cc: TN
+  country: Tunisia
+  sources:
+  - domain: justice.gov
+    kind: official
+    example_url: https://www.justice.gov/eoir/tunisia-contents
+    name: Executive Office for Immigration Review | Tunisia Contents
+    found_by: Tunisia ministry of justice legislation database official
+    verdict: us-gov
+  - domain: justice.gov.et
+    kind: official
+    example_url: https://justice.gov.et/en/resource-tag/tunisia/
+    name: tunisia - Ministry of Justice
+    found_by: Tunisia ministry of justice legislation database official
+    verdict: wrong-or-foreign(.et)
+- cc: YE
+  country: Yemen
+  sources:
+  - domain: congress.gov
+    kind: official
+    example_url: https://www.congress.gov/crs-product/R48942
+    name: 'Yemen: In Brief | Congress.gov | Library of Congress'
+    found_by: Yemen consolidated legislation portal government
+    verdict: us-gov
+  - domain: justice.gov
+    kind: official
+    example_url: https://www.justice.gov/eoir/country/yemen-topical
+    name: Executive Office for Immigration Review | Yemen
+    found_by: Yemen ministry of justice legislation database official
+    verdict: us-gov
+- cc: SD
+  country: Sudan
+  sources:
+  - domain: mojca.gov.ss
+    kind: official
+    example_url: https://mojca.gov.ss/directorate-of-legislation-gazette-publication-and-printing/
+    name: Directorate of Legislation, Gazette, Publication and Printing – Ministry
+      of Justice and Co
+    found_by: Sudan official gazette website
+    verdict: wrong-or-foreign(.ss)
+  - domain: freesudangazette.com
+    kind: official
+    example_url: https://freesudangazette.com/
+    name: Free Sudan Gazette – Free Sudan Gazette is an independent, open-source digital
+      media platf
+    found_by: Sudan official gazette website
+    verdict: wrong-or-foreign(.com)
+  - domain: supremecourt.gov
+    kind: official
+    example_url: https://www.supremecourt.gov/opinions/24pdf/24a1153_l5gm.pdf
+    name: SUPREME COURT OF THE UNITED STATES
+    found_by: Sudan supreme court or court of cassation official website
+    verdict: us-gov
+  - domain: justice.gov.et
+    kind: official
+    example_url: https://justice.gov.et/en/resource-tag/south-sudan/
+    name: south sudan - Ministry of Justice
+    found_by: Sudan ministry of justice legislation database official
+    verdict: wrong-or-foreign(.et)
+- cc: SO
+  country: Somalia
+  sources:
+  - domain: somaliagazette.com
+    kind: official
+    example_url: https://somaliagazette.com/
+    name: Somalia Gazette
+    found_by: Somalia official gazette website
+    verdict: wrong-or-foreign(.com)
+  - domain: gazettes.africa
+    kind: official
+    example_url: https://gazettes.africa/gazettes/so/
+    name: Somalia Gazettes - Gazettes.Africa
+    found_by: Somalia official gazette website
+    verdict: wrong-or-foreign(.africa)
+  - domain: congress.gov
+    kind: official
+    example_url: https://www.congress.gov/crs-product/IF10155
+    name: Somalia | Congress.gov | Library of Congress
+    found_by: Somalia consolidated legislation portal government
+    verdict: us-gov
+  - domain: moj.govsomaliland.org
+    kind: official
+    example_url: https://moj.govsomaliland.org/
+    name: Ministry of Justice
+    found_by: Somalia ministry of justice legislation database official
+    verdict: wrong-or-foreign(.org)
+- cc: DJ
+  country: Djibouti
+  sources:
+  - domain: saudigazette.com.sa
+    kind: official
+    example_url: https://saudigazette.com.sa/article/584044
+    name: SFD to finance Djibouti infrastructure projects - Saudi Gazette
+    found_by: Djibouti official gazette website
+    verdict: wrong-or-foreign(.sa)
+  - domain: congress.gov
+    kind: official
+    example_url: https://www.congress.gov/crs-product/IF11303
+    name: Djibouti | Congress.gov | Library of Congress
+    found_by: Djibouti consolidated legislation portal government
+    verdict: us-gov
+  - domain: justice.gov
+    kind: official
+    example_url: https://www.justice.gov/eoir/country/djibouti-topical
+    name: Executive Office for Immigration Review | Djibouti
+    found_by: Djibouti consolidated legislation portal government
+    verdict: us-gov
+- cc: KM
+  country: Comoros
+  sources:
+  - domain: lagazettedescomores.com
+    kind: official
+    example_url: https://lagazettedescomores.com/
+    name: La gazette des Comores
+    found_by: Comoros official gazette website
+    verdict: wrong-or-foreign(.com)
+  - domain: comorosgazette.com
+    kind: official
+    example_url: https://comorosgazette.com/
+    name: Comoros Gazette
+    found_by: Comoros official gazette website
+    verdict: wrong-or-foreign(.com)
+- cc: IR
+  country: Iran
+  sources:
+  - domain: pressgazette.co.uk
+    kind: official
+    example_url: https://pressgazette.co.uk/subject/iran/
+    name: Iran Archives - Press Gazette
+    found_by: Iran official gazette website
+    verdict: wrong-or-foreign(.uk)
+  - domain: ojp.gov
+    kind: official
+    example_url: https://www.ojp.gov/ncjrs/virtual-library/abstracts/justice-system-islamic-republic-iran
+    name: JUSTICE SYSTEM OF THE ISLAMIC REPUBLIC OF IRAN | Office of Justice Programs
+    found_by: Iran ministry of justice legislation database official
+    verdict: us-gov
+- cc: IL
+  country: Israel
+  sources:
+  - domain: fjc.gov
+    kind: official
+    example_url: https://www.fjc.gov/content/israel
+    name: ISRAEL | Federal Judicial Center
+    found_by: Israel supreme court or court of cassation official website
+    verdict: us-gov
+- cc: TR
+  country: Turkey
+  sources:
+  - domain: legislationline.org
+    kind: official
+    example_url: https://legislationline.org/T%C3%BCrkiye
+    name: Türkiye | LEGISLATIONLINE
+    found_by: Turkey consolidated legislation portal government
+    verdict: wrong-or-foreign(.org)
+  - domain: judiciariesworldwide.fjc.gov
+    kind: official
+    example_url: https://judiciariesworldwide.fjc.gov/country-profile/turkey
+    name: Turkey | Judiciaries Worldwide - Federal Judicial Center |
+    found_by: Turkey supreme court or court of cassation official website
+    verdict: us-gov

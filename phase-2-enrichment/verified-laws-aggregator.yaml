@@ -1,0 +1,210 @@
+AE:
+- law_key: constitution
+  law_name: Constitution of United Arab Emirates
+  title: United_Arab_Emirates__the - Asia - Constitute
+  official_url: https://constituteproject.org/countries/Asia/United_Arab_Emirates__the
+  source_domain: constituteproject.org
+  discovered_via: linkup_aggregator
+  verified_by: linkup_aggregator (spot-check before relying)
+  verified_at: '2026-05-22'
+  note: Authoritative aggregator (Constitute Project / WIPO Lex).
+BH:
+- law_key: constitution
+  law_name: Constitution of Bahrain
+  title: Bahrain - Asia - Constitute
+  official_url: https://constituteproject.org/countries/Asia/Bahrain
+  source_domain: constituteproject.org
+  discovered_via: linkup_aggregator
+  verified_by: linkup_aggregator (spot-check before relying)
+  verified_at: '2026-05-22'
+  note: Authoritative aggregator (Constitute Project / WIPO Lex).
+KW:
+- law_key: constitution
+  law_name: Constitution of Kuwait
+  title: Constitute - Asia - Kuwait
+  official_url: https://constituteproject.org/countries/Asia/Kuwait?lang=ar
+  source_domain: constituteproject.org
+  discovered_via: linkup_aggregator
+  verified_by: linkup_aggregator (spot-check before relying)
+  verified_at: '2026-05-22'
+  note: Authoritative aggregator (Constitute Project / WIPO Lex).
+OM:
+- law_key: constitution
+  law_name: Constitution of Oman
+  title: Oman - Asia - Constitute
+  official_url: https://constituteproject.org/countries/Asia/Oman
+  source_domain: constituteproject.org
+  discovered_via: linkup_aggregator
+  verified_by: linkup_aggregator (spot-check before relying)
+  verified_at: '2026-05-22'
+  note: Authoritative aggregator (Constitute Project / WIPO Lex).
+QA:
+- law_key: constitution
+  law_name: Constitution of Qatar
+  title: Qatar - Asia - Constitute
+  official_url: https://constituteproject.org/countries/Asia/Qatar
+  source_domain: constituteproject.org
+  discovered_via: linkup_aggregator
+  verified_by: linkup_aggregator (spot-check before relying)
+  verified_at: '2026-05-22'
+  note: Authoritative aggregator (Constitute Project / WIPO Lex).
+SA:
+- law_key: constitution
+  law_name: Constitution of Saudi Arabia
+  title: Saudi_Arabia - Asia - Constitute
+  official_url: https://constituteproject.org/countries/Asia/Saudi_Arabia?lang=en
+  source_domain: constituteproject.org
+  discovered_via: linkup_aggregator
+  verified_by: linkup_aggregator (spot-check before relying)
+  verified_at: '2026-05-22'
+  note: Authoritative aggregator (Constitute Project / WIPO Lex).
+EG:
+- law_key: constitution
+  law_name: Constitution of Egypt
+  title: Egypt - Africa - Constitute
+  official_url: https://constituteproject.org/countries/Africa/Egypt?lang=es
+  source_domain: constituteproject.org
+  discovered_via: linkup_aggregator
+  verified_by: linkup_aggregator (spot-check before relying)
+  verified_at: '2026-05-22'
+  note: Authoritative aggregator (Constitute Project / WIPO Lex).
+IQ:
+- law_key: constitution
+  law_name: Constitution of Iraq
+  title: Iraq - Asia - Constitute
+  official_url: https://constituteproject.org/countries/Asia/Iraq
+  source_domain: constituteproject.org
+  discovered_via: linkup_aggregator
+  verified_by: linkup_aggregator (spot-check before relying)
+  verified_at: '2026-05-22'
+  note: Authoritative aggregator (Constitute Project / WIPO Lex).
+JO:
+- law_key: constitution
+  law_name: Constitution of Jordan
+  title: Jordan - Asia - Constitute
+  official_url: https://constituteproject.org/countries/Asia/Jordan
+  source_domain: constituteproject.org
+  discovered_via: linkup_aggregator
+  verified_by: linkup_aggregator (spot-check before relying)
+  verified_at: '2026-05-22'
+  note: Authoritative aggregator (Constitute Project / WIPO Lex).
+LB:
+- law_key: constitution
+  law_name: Constitution of Lebanon
+  title: Constitute - Asia - Lebanon
+  official_url: https://constituteproject.org/countries/Asia/Lebanon?lang=ar
+  source_domain: constituteproject.org
+  discovered_via: linkup_aggregator
+  verified_by: linkup_aggregator (spot-check before relying)
+  verified_at: '2026-05-22'
+  note: Authoritative aggregator (Constitute Project / WIPO Lex).
+PS:
+- law_key: constitution
+  law_name: Constitution of Palestine
+  title: Palestine - Asia - Constitute
+  official_url: https://constituteproject.org/countries/Asia/Palestine
+  source_domain: constituteproject.org
+  discovered_via: linkup_aggregator
+  verified_by: linkup_aggregator (spot-check before relying)
+  verified_at: '2026-05-22'
+  note: Authoritative aggregator (Constitute Project / WIPO Lex).
+SY:
+- law_key: constitution
+  law_name: Constitution of Syria
+  title: Syrian_Arab_Republic_the - Asia - Constitute
+  official_url: https://constituteproject.org/countries/Asia/Syrian_Arab_Republic_the
+  source_domain: constituteproject.org
+  discovered_via: linkup_aggregator
+  verified_by: linkup_aggregator (spot-check before relying)
+  verified_at: '2026-05-22'
+  note: Authoritative aggregator (Constitute Project / WIPO Lex).
+DZ:
+- law_key: constitution
+  law_name: Constitution of Algeria
+  title: Algeria - Africa - Constitute
+  official_url: https://constituteproject.org/countries/Africa/Algeria
+  source_domain: constituteproject.org
+  discovered_via: linkup_aggregator
+  verified_by: linkup_aggregator (spot-check before relying)
+  verified_at: '2026-05-22'
+  note: Authoritative aggregator (Constitute Project / WIPO Lex).
+MA:
+- law_key: constitution
+  law_name: Constitution of Morocco
+  title: Constitute - Africa - Morocco
+  official_url: https://constituteproject.org/countries/Africa/Morocco?lang=ar
+  source_domain: constituteproject.org
+  discovered_via: linkup_aggregator
+  verified_by: linkup_aggregator (spot-check before relying)
+  verified_at: '2026-05-22'
+  note: Authoritative aggregator (Constitute Project / WIPO Lex).
+MR:
+- law_key: constitution
+  law_name: Constitution of Mauritania
+  title: Mauritania - Africa - Constitute
+  official_url: https://constituteproject.org/countries/Africa/Mauritania
+  source_domain: constituteproject.org
+  discovered_via: linkup_aggregator
+  verified_by: linkup_aggregator (spot-check before relying)
+  verified_at: '2026-05-22'
+  note: Authoritative aggregator (Constitute Project / WIPO Lex).
+TN:
+- law_key: constitution
+  law_name: Constitution of Tunisia
+  title: Tunisia - Africa - Constitute
+  official_url: https://constituteproject.org/countries/Africa/Tunisia
+  source_domain: constituteproject.org
+  discovered_via: linkup_aggregator
+  verified_by: linkup_aggregator (spot-check before relying)
+  verified_at: '2026-05-22'
+  note: Authoritative aggregator (Constitute Project / WIPO Lex).
+SD:
+- law_key: constitution
+  law_name: Constitution of Sudan
+  title: Sudan_the - Africa - Constitute
+  official_url: https://constituteproject.org/countries/Africa/Sudan_the
+  source_domain: constituteproject.org
+  discovered_via: linkup_aggregator
+  verified_by: linkup_aggregator (spot-check before relying)
+  verified_at: '2026-05-22'
+  note: Authoritative aggregator (Constitute Project / WIPO Lex).
+DJ:
+- law_key: constitution
+  law_name: Constitution of Djibouti
+  title: Djibouti - Africa - Constitute
+  official_url: https://constituteproject.org/countries/Africa/Djibouti
+  source_domain: constituteproject.org
+  discovered_via: linkup_aggregator
+  verified_by: linkup_aggregator (spot-check before relying)
+  verified_at: '2026-05-22'
+  note: Authoritative aggregator (Constitute Project / WIPO Lex).
+KM:
+- law_key: constitution
+  law_name: Constitution of Comoros
+  title: Comoros_the - Africa - Constitute
+  official_url: https://constituteproject.org/countries/Africa/Comoros_the
+  source_domain: constituteproject.org
+  discovered_via: linkup_aggregator
+  verified_by: linkup_aggregator (spot-check before relying)
+  verified_at: '2026-05-22'
+  note: Authoritative aggregator (Constitute Project / WIPO Lex).
+IR:
+- law_key: constitution
+  law_name: Constitution of Iran
+  title: Iran_Islamic_Rep_of_ - Asia - Constitute
+  official_url: https://constituteproject.org/countries/Asia/Iran_Islamic_Rep_of_?lang=es
+  source_domain: constituteproject.org
+  discovered_via: linkup_aggregator
+  verified_by: linkup_aggregator (spot-check before relying)
+  verified_at: '2026-05-22'
+  note: Authoritative aggregator (Constitute Project / WIPO Lex).
+TR:
+- law_key: constitution
+  law_name: Constitution of Turkey
+  title: Turkey - Asia - Constitute
+  official_url: https://constituteproject.org/countries/Asia/Turkey
+  source_domain: constituteproject.org
+  discovered_via: linkup_aggregator
+  verified_by: linkup_aggregator (spot-check before relying)
+  verified_at: '2026-05-22'
+  note: Authoritative aggregator (Constitute Project / WIPO Lex).

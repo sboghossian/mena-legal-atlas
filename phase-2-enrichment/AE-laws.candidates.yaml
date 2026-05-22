@@ -1,0 +1,261 @@
+cc: AE
+country: United Arab Emirates
+allowlist:
+- elaws.moj.gov.ae
+- uaelegislation.gov.ae
+accepted: 6
+total: 12
+laws:
+- law_key: constitution
+  law_name: Constitution / Basic Law
+  accepted: false
+  depth_used: standard
+  query: United Arab Emirates Constitution / Basic Law الدستور القانون الأساسي للحكم
+    official full text
+  discovered_at: '2026-05-22'
+  official_url: https://uaelegislation.gov.ae/en/legal/privacy-policy
+  source_domain: uaelegislation.gov.ae
+  source_name: Privacy Policy
+  snippet: The General Secretariat of the Council of Ministers has the right to take
+    the measures it deems appropriate to protect against any loss, misuse or change
+    of information on the website without the General Secretariat of the Council of
+    Minist
+  score: 1
+  relevance: 0
+  why:
+  - lawpath+2
+  - newspath-3
+  - codified+2
+  fallback_citation: No specific information about the official Constitution or Basic
+    Law of the United Arab Emirates, including its exact law number, year, or official
+    source URL, is provided in the available data.
+- law_key: civil_code
+  law_name: Civil Code
+  accepted: true
+  depth_used: standard
+  query: United Arab Emirates Civil Code القانون المدني المعاملات المدنية official
+    full text
+  discovered_at: '2026-05-22'
+  official_url: https://elaws.moj.gov.ae/UAE-MOJ_Fokeh_static/03_%D8%A7%D9%84%D8%B9%D8%AF%D8%AF%20%D8%A7%D9%84%D8%B3%D8%A7%D8%AF%D8%B3%20%D8%B9%D8%B4%D8%B1/intro/files/basic-html/page17.html
+  source_domain: elaws.moj.gov.ae
+  source_name: Page 17 - مجلة الدراسات القضائية
+  snippet: '‫المعاملات المدنية ... المعاملات المدنية رقم‬ ‫على الأنظمة والقوانين وبالعك�س‪
+    ،‬بحث من�شور‬ ‫(‪ )5‬ل�سنة ‪1985‬م المبا�شر هو القانون المدني الأردني‬ ...
+
+    ‫المعاملات المدنية الإماراتي رقم (‪ )5‬ل�سنة‬ ‫مج�ال الم�ع�ام�الت الم�ال�ي�ة ت�غ�
+    ِّل�'
+  score: 8
+  relevance: 2
+  why:
+  - rel+2
+  - codified+2
+- law_key: civil_procedure
+  law_name: Civil Procedure Code
+  accepted: false
+  depth_used: standard
+  query: United Arab Emirates Civil Procedure Code قانون أصول المحاكمات المدنية المرافعات
+    official full text
+  discovered_at: '2026-05-22'
+  official_url: https://elaws.moj.gov.ae/UAE-MOJ_CP-Ar/00_2023/00_%D8%A7%D9%84%D8%A7%D8%AD%D9%83%D8%A7%D9%85%20%D8%A7%D9%84%D8%AC%D8%B2%D8%A7%D8%A6%D9%8A%D8%A9/UAE-CP-Ar_2023-04-11_01508_Taan.html
+  source_domain: elaws.moj.gov.ae
+  source_name: '&#1575;&#1604;&#1591;&#1593;&#1606; &#1585;&#1602;&#1605; 1508 &#1604;&#1587;&#1606;&#1577;
+    2022 &#1580;&#1586;&#1575;&#'
+  snippet: 'الطعن رقم 1508 لسنة 2022 جزائي صادر بتاريخ 11 / 04 / 2023 هيئة المحكمة:
+    برئاسة السيد القاضي/أحمد عبد الله الملا " رئيس الدائرة " وعضوية السادة القضاة/محمد
+    أحمد عبد القادر والطيب عبد الغفور عبد الوهاب. 1- اعتبار الحكم المطعون فيه معيبا
+    بالخط'
+  score: 2
+  relevance: 0
+  why:
+  - codified+2
+  fallback_citation: The official Civil Procedure Code of the United Arab Emirates
+    is the Federal Decree Law promulgating the Civil Transactions Law. The exact law
+    number and year are not explicitly stated in the provided
+- law_key: penal_code
+  law_name: Penal / Criminal Code
+  accepted: true
+  depth_used: standard
+  query: United Arab Emirates Penal / Criminal Code قانون العقوبات official full text
+  discovered_at: '2026-05-22'
+  official_url: https://uaelegislation.gov.ae/ar/legislations/1526
+  source_domain: uaelegislation.gov.ae
+  source_name: تشريعات الإمارات العربية المتحدة | مرسوم بقانون بشأن مكافحة الشائعات
+    والجرائم الإلكترونية
+  snippet: "#### المادة (64) حالات عدم انتفاء المسؤولية الجزائية  \nفي تطبيق أحكام\
+    \ هذا المرسوم بقانون، لا يعد سبباً لانتفاء المسؤولية الجزائية الآتي:\n1\\. خضوع\
+    \ الشخص لواجب بموجب أي تشريع أو قاعدة قانونية أو عقد أو قاعدة للسلوك المهني تقيد\
+    \ أو تحول دون امت"
+  score: 7
+  relevance: 1
+  why:
+  - rel+1
+  - lawpath+2
+  - codified+2
+- law_key: criminal_procedure
+  law_name: Criminal Procedure Code
+  accepted: true
+  depth_used: standard
+  query: United Arab Emirates Criminal Procedure Code قانون أصول المحاكمات الجزائية
+    الإجراءات الجنائية official full text
+  discovered_at: '2026-05-22'
+  official_url: https://elaws.moj.gov.ae/UAE-MOJ_CP-Ar/00_2023/00_%D8%A7%D9%84%D8%A7%D8%AD%D9%83%D8%A7%D9%85%20%D8%A7%D9%84%D8%AC%D8%B2%D8%A7%D8%A6%D9%8A%D8%A9/UAE-CP-Ar_2023-04-11_01508_Taan.html
+  source_domain: elaws.moj.gov.ae
+  source_name: '&#1575;&#1604;&#1591;&#1593;&#1606; &#1585;&#1602;&#1605; 1508 &#1604;&#1587;&#1606;&#1577;
+    2022 &#1580;&#1586;&#1575;&#'
+  snippet: 'الطعن رقم 1508 لسنة 2022 جزائي صادر بتاريخ 11 / 04 / 2023 هيئة المحكمة:
+    برئاسة السيد القاضي/أحمد عبد الله الملا " رئيس الدائرة " وعضوية السادة القضاة/محمد
+    أحمد عبد القادر والطيب عبد الغفور عبد الوهاب. 1- اعتبار الحكم المطعون فيه معيبا
+    بالخط'
+  score: 5
+  relevance: 1
+  why:
+  - rel+1
+  - codified+2
+- law_key: commercial_code
+  law_name: Commercial Code
+  accepted: false
+  depth_used: standard
+  query: United Arab Emirates Commercial Code القانون التجاري قانون المعاملات التجارية
+    official full text
+  discovered_at: '2026-05-22'
+  official_url: https://uaelegislation.gov.ae/en/legal/privacy-policy
+  source_domain: uaelegislation.gov.ae
+  source_name: Privacy Policy
+  snippet: The General Secretariat of the Council of Ministers has the right to take
+    the measures it deems appropriate to protect against any loss, misuse or change
+    of information on the website without the General Secretariat of the Council of
+    Minist
+  score: 1
+  relevance: 0
+  why:
+  - lawpath+2
+  - newspath-3
+  - codified+2
+  fallback_citation: No specific information about the official Commercial Code of
+    the United Arab Emirates, including its exact law number, year, or official source
+    URL, is available in the provided data.
+- law_key: companies_law
+  law_name: Companies Law
+  accepted: true
+  depth_used: standard
+  query: United Arab Emirates Companies Law قانون الشركات نظام الشركات official full
+    text
+  discovered_at: '2026-05-22'
+  official_url: https://uaelegislation.gov.ae/ar/legislations/2155
+  source_domain: uaelegislation.gov.ae
+  source_name: تشريعات الإمارات العربية المتحدة | قرار مجلس الوزراء بشأن تحديد صلة
+    الشخص غير المقيم في الدولة لأغراض المرسوم بقانون اتح
+  snippet: "#### المادة (2) الصلة في الدولة  \n1\\. لأغراض الفقرة (ج) من البند (4)\
+    \ من المادة (11) من قانون ضريبة الشركات، يكون لأيّ شخص اعتباري غير مقيم صلة في\
+    \ الدولة إذا كان يحقق دخلاً من أيّ أموال غير منقولة في الدولة.\n2\\. لأغراض الفقرة\
+    \ (ج) من البند (3"
+  score: 7
+  relevance: 1
+  why:
+  - rel+1
+  - lawpath+2
+  - codified+2
+- law_key: labor_law
+  law_name: Labor Law
+  accepted: false
+  depth_used: standard
+  query: United Arab Emirates Labor Law قانون العمل نظام العمل official full text
+  discovered_at: '2026-05-22'
+  official_url: https://uaelegislation.gov.ae/ar/news?page=2
+  source_domain: uaelegislation.gov.ae
+  source_name: تشريعات الإمارات العربية المتحدة | المركز الإعلامي
+  snippet: "الدعوة مفتوحة دائماً لأصحاب الشركات والمستثمرين والفاعلين في مختلف القطاعات\
+    \ الاقتصادية في الدولة للمشاركة في مراجعة وتحديث التشريعات الاتحادية. جاء ذلك\
+    \ في لقاء تواصلي عقدته الأمانة العامة لمجلس الوزراء بالتعاون مع غرف تجارة دبي\
+    \  \nسجلت المنص"
+  score: 4
+  relevance: 0
+  why:
+  - lawpath+2
+  - codified+2
+  fallback_citation: The official Labor Law of the United Arab Emirates is available
+    on the UAE Legislation platform under the sector related to labour, residency,
+    and liberal professions. However, the exact law number an
+- law_key: personal_status
+  law_name: Personal Status / Family Law
+  accepted: true
+  depth_used: standard
+  query: United Arab Emirates Personal Status / Family Law قانون الأحوال الشخصية official
+    full text
+  discovered_at: '2026-05-22'
+  official_url: https://elaws.moj.gov.ae/UAE-MOJ_CP-Ar/00_2023/00_%D8%A7%D9%84%D8%A7%D8%AD%D9%83%D8%A7%D9%85%20%D8%A7%D9%84%D8%AC%D8%B2%D8%A7%D8%A6%D9%8A%D8%A9/UAE-CP-Ar_2023-02-28_00851_Taan.html?val=UAE-CP-ArAC1
+  source_domain: elaws.moj.gov.ae
+  source_name: '&#1575;&#1604;&#1591;&#1593;&#1606; &#1585;&#1602;&#1605; 851 &#1604;&#1587;&#1606;&#1577;
+    2022 &#1580;&#1586;&#1575;&#1'
+  snippet: أحدا آخر هو الذي تصرف بالأثاث الذي أثبت الشاكي أنه مملوك له من خلال ما
+    قدمه من فواتير مما أضحى معه الاستئناف جديراً بالرفض" هذه الأسباب التي عولت عليها
+    المحكمة في إدانة الطاعنة وتأييد حكم محكمة أول درجة دون بيان الأدلة التي استندت
+    إليها ودو
+  score: 5
+  relevance: 1
+  why:
+  - rel+1
+  - codified+2
+- law_key: tax_law
+  law_name: Income Tax / VAT Law
+  accepted: false
+  depth_used: standard
+  query: United Arab Emirates Income Tax / VAT Law قانون ضريبة الدخل القيمة المضافة
+    official full text
+  discovered_at: '2026-05-22'
+  official_url: https://uaelegislation.gov.ae/ar/legislative-system
+  source_domain: uaelegislation.gov.ae
+  source_name: تشريعات الإمارات العربية المتحدة | المنظومة التشريعية
+  snippet: "#### الدستور  \nهو مجموعة القواعد القانونية التي تنظم كيان الدولة وشكلها،\
+    \ كما تبين السلطات العامة فيها وطبيعة العلاقة بين هذه السلطات، إضافة إلى بيان\
+    \ الحقوق والحريات والواجبات العامة لأفراد المجتمع."
+  score: 4
+  relevance: 0
+  why:
+  - lawpath+2
+  - codified+2
+  fallback_citation: The official Income Tax / VAT law of the United Arab Emirates
+    is available on the UAE Legislation platform under the economic sector related
+    to taxes. However, the exact law number and year are not ex
+- law_key: arbitration_law
+  law_name: Arbitration Law
+  accepted: false
+  depth_used: standard
+  query: United Arab Emirates Arbitration Law قانون التحكيم نظام التحكيم official
+    full text
+  discovered_at: '2026-05-22'
+  official_url: https://uaelegislation.gov.ae/ar/legislative-system
+  source_domain: uaelegislation.gov.ae
+  source_name: تشريعات الإمارات العربية المتحدة | المنظومة التشريعية
+  snippet: "#### الدستور  \nهو مجموعة القواعد القانونية التي تنظم كيان الدولة وشكلها،\
+    \ كما تبين السلطات العامة فيها وطبيعة العلاقة بين هذه السلطات، إضافة إلى بيان\
+    \ الحقوق والحريات والواجبات العامة لأفراد المجتمع."
+  score: 4
+  relevance: 0
+  why:
+  - lawpath+2
+  - codified+2
+  fallback_citation: The official Arbitration Law of the United Arab Emirates is the
+    Federal Law No. 6 of 2018 on Arbitration. However, this specific law number and
+    year are not explicitly mentioned in the provided inform
+- law_key: data_protection
+  law_name: Data Protection / Privacy Law
+  accepted: true
+  depth_used: standard
+  query: United Arab Emirates Data Protection / Privacy Law قانون حماية البيانات الشخصية
+    official full text
+  discovered_at: '2026-05-22'
+  official_url: https://uaelegislation.gov.ae/ar/policy/details/telemarketing-regulation-in-the-uae
+  source_domain: uaelegislation.gov.ae
+  source_name: تشريعات الإمارات العربية المتحدة
+  snippet: "# وثيقة سياسة عامة  \n### المقدمة  \nتلعب الهواتف الذكية ووسائل الاتصال\
+    \ التقنية دوراً حيوياً كوسيلة رقمية للتسويق وتبادل السلع والخدمات، ومع تطور أنماط\
+    \ التسويق والزيادة الملحوظة في الطلب على خدمات التسويق، سواء من قبل مزودي السلع\
+    \ والخدمات أو "
+  score: 7
+  relevance: 2
+  why:
+  - rel+2
+  - lawpath+2
+  - newspath-3
+  - codified+2

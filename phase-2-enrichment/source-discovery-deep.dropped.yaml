@@ -1,0 +1,892 @@
+jurisdictions:
+- cc: AE
+  country: United Arab Emirates
+  sources:
+  - domain: centralbanking.com
+    kind: official
+    example_url: https://www.centralbanking.com/central-bank/central-bank-of-the-uae
+    name: Central Bank of the UAE - Central Banking
+    found_by: United Arab Emirates central bank official website
+    verdict: wrong-or-foreign(.com)
+  - domain: bank-uae.com
+    kind: official
+    example_url: https://bank-uae.com/central-bank-of-uae/
+    name: Central Bank of the United Arab Emirates
+    found_by: United Arab Emirates central bank official website
+    verdict: wrong-or-foreign(.com)
+  - domain: govtaxuae.com
+    kind: official
+    example_url: https://govtaxuae.com/
+    name: 'Federal Tax Authority United Arab Emirates - Building a Stronger Nation,
+      One Contribution '
+    found_by: United Arab Emirates tax authority official website
+    verdict: wrong-or-foreign(.com)
+  - domain: competition.law.gwu.edu
+    kind: official
+    example_url: https://competition.law.gwu.edu/united-arab-emirates
+    name: United Arab Emirates | Competition Law Center | GW Law | The George Washington
+      University
+    found_by: United Arab Emirates competition authority official website
+    verdict: wrong-or-foreign(.edu)
+  - domain: trade.gov
+    kind: official
+    example_url: https://www.trade.gov/country-commercial-guides/united-arab-emirates-protecting-intellectual-property
+    name: United Arab Emirates - Protecting Intellectual Property
+    found_by: United Arab Emirates intellectual property office official website
+    verdict: us-gov
+- cc: BH
+  country: Bahrain
+  sources:
+  - domain: centralbanking.com
+    kind: official
+    example_url: https://www.centralbanking.com/central-bank/central-bank-of-bahrain
+    name: Central Bank of Bahrain - Central Banking
+    found_by: Bahrain central bank official website
+    verdict: wrong-or-foreign(.com)
+  - domain: gulfcapitalmarket.org
+    kind: official
+    example_url: https://www.gulfcapitalmarket.org/official-resources/monetary-authorities-and-securities-market-regulators/
+    name: Monetary Authorities and Securities Market Regulators - GCMA
+    found_by: Bahrain capital markets authority or securities commission official
+      website
+    verdict: wrong-or-foreign(.org)
+  - domain: state.gov
+    kind: official
+    example_url: https://www.state.gov/reports/2025-investment-climate-statements/bahrain
+    name: Bahrain - United States Department of State
+    found_by: Bahrain competition authority official website
+    verdict: us-gov
+  - domain: trade.gov
+    kind: official
+    example_url: https://www.trade.gov/country-commercial-guides/bahrain-protecting-intellectual-property
+    name: Bahrain - Protecting Intellectual Property
+    found_by: Bahrain intellectual property office official website
+    verdict: us-gov
+- cc: KW
+  country: Kuwait
+  sources:
+  - domain: centralbanking.com
+    kind: official
+    example_url: https://www.centralbanking.com/central-bank/central-bank-of-kuwait
+    name: Central Bank of Kuwait - Central Banking
+    found_by: Kuwait central bank official website
+    verdict: wrong-or-foreign(.com)
+  - domain: taxsummaries.pwc.com
+    kind: official
+    example_url: https://taxsummaries.pwc.com/kuwait/corporate/tax-administration
+    name: Kuwait - Corporate - Tax administration
+    found_by: Kuwait tax authority official website
+    verdict: wrong-or-foreign(.com)
+  - domain: globalcompetitionreview.com
+    kind: official
+    example_url: https://globalcompetitionreview.com/insight/enforcer-hub/2023/organization-profile/kuwait-competition-protection-agency
+    name: 'Kuwait: Competition Protection Agency - Global Competition Review'
+    found_by: Kuwait competition authority official website
+    verdict: wrong-or-foreign(.com)
+  - domain: trade.gov
+    kind: official
+    example_url: https://www.trade.gov/country-commercial-guides/kuwait-protecting-intellectual-property
+    name: Kuwait - Protecting Intellectual Property
+    found_by: Kuwait intellectual property office official website
+    verdict: us-gov
+  - domain: mol.gov.qa
+    kind: official
+    example_url: https://www.mol.gov.qa/en/
+    name: Home | Ministry Of Labour
+    found_by: Kuwait ministry of labour official website
+    verdict: wrong-or-foreign(.qa)
+  - domain: kuwaitlaborlaw.com
+    kind: official
+    example_url: https://www.kuwaitlaborlaw.com/
+    name: Kuwait Labor Law
+    found_by: Kuwait ministry of labour official website
+    verdict: wrong-or-foreign(.com)
+- cc: OM
+  country: Oman
+  sources:
+  - domain: trade.gov
+    kind: official
+    example_url: https://www.trade.gov/country-commercial-guides/oman-protecting-intellectual-property
+    name: Oman - Protecting Intellectual Property
+    found_by: Oman intellectual property office official website
+    verdict: us-gov
+- cc: QA
+  country: Qatar
+  sources:
+  - domain: centralbanking.com
+    kind: official
+    example_url: https://www.centralbanking.com/central-bank/qatar-central-bank
+    name: Qatar Central Bank - Central Banking
+    found_by: Qatar central bank official website
+    verdict: wrong-or-foreign(.com)
+  - domain: taxsummaries.pwc.com
+    kind: official
+    example_url: https://taxsummaries.pwc.com/qatar
+    name: Qatar - Overview - Worldwide Tax Summaries
+    found_by: Qatar tax authority official website
+    verdict: wrong-or-foreign(.com)
+- cc: SA
+  country: Saudi Arabia
+  sources:
+  - domain: cma.org.sa
+    kind: official
+    example_url: https://cma.org.sa/en
+    name: Capital Market Authority | Home
+    found_by: Saudi Arabia capital markets authority or securities commission official
+      website
+    verdict: commercial-under-cc(.org.sa)
+  - domain: taxdo.com
+    kind: official
+    example_url: https://taxdo.com/resources/global-tax-id-validation-guide/saudi-arabia
+    name: Saudi Arabia Tax ID Number (TIN) Guide - TaxDo
+    found_by: Saudi Arabia tax authority official website
+    verdict: wrong-or-foreign(.com)
+  - domain: globalcompetitionreview.com
+    kind: official
+    example_url: https://globalcompetitionreview.com/insight/enforcer-hub/2023/organization-profile/saudi-arabia-general-authority-competition
+    name: 'Saudi Arabia: General Authority for Competition - Global Competition Review'
+    found_by: Saudi Arabia competition authority official website
+    verdict: wrong-or-foreign(.com)
+- cc: EG
+  country: Egypt
+  sources:
+  - domain: centralbanking.com
+    kind: official
+    example_url: https://www.centralbanking.com/central-bank/central-bank-of-egypt
+    name: Central Bank of Egypt - Central Banking
+    found_by: Egypt central bank official website
+    verdict: wrong-or-foreign(.com)
+  - domain: ecma.org.eg
+    kind: official
+    example_url: http://www.ecma.org.eg/english/ECMA_overview_en.htm
+    name: ECMA - About ECMA
+    found_by: Egypt capital markets authority or securities commission official website
+    verdict: commercial-under-cc(.org.eg)
+  - domain: globalcompetitionreview.com
+    kind: official
+    example_url: https://globalcompetitionreview.com/insight/enforcer-hub/2023/organization-profile/egyptian-competition-authority
+    name: Egyptian Competition Authority - Global Competition Review
+    found_by: Egypt competition authority official website
+    verdict: wrong-or-foreign(.com)
+  - domain: comesacompetition.org
+    kind: official
+    example_url: https://www.comesacompetition.org/wp-content/uploads/2016/08/Cooperation-Framework-Agreements-ECA-and-CCC.pdf
+    name: Egyptian Competition Authority
+    found_by: Egypt competition authority official website
+    verdict: wrong-or-foreign(.org)
+- cc: IQ
+  country: Iraq
+  sources:
+  - domain: centralbanking.com
+    kind: official
+    example_url: https://www.centralbanking.com/central-bank/central-bank-of-iraq
+    name: Central Bank of Iraq - Central Banking
+    found_by: Iraq central bank official website
+    verdict: wrong-or-foreign(.com)
+  - domain: taxsummaries.pwc.com
+    kind: official
+    example_url: https://taxsummaries.pwc.com/iraq/individual/tax-administration
+    name: Iraq - Individual - Tax administration
+    found_by: Iraq tax authority official website
+    verdict: wrong-or-foreign(.com)
+  - domain: iraq.usembassy.gov
+    kind: official
+    example_url: https://iraq.usembassy.gov/iraq/tax_info.html
+    name: ''
+    found_by: Iraq tax authority official website
+    verdict: us-gov
+  - domain: trade.gov
+    kind: official
+    example_url: https://www.trade.gov/country-commercial-guides/iraq-protecting-intellectual-property
+    name: Iraq - Protecting Intellectual Property
+    found_by: Iraq intellectual property office official website
+    verdict: us-gov
+  - domain: ofac.treasury.gov
+    kind: official
+    example_url: https://ofac.treasury.gov/recent-actions/20040211
+    name: Iraq interpretative ruling on intellectual property | Office of Foreign
+      Assets Control
+    found_by: Iraq intellectual property office official website
+    verdict: us-gov
+  - domain: business.digital.gov.krd
+    kind: official
+    example_url: https://business.digital.gov.krd/en
+    name: Business Registration System
+    found_by: Iraq commercial registry or companies registrar official
+    verdict: wrong-or-foreign(.krd)
+  - domain: services.gov.krd
+    kind: official
+    example_url: https://services.gov.krd/en/service/moti-01-en
+    name: National Company Registration - خزمەت - GOV.KRD
+    found_by: Iraq commercial registry or companies registrar official
+    verdict: wrong-or-foreign(.krd)
+- cc: JO
+  country: Jordan
+  sources:
+  - domain: taxsummaries.pwc.com
+    kind: official
+    example_url: https://taxsummaries.pwc.com/jordan/individual/tax-administration
+    name: Jordan - Individual - Tax administration
+    found_by: Jordan tax authority official website
+    verdict: wrong-or-foreign(.com)
+  - domain: taxratesbycountry.com
+    kind: official
+    example_url: https://taxratesbycountry.com/tax-rates-in-jordan/
+    name: Tax Rates in Jordan for Expats 2026 — Income, Corporate & VAT
+    found_by: Jordan tax authority official website
+    verdict: wrong-or-foreign(.com)
+  - domain: competitionregimes.com
+    kind: official
+    example_url: https://competitionregimes.com/pdf/AsiaPacific/15-Jordan.pdf
+    name: Jordan - Competition
+    found_by: Jordan competition authority official website
+    verdict: wrong-or-foreign(.com)
+- cc: LB
+  country: Lebanon
+  sources:
+  - domain: centralbanking.com
+    kind: official
+    example_url: https://www.centralbanking.com/central-bank/central-bank-of-lebanon
+    name: Central Bank of Lebanon - Central Banking
+    found_by: Lebanon central bank official website
+    verdict: wrong-or-foreign(.com)
+  - domain: lebanonct.gov
+    kind: official
+    example_url: https://www.lebanonct.gov/tax-office
+    name: Tax Office | Lebanon CT
+    found_by: Lebanon tax authority official website
+    verdict: us-gov
+  - domain: mytaxbill.org
+    kind: official
+    example_url: https://www.mytaxbill.org/inet/bill/home.do?town=lebanon
+    name: Town of Lebanon - Tax Bills Search & Pay
+    found_by: Lebanon tax authority official website
+    verdict: wrong-or-foreign(.org)
+  - domain: lebanoncountypa.gov
+    kind: official
+    example_url: https://www.lebanoncountypa.gov/departments/treasurer
+    name: Lebanon County - Treasurer's Office
+    found_by: Lebanon tax authority official website
+    verdict: us-gov
+  - domain: competitionregimes.com
+    kind: official
+    example_url: https://competitionregimes.com/pdf/AsiaPacific/20-Lebanon.pdf
+    name: Lebanon - Competition
+    found_by: Lebanon competition authority official website
+    verdict: wrong-or-foreign(.com)
+  - domain: lebanonauthority.org
+    kind: official
+    example_url: https://www.lebanonauthority.org/
+    name: Lebanon Authority
+    found_by: Lebanon competition authority official website
+    verdict: wrong-or-foreign(.org)
+  - domain: ppp.worldbank.org
+    kind: official
+    example_url: https://ppp.worldbank.org/library/telecommunications-regulatory-authority-lebanon
+    name: The Telecommunications Regulatory Authority of Lebanon | Public Private
+      Partnership
+    found_by: Lebanon competition authority official website
+    verdict: wrong-or-foreign(.org)
+  - domain: lebanonoregon.gov
+    kind: official
+    example_url: https://www.lebanonoregon.gov/
+    name: Lebanon, OR | Official Website
+    found_by: Lebanon competition authority official website
+    verdict: us-gov
+  - domain: trade.gov
+    kind: official
+    example_url: https://www.trade.gov/country-commercial-guides/lebanon-protecting-intellectual-property
+    name: Lebanon - Protecting Intellectual Property
+    found_by: Lebanon intellectual property office official website
+    verdict: us-gov
+- cc: PS
+  country: Palestine
+  sources:
+  - domain: centralbanking.com
+    kind: official
+    example_url: https://www.centralbanking.com/organisations/palestine-monetary-authority-pma
+    name: Palestine Monetary Authority (PMA) news and analysis articles - Central
+      Banking
+    found_by: Palestine central bank official website
+    verdict: wrong-or-foreign(.com)
+  - domain: taxsummaries.pwc.com
+    kind: official
+    example_url: https://taxsummaries.pwc.com/palestinian-territories/individual/taxes-on-personal-income
+    name: Palestinian territories - Individual - Taxes on personal income
+    found_by: Palestine tax authority official website
+    verdict: wrong-or-foreign(.com)
+  - domain: trade.gov
+    kind: official
+    example_url: https://www.trade.gov/country-commercial-guides/west-bank-and-gaza-protecting-intellectual-property
+    name: West Bank and Gaza - Protecting Intellectual Property
+    found_by: Palestine intellectual property office official website
+    verdict: us-gov
+- cc: SY
+  country: Syria
+  sources:
+  - domain: centralbanking.com
+    kind: official
+    example_url: https://www.centralbanking.com/central-bank/central-bank-of-syria
+    name: Central Bank of Syria - Central Banking
+    found_by: Syria central bank official website
+    verdict: wrong-or-foreign(.com)
+  - domain: tradeclub.standardbank.com
+    kind: official
+    example_url: https://www.tradeclub.standardbank.com/portal/en/market-potential/syria/taxes
+    name: Tax rates in Syria - Standard Bank TradeClub
+    found_by: Syria tax authority official website
+    verdict: wrong-or-foreign(.com)
+  - domain: globalcompetitionreview.com
+    kind: official
+    example_url: https://globalcompetitionreview.com/insight/enforcer-hub/2022/organization-profile/syria-syrian-competition-authority
+    name: Enforcer Hub - Global Competition Review
+    found_by: Syria competition authority official website
+    verdict: wrong-or-foreign(.com)
+- cc: DZ
+  country: Algeria
+  sources:
+  - domain: centralbanking.com
+    kind: official
+    example_url: https://www.centralbanking.com/central-bank/bank-of-algeria
+    name: Bank of Algeria - Central Banking
+    found_by: Algeria central bank official website
+    verdict: wrong-or-foreign(.com)
+  - domain: taxsummaries.pwc.com
+    kind: official
+    example_url: https://taxsummaries.pwc.com/algeria/individual/taxes-on-personal-income
+    name: Algeria - Individual - Taxes on personal income
+    found_by: Algeria tax authority official website
+    verdict: wrong-or-foreign(.com)
+  - domain: lloydsbanktrade.com
+    kind: official
+    example_url: https://www.lloydsbanktrade.com/en/market-potential/algeria/taxes
+    name: Tax rates in Algeria - International Trade Portal
+    found_by: Algeria tax authority official website
+    verdict: wrong-or-foreign(.com)
+  - domain: globalcompetitionreview.com
+    kind: official
+    example_url: https://globalcompetitionreview.com/insight/enforcer-hub/2023/organization-profile/algeria-competition-council
+    name: 'Algeria: Competition Council - Global Competition Review'
+    found_by: Algeria competition authority official website
+    verdict: wrong-or-foreign(.com)
+- cc: LY
+  country: Libya
+  sources:
+  - domain: centralbanking.com
+    kind: official
+    example_url: https://www.centralbanking.com/central-bank/central-bank-of-libya
+    name: Central Bank of Libya - Central Banking
+    found_by: Libya central bank official website
+    verdict: wrong-or-foreign(.com)
+  - domain: central-bank-of-libya.gitbook.io
+    kind: official
+    example_url: https://central-bank-of-libya.gitbook.io/devportal
+    name: Welcome to the Central Bank of Libya Developer Portal | DevPortal | CBL
+      | DevPortal
+    found_by: Libya central bank official website
+    verdict: wrong-or-foreign(.io)
+  - domain: taxsummaries.pwc.com
+    kind: official
+    example_url: https://taxsummaries.pwc.com/libya/corporate/tax-administration
+    name: Libya - Corporate - Tax administration
+    found_by: Libya tax authority official website
+    verdict: wrong-or-foreign(.com)
+  - domain: tax-platform.org
+    kind: official
+    example_url: https://www.tax-platform.org/country/libya
+    name: Libya | Platform for Collaboration on Tax
+    found_by: Libya tax authority official website
+    verdict: wrong-or-foreign(.org)
+- cc: MA
+  country: Morocco
+  sources:
+  - domain: centralbanking.com
+    kind: official
+    example_url: https://www.centralbanking.com/central-bank/central-bank-of-morocco
+    name: Central Bank of Morocco - Central Banking
+    found_by: Morocco central bank official website
+    verdict: wrong-or-foreign(.com)
+  - domain: banksdaily.com
+    kind: official
+    example_url: https://banksdaily.com/info/bkam
+    name: Bank Al-Maghrib, Morocco | Head office, phone number, website, SWIFT
+    found_by: Morocco central bank official website
+    verdict: wrong-or-foreign(.com)
+  - domain: taxsummaries.pwc.com
+    kind: official
+    example_url: https://taxsummaries.pwc.com/morocco/corporate/tax-administration
+    name: Morocco - Corporate - Tax administration
+    found_by: Morocco tax authority official website
+    verdict: wrong-or-foreign(.com)
+  - domain: irs.gov
+    kind: official
+    example_url: https://www.irs.gov/businesses/international-businesses/morocco-tax-treaty-documents
+    name: Morocco - Tax treaty documents | Internal Revenue Service
+    found_by: Morocco tax authority official website
+    verdict: us-gov
+  - domain: taxdo.com
+    kind: official
+    example_url: https://taxdo.com/resources/global-tax-id-validation-guide/morocco
+    name: Morocco Tax ID Number (TIN) Guide - TaxDo
+    found_by: Morocco tax authority official website
+    verdict: wrong-or-foreign(.com)
+  - domain: uokik.gov.pl
+    kind: official
+    example_url: https://uokik.gov.pl/en/tag/morocco
+    name: Morocco
+    found_by: Morocco competition authority official website
+    verdict: wrong-or-foreign(.pl)
+  - domain: trade.gov
+    kind: official
+    example_url: https://www.trade.gov/country-commercial-guides/morocco-protecting-intellectual-property
+    name: Morocco - Protecting Intellectual Property
+    found_by: Morocco intellectual property office official website
+    verdict: us-gov
+  - domain: mol.gov.qa
+    kind: official
+    example_url: https://www.mol.gov.qa/en/
+    name: Home | Ministry Of Labour
+    found_by: Morocco ministry of labour official website
+    verdict: wrong-or-foreign(.qa)
+- cc: MR
+  country: Mauritania
+  sources:
+  - domain: centralbanking.com
+    kind: official
+    example_url: https://www.centralbanking.com/central-bank/central-bank-of-mauritania
+    name: Central Bank of Mauritania - Central Banking
+    found_by: Mauritania central bank official website
+    verdict: wrong-or-foreign(.com)
+  - domain: cma.gov.sa
+    kind: official
+    example_url: https://cma.gov.sa/en/Pages/default.aspx
+    name: Capital Market Authority | Home
+    found_by: Mauritania capital markets authority or securities commission official
+      website
+    verdict: wrong-or-foreign(.sa)
+  - domain: trade.gov
+    kind: official
+    example_url: https://www.trade.gov/country-commercial-guides/mauritania-trade-financing
+    name: Mauritania - Trade Financing
+    found_by: Mauritania capital markets authority or securities commission official
+      website
+    verdict: us-gov
+  - domain: taxsummaries.pwc.com
+    kind: official
+    example_url: https://taxsummaries.pwc.com/mauritania
+    name: Mauritania - Overview - Worldwide Tax Summaries
+    found_by: Mauritania tax authority official website
+    verdict: wrong-or-foreign(.com)
+  - domain: lloydsbanktrade.com
+    kind: official
+    example_url: https://www.lloydsbanktrade.com/en/market-potential/mauritania/taxes
+    name: Tax rates in Mauritania - International Trade Portal
+    found_by: Mauritania tax authority official website
+    verdict: wrong-or-foreign(.com)
+  - domain: competitioncommission.mu
+    kind: official
+    example_url: https://competitioncommission.mu/about-us/
+    name: About us | Competition Commission
+    found_by: Mauritania competition authority official website
+    verdict: wrong-or-foreign(.mu)
+  - domain: globalcompetitionreview.com
+    kind: official
+    example_url: https://globalcompetitionreview.com/insight/enforcer-hub/2023/organization-profile/mauritius-competition-commission
+    name: 'Mauritius: Competition Commission - Global Competition Review'
+    found_by: Mauritania competition authority official website
+    verdict: wrong-or-foreign(.com)
+  - domain: state.gov
+    kind: official
+    example_url: https://www.state.gov/reports/2018-investment-climate-statements/mauritania/
+    name: Mauritania - United States Department of State
+    found_by: Mauritania competition authority official website
+    verdict: us-gov
+  - domain: aripo.org
+    kind: official
+    example_url: https://www.aripo.org/member-states-view/137
+    name: Mauritius - The African Regional Intellectual Property Organization (ARIPO)
+    found_by: Mauritania intellectual property office official website
+    verdict: wrong-or-foreign(.org)
+  - domain: labour.gov.tt
+    kind: official
+    example_url: https://labour.gov.tt/
+    name: Ministry of Labour
+    found_by: Mauritania ministry of labour official website
+    verdict: wrong-or-foreign(.tt)
+  - domain: labour.govmu.org
+    kind: official
+    example_url: https://labour.govmu.org/Pages/TheMinistry.aspx
+    name: The Ministry
+    found_by: Mauritania ministry of labour official website
+    verdict: wrong-or-foreign(.org)
+  - domain: mol.gov.qa
+    kind: official
+    example_url: https://www.mol.gov.qa/en/
+    name: Home | Ministry Of Labour
+    found_by: Mauritania ministry of labour official website
+    verdict: wrong-or-foreign(.qa)
+  - domain: taxdo.com
+    kind: official
+    example_url: https://taxdo.com/resources/global-tax-id-validation-guide/mauritania
+    name: Mauritania Tax ID Number (TIN) Guide - TaxDo
+    found_by: Mauritania commercial registry or companies registrar official
+    verdict: wrong-or-foreign(.com)
+- cc: TN
+  country: Tunisia
+  sources:
+  - domain: centralbanking.com
+    kind: official
+    example_url: https://www.centralbanking.com/central-bank/central-bank-of-tunisia
+    name: Central Bank of Tunisia - Central Banking
+    found_by: Tunisia central bank official website
+    verdict: wrong-or-foreign(.com)
+  - domain: state.gov
+    kind: official
+    example_url: https://www.state.gov/reports/2025-investment-climate-statements/tunisia/
+    name: Tunisia - United States Department of State
+    found_by: Tunisia capital markets authority or securities commission official
+      website
+    verdict: us-gov
+  - domain: taxsummaries.pwc.com
+    kind: official
+    example_url: https://taxsummaries.pwc.com/tunisia/corporate/tax-administration
+    name: Tunisia - Corporate - Tax administration
+    found_by: Tunisia tax authority official website
+    verdict: wrong-or-foreign(.com)
+  - domain: taxdo.com
+    kind: official
+    example_url: https://taxdo.com/resources/global-tax-id-validation-guide/tunisia
+    name: Tunisia Tax ID Number (TIN) Guide - TaxDo
+    found_by: Tunisia tax authority official website
+    verdict: wrong-or-foreign(.com)
+  - domain: trade.gov
+    kind: official
+    example_url: https://www.trade.gov/country-commercial-guides/tunisia-protecting-intellectual-property
+    name: Tunisia - Protecting Intellectual Property
+    found_by: Tunisia intellectual property office official website
+    verdict: us-gov
+  - domain: labour.gov.tt
+    kind: official
+    example_url: https://labour.gov.tt/
+    name: Ministry of Labour
+    found_by: Tunisia ministry of labour official website
+    verdict: wrong-or-foreign(.tt)
+- cc: YE
+  country: Yemen
+  sources:
+  - domain: my.gov.sa
+    kind: official
+    example_url: https://my.gov.sa/en/agencies/17579
+    name: Capital Market Authority | National Platform (National Portal)
+    found_by: Yemen capital markets authority or securities commission official website
+    verdict: wrong-or-foreign(.sa)
+  - domain: fsa.gov.om
+    kind: official
+    example_url: https://fsa.gov.om/
+    name: Financial Services Authority, Sultanate of Oman - Home
+    found_by: Yemen capital markets authority or securities commission official website
+    verdict: wrong-or-foreign(.om)
+  - domain: taxauthority-ye.tax
+    kind: official
+    example_url: https://taxauthority-ye.tax/en/
+    name: Home - Yemen Tax Authority
+    found_by: Yemen tax authority official website
+    verdict: wrong-or-foreign(.tax)
+  - domain: taxcompact.net
+    kind: official
+    example_url: https://www.taxcompact.net/profile/yemen
+    name: Yemen | ITC
+    found_by: Yemen tax authority official website
+    verdict: wrong-or-foreign(.net)
+  - domain: ye.usembassy.gov
+    kind: official
+    example_url: https://ye.usembassy.gov/yemen-business-faqs/
+    name: Yemen Business FAQs - U.S. Mission to Yemen
+    found_by: Yemen tax authority official website
+    verdict: us-gov
+  - domain: justice.gov
+    kind: official
+    example_url: https://www.justice.gov/atr/antitrust-sites-worldwide
+    name: Antitrust Division | Antitrust Sites Worldwide
+    found_by: Yemen competition authority official website
+    verdict: us-gov
+- cc: SD
+  country: Sudan
+  sources:
+  - domain: centralbanking.com
+    kind: official
+    example_url: https://www.centralbanking.com/central-bank/central-bank-of-sudan
+    name: Central Bank of Sudan - Central Banking
+    found_by: Sudan central bank official website
+    verdict: wrong-or-foreign(.com)
+  - domain: boss.gov.ss
+    kind: official
+    example_url: https://boss.gov.ss/
+    name: 'Bank of South Sudan: Home - BoSS'
+    found_by: Sudan central bank official website
+    verdict: wrong-or-foreign(.ss)
+  - domain: mofaic.gov.ss
+    kind: official
+    example_url: https://mofaic.gov.ss/investment/
+    name: Investment - MINISTRY OF FOREIGN AFFAIRS AND INTERNATIONAL COOPERATION
+    found_by: Sudan capital markets authority or securities commission official website
+    verdict: wrong-or-foreign(.ss)
+  - domain: nra.gov.ss
+    kind: official
+    example_url: https://nra.gov.ss/
+    name: South Sudan Revenue Authority
+    found_by: Sudan tax authority official website
+    verdict: wrong-or-foreign(.ss)
+  - domain: nra.eservices.gov.ss
+    kind: official
+    example_url: https://nra.eservices.gov.ss/
+    name: National Revenue Authority
+    found_by: Sudan tax authority official website
+    verdict: wrong-or-foreign(.ss)
+  - domain: nca.gov.ss
+    kind: official
+    example_url: https://www.nca.gov.ss/
+    name: National Communication Authority | Communication Authority of South Sudan
+    found_by: Sudan competition authority official website
+    verdict: wrong-or-foreign(.ss)
+  - domain: competitionauthority.co.bw
+    kind: official
+    example_url: https://www.competitionauthority.co.bw/south-sudan-benchmarks-competition-authority
+    name: South Sudan Benchmarks with the Competition Authority | Competition and
+      Consumer Authority
+    found_by: Sudan competition authority official website
+    verdict: wrong-or-foreign(.bw)
+  - domain: mti.gov.ss
+    kind: official
+    example_url: https://mti.gov.ss/
+    name: Ministry of Trade and Industry – The Republic of South Sudan
+    found_by: Sudan competition authority official website
+    verdict: wrong-or-foreign(.ss)
+  - domain: aripo.org
+    kind: official
+    example_url: https://www.aripo.org/member-states-view/200
+    name: Sudan - The African Regional Intellectual Property Organization (ARIPO)
+    found_by: Sudan intellectual property office official website
+    verdict: wrong-or-foreign(.org)
+  - domain: saip.gov.sa
+    kind: official
+    example_url: https://www.saip.gov.sa/en/
+    name: Saudi Authority for Intellectual Property
+    found_by: Sudan intellectual property office official website
+    verdict: wrong-or-foreign(.sa)
+  - domain: mol.gov.ss
+    kind: official
+    example_url: https://mol.gov.ss/
+    name: Home | Ministry of Labour
+    found_by: Sudan ministry of labour official website
+    verdict: wrong-or-foreign(.ss)
+  - domain: brs.eservices.gov.ss
+    kind: official
+    example_url: https://brs.eservices.gov.ss/
+    name: South Sudan's Business Registration Online Services
+    found_by: Sudan commercial registry or companies registrar official
+    verdict: wrong-or-foreign(.ss)
+  - domain: business.eservices.gov.ss
+    kind: official
+    example_url: https://business.eservices.gov.ss/
+    name: Business Registration Services
+    found_by: Sudan commercial registry or companies registrar official
+    verdict: wrong-or-foreign(.ss)
+  - domain: trade.gov
+    kind: official
+    example_url: https://www.trade.gov/country-commercial-guides/sudan-licensing-requirements-professional-services
+    name: Sudan - Licensing Requirements for Professional Services
+    found_by: Sudan commercial registry or companies registrar official
+    verdict: us-gov
+- cc: SO
+  country: Somalia
+  sources:
+  - domain: centralbanking.com
+    kind: official
+    example_url: https://www.centralbanking.com/central-bank/central-bank-of-somalia
+    name: Central Bank of Somalia - Central Banking
+    found_by: Somalia central bank official website
+    verdict: wrong-or-foreign(.com)
+  - domain: state.gov
+    kind: official
+    example_url: https://www.state.gov/reports/2023-investment-climate-statements/somalia
+    name: Somalia - United States Department of State
+    found_by: Somalia capital markets authority or securities commission official
+      website
+    verdict: us-gov
+  - domain: eacompetition.org
+    kind: official
+    example_url: https://www.eacompetition.org/
+    name: East African Community Competition Authority (EACA)
+    found_by: Somalia competition authority official website
+    verdict: wrong-or-foreign(.org)
+  - domain: aripo.org
+    kind: official
+    example_url: https://www.aripo.org/member-states-view/193
+    name: Somalia - The African Regional Intellectual Property Organization (ARIPO)
+    found_by: Somalia intellectual property office official website
+    verdict: wrong-or-foreign(.org)
+  - domain: mesaf.govsomaliland.org
+    kind: official
+    example_url: https://mesaf.govsomaliland.org/
+    name: Ministry of Labour Social Affairs and Family
+    found_by: Somalia ministry of labour official website
+    verdict: wrong-or-foreign(.org)
+  - domain: brls.govsomaliland.org
+    kind: official
+    example_url: https://brls.govsomaliland.org/site/
+    name: Somaliland Business Registration and Licensing Services – Doing Business
+      Made Easier
+    found_by: Somalia commercial registry or companies registrar official
+    verdict: wrong-or-foreign(.org)
+- cc: DJ
+  country: Djibouti
+  sources:
+  - domain: centralbanking.com
+    kind: official
+    example_url: https://www.centralbanking.com/central-bank/central-bank-of-djibouti/staff
+    name: Central Bank of Djibouti staff contacts | Central Banking
+    found_by: Djibouti central bank official website
+    verdict: wrong-or-foreign(.com)
+  - domain: state.gov
+    kind: official
+    example_url: https://www.state.gov/reports/2025-investment-climate-statements/djibouti
+    name: Djibouti - United States Department of State
+    found_by: Djibouti capital markets authority or securities commission official
+      website
+    verdict: us-gov
+  - domain: taxjustice.net
+    kind: official
+    example_url: https://taxjustice.net/country-profiles/djibouti/
+    name: Djibouti | Tax Justice Network
+    found_by: Djibouti tax authority official website
+    verdict: wrong-or-foreign(.net)
+  - domain: kvkk.gov.tr
+    kind: official
+    example_url: https://www.kvkk.gov.tr/Icerik/7402/Announcement-on-the-Launch-of-Official-Website-of-44th-Global-Privacy-Assembly
+    name: Announcement on the Launch of Official Website of 44th Global Privacy Assembly
+      | Kişisel V
+    found_by: Djibouti personal data protection authority official website
+    verdict: wrong-or-foreign(.tr)
+  - domain: acquisition.gov
+    kind: official
+    example_url: https://www.acquisition.gov/dfars/225.7798-enhanced-authority-acquire-products-or-services-djibouti-support-dod-operations-djibouti.
+    name: '225.7798 Enhanced authority to acquire products or services of Djibouti
+      in support of DoD '
+    found_by: Djibouti competition authority official website
+    verdict: us-gov
+- cc: KM
+  country: Comoros
+  sources:
+  - domain: centralbanking.com
+    kind: official
+    example_url: https://www.centralbanking.com/central-bank/central-bank-of-comoros
+    name: Central Bank of Comoros - Central Banking
+    found_by: Comoros central bank official website
+    verdict: wrong-or-foreign(.com)
+  - domain: cma.or.ke
+    kind: official
+    example_url: https://www.cma.or.ke/
+    name: Capital Markets Authority
+    found_by: Comoros capital markets authority or securities commission official
+      website
+    verdict: wrong-or-foreign(.ke)
+  - domain: tax-platform.org
+    kind: official
+    example_url: https://www.tax-platform.org/country/comoros
+    name: Comoros | Platform for Collaboration on Tax
+    found_by: Comoros tax authority official website
+    verdict: wrong-or-foreign(.org)
+  - domain: taxnotes.com
+    kind: official
+    example_url: https://www.taxnotes.com/document-list/jurisdictions/africa/comoros
+    name: Comoros Tax News & Jurisdiction - Tax Notes
+    found_by: Comoros tax authority official website
+    verdict: wrong-or-foreign(.com)
+  - domain: taxjustice.net
+    kind: official
+    example_url: https://taxjustice.net/country-profiles/comoros/
+    name: Comoros | Tax Justice Network
+    found_by: Comoros tax authority official website
+    verdict: wrong-or-foreign(.net)
+  - domain: labour.gov.tt
+    kind: official
+    example_url: https://labour.gov.tt/
+    name: Ministry of Labour
+    found_by: Comoros ministry of labour official website
+    verdict: wrong-or-foreign(.tt)
+  - domain: state.gov
+    kind: official
+    example_url: https://www.state.gov/countries-areas/comoros
+    name: Comoros - United States Department of State
+    found_by: Comoros ministry of labour official website
+    verdict: us-gov
+  - domain: mol.gov.qa
+    kind: official
+    example_url: https://www.mol.gov.qa/En/pages/default.aspx
+    name: Home | Ministry Of Labour
+    found_by: Comoros ministry of labour official website
+    verdict: wrong-or-foreign(.qa)
+- cc: IR
+  country: Iran
+  sources:
+  - domain: centralbanking.com
+    kind: official
+    example_url: https://www.centralbanking.com/central-bank/central-bank-of-the-islamic-republic-of-iran
+    name: Central Bank of the Islamic Republic of Iran - Central Banking
+    found_by: Iran central bank official website
+    verdict: wrong-or-foreign(.com)
+  - domain: competitionpolicyinternational.com
+    kind: official
+    example_url: https://www.competitionpolicyinternational.com/an-introduction-to-iranian-competition-law-and-policy/
+    name: An Introduction to Iranian Competition Law and Policy | PYMNTS.com
+    found_by: Iran competition authority official website
+    verdict: wrong-or-foreign(.com)
+- cc: IL
+  country: Israel
+  sources:
+  - domain: centralbanking.com
+    kind: official
+    example_url: https://www.centralbanking.com/central-bank/bank-of-israel
+    name: Bank of Israel - Central Banking
+    found_by: Israel central bank official website
+    verdict: wrong-or-foreign(.com)
+  - domain: taxsummaries.pwc.com
+    kind: official
+    example_url: https://taxsummaries.pwc.com/israel/corporate/tax-administration
+    name: Israel - Corporate - Tax administration
+    found_by: Israel tax authority official website
+    verdict: wrong-or-foreign(.com)
+  - domain: globalcompetitionreview.com
+    kind: official
+    example_url: https://globalcompetitionreview.com/insight/enforcer-hub/2023/organization-profile/israel-competition-authority
+    name: 'Israel: Competition Authority - Global Competition Review'
+    found_by: Israel competition authority official website
+    verdict: wrong-or-foreign(.com)
+  - domain: trade.gov
+    kind: official
+    example_url: https://www.trade.gov/country-commercial-guides/israel-protecting-intellectual-property
+    name: Israel - Protecting Intellectual Property
+    found_by: Israel intellectual property office official website
+    verdict: us-gov
+- cc: TR
+  country: Turkey
+  sources:
+  - domain: centralbanking.com
+    kind: official
+    example_url: https://www.centralbanking.com/central-bank/central-bank-of-the-republic-of-turkey
+    name: Central Bank of the Republic of Turkey - Central Banking
+    found_by: Turkey central bank official website
+    verdict: wrong-or-foreign(.com)
+  - domain: taxsummaries.pwc.com
+    kind: official
+    example_url: https://taxsummaries.pwc.com/turkey/individual/tax-administration
+    name: Turkey - Individual - Tax administration
+    found_by: Turkey tax authority official website
+    verdict: wrong-or-foreign(.com)
+  - domain: turkish-tax-and-accounting.com
+    kind: official
+    example_url: https://turkish-tax-and-accounting.com/internet-digital-tax-office-in-turkey/
+    name: Internet (Digital) Tax Office in Turkey – Invest CPA Ltd. Turkey
+    found_by: Turkey tax authority official website
+    verdict: wrong-or-foreign(.com)
