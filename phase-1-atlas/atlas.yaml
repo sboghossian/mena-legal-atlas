@@ -51,10 +51,12 @@ AE:
     blocked: 8
     dominant_blocker: cloudflare_WAF + geo_ip_block
   unblock_hints:
-  - Federal MOJ portal is cloudflare-WAF gated; pursue MOU with MOJ Open Data team rather than scraping
+  - Federal MOJ portal is cloudflare-WAF gated; pursue MOU with MOJ Open Data team
+    rather than scraping
   - Bayanat (data.bayanat.ae) sometimes hosts MOJ datasets — check periodically
   - SCA API requires CSRF auth — request a public API key via SCA contact form
-  - TDRC tax appeals are protected by Tax Procedures Law Art 7 confidentiality — unscrapeable by design
+  - TDRC tax appeals are protected by Tax Procedures Law Art 7 confidentiality — unscrapeable
+    by design
   priority:
     haqq_icp: high
     tractability: low_for_federal_high_for_freezones
@@ -83,7 +85,8 @@ BH:
     consolidated:
     - name: LLOC (Legislation and Legal Opinion Commission)
       url: https://www.lloc.gov.bh
-      notes: lloc.gov.bh = legalaffairs.gov.bh (same operator). DNS currently unresolvable from non-BH ranges.
+      notes: lloc.gov.bh = legalaffairs.gov.bh (same operator). DNS currently unresolvable
+        from non-BH ranges.
       url_check:
         status: live
         code: 200
@@ -100,7 +103,8 @@ BH:
     dominant_blocker: dns_unreachable + waf
   unblock_hints:
   - Try resolving lloc.gov.bh from a Bahraini residential proxy
-  - CBB rulebook is on a TR subdomain; only working path is direct partnership with CBB
+  - CBB rulebook is on a TR subdomain; only working path is direct partnership with
+    CBB
   - ccb.bh returns 403; try via google cache + archive.org
   - data.gov.bh has zero legal datasets — file a request issue
   priority:
@@ -291,9 +295,11 @@ SA:
     blocked: 11
     dominant_blocker: requires_auth + cloudflare
   unblock_hints:
-  - laws.boe.gov.sa is THE source for codified statutes — pursue scraping with Saudi residential proxy
+  - laws.boe.gov.sa is THE source for codified statutes — pursue scraping with Saudi
+    residential proxy
   - Hijri-Gregorian conversion is non-trivial — must implement both ways
-  - MOJ portal (moj.gov.sa) publishes Supreme Court rulings since 2017 reform — high priority
+  - MOJ portal (moj.gov.sa) publishes Supreme Court rulings since 2017 reform — high
+    priority
   - Najiz (najiz.sa) e-court service has public-decisions endpoint behind login wall
   - SAMA rulebook is public PDF — clean win
   - SDAIA has its own AI/data laws portal — newly relevant
@@ -353,7 +359,8 @@ EG:
     blocked: 7
     dominant_blocker: unknown
   unblock_hints:
-  - Manshurat is the de facto national legal database — extend coverage from current Legal Corpus scraper
+  - Manshurat is the de facto national legal database — extend coverage from current
+    Legal Corpus scraper
   - Court of Cassation digital archive needs Arabic-OCR pipeline for pre-2010 decisions
   - SCC publishes rulings PDF — relatively clean
   priority:
@@ -479,7 +486,8 @@ LB:
       name: Al-Jarīdah al-Rasmīyah (Journal Officiel de la République Libanaise)
       url: https://www.pcm.gov.lb
       format: pdf
-      notes: Issued by Presidency of Council of Ministers. Weekly. Digital archive incomplete pre-2003.
+      notes: Issued by Presidency of Council of Ministers. Weekly. Digital archive
+        incomplete pre-2003.
       url_check:
         status: unknown
         code: null
@@ -494,7 +502,8 @@ LB:
         checked_at: '2026-05-16'
     - name: USJ Legal Informatics (CEDROMA)
       url: https://www.usj.edu.lb/cedroma
-      notes: Saint Joseph University academic mirror, often more reliable than official sources.
+      notes: Saint Joseph University academic mirror, often more reliable than official
+        sources.
       url_check:
         status: live
         code: 200
@@ -521,8 +530,10 @@ LB:
   unblock_hints:
   - First fix: ping LegiLiban current status via archive.org and USJ contacts
   - PCM gazette PDFs are the most stable primary source — direct PDF crawl works
-  - Partner with USJ CEDROMA (Saint Joseph University academic mirror) for a maintained data feed
-  - Personal status laws are NOT codified — needs special treatment (out-of-scope for v1)
+  - Partner with USJ CEDROMA (Saint Joseph University academic mirror) for a maintained
+    data feed
+  - Personal status laws are NOT codified — needs special treatment (out-of-scope
+    for v1)
   priority:
     haqq_icp: critical
     tractability: medium
@@ -532,6 +543,17 @@ LB:
     Stephane''s direct network. Strongest single bet in the entire Atlas.
 
     '
+  key_legislation:
+  - law_key: constitution
+    law_name: Constitution of Lebanon
+    title: Lebanese Constitution (English)
+    official_url: https://lp.gov.lb/backoffice/uploads/files/Lebanese%20%20Constitution-%20En.pdf
+    source_domain: lp.gov.lb
+    format: pdf
+    discovered_via: linkup_domain_constrained
+    verified_by: stephane
+    verified_at: '2026-05-22'
+    note: Verbatim Taif preamble confirmed in snippet. Primary domain (Parliament).
 PS:
   country: Palestine
   region: Mashriq
@@ -580,8 +602,10 @@ PS:
     blocked: 1
     dominant_blocker: unknown
   unblock_hints:
-  - Al-Muqtafi (Birzeit) is the academic gold standard — partner directly with Institute of Law
-  - Layered legal system means citation conventions vary by era — needs explicit period tagging
+  - Al-Muqtafi (Birzeit) is the academic gold standard — partner directly with Institute
+    of Law
+  - Layered legal system means citation conventions vary by era — needs explicit period
+    tagging
   - PA vs Hamas legislation divergence post-2007 needs explicit handling
   priority:
     haqq_icp: low
@@ -629,7 +653,8 @@ SY:
   unblock_hints:
   - Parliament site is the only viable primary source
   - Sanctions exposure — confirm with Abbas before publishing scraper or hosting corpus
-  - Post-Dec 2024 transition may invalidate or amend large parts of the corpus — track explicitly
+  - Post-Dec 2024 transition may invalidate or amend large parts of the corpus — track
+    explicitly
   priority:
     haqq_icp: low
     tractability: medium
@@ -682,7 +707,8 @@ DZ:
     dominant_blocker: server_unreachable
   unblock_hints:
   - DGI tax portal returns 500 — wait for govt to fix or pivot to MOF gazette
-  - Coverage already strong — focus on case law completeness (CourSupreme has WordPress API)
+  - Coverage already strong — focus on case law completeness (CourSupreme has WordPress
+    API)
   priority:
     haqq_icp: medium
     tractability: high
@@ -731,7 +757,8 @@ LY:
     dominant_blocker: unknown
   unblock_hints:
   - Bifurcation must be explicit — two parallel corpora since 2014
-  - DCAF (Geneva Centre for Security Sector Governance) Libya page is best non-official aggregator
+  - DCAF (Geneva Centre for Security Sector Governance) Libya page is best non-official
+    aggregator
   priority:
     haqq_icp: low
     tractability: low
@@ -876,7 +903,8 @@ TN:
     dominant_blocker: unknown
   unblock_hints:
   - JORT site has been stable for years — direct PDF crawl
-  - Post-2021 political situation has produced procedural irregularities — flag as needed
+  - Post-2021 political situation has produced procedural irregularities — flag as
+    needed
   priority:
     haqq_icp: medium
     tractability: high
@@ -894,8 +922,8 @@ YE:
       name: Al-Jarīdah al-Rasmīyah
       url: https://www.yemen.gov.ye
       format: pdf
-      notes: Bifurcated state — IRG (Aden, internationally recognized) and Houthi-controlled (Sanaa) issue parallel laws since
-        2014/2015.
+      notes: Bifurcated state — IRG (Aden, internationally recognized) and Houthi-controlled
+        (Sanaa) issue parallel laws since 2014/2015.
       url_check:
         status: timeout
         code: null
@@ -1097,7 +1125,8 @@ KM:
     dominant_blocker: unknown
   unblock_hints:
   - Tiny corpus — fits in a few hundred PDFs
-  - Often shared with Comorian diaspora at La Reunion (French) — French sources may mirror
+  - Often shared with Comorian diaspora at La Reunion (French) — French sources may
+    mirror
   priority:
     haqq_icp: very_low
     tractability: low

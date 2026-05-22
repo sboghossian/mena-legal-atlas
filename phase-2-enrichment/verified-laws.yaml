@@ -1,0 +1,16 @@
+# Human-verified law candidates approved for merge into atlas.yaml (key_legislation).
+# Only entries a human confirmed point to the ACTUAL law text on a primary domain.
+# Provenance is preserved so the canonical atlas stays auditable & reversible.
+# Source experiment: linkup-smoke-test.md (2026-05-22). Verified precision: 1/36.
+
+LB:
+  - law_key: constitution
+    law_name: Constitution of Lebanon
+    title: "Lebanese Constitution (English)"
+    official_url: "https://lp.gov.lb/backoffice/uploads/files/Lebanese%20%20Constitution-%20En.pdf"
+    source_domain: lp.gov.lb
+    format: pdf
+    discovered_via: linkup_domain_constrained
+    verified_by: stephane
+    verified_at: "2026-05-22"
+    note: "Verbatim Taif preamble confirmed in snippet. Primary domain (Parliament)."

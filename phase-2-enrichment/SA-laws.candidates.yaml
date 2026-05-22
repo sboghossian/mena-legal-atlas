@@ -1,0 +1,256 @@
+cc: SA
+country: Saudi Arabia
+allowlist:
+- laws.boe.gov.sa
+- moj.gov.sa
+- ncar.gov.sa
+- uqn.gov.sa
+accepted: 3
+total: 12
+laws:
+- law_key: constitution
+  law_name: Constitution / Basic Law
+  accepted: true
+  depth_used: standard
+  query: Saudi Arabia Constitution / Basic Law الدستور القانون الأساسي للحكم official
+    full text
+  discovered_at: '2026-05-22'
+  official_url: https://uqn.gov.sa/details?p=28807
+  source_domain: uqn.gov.sa
+  source_name: مرسوم ملكي رقم (م/49) وتاريخ 1447/03/02هـ | جريدة أم القرى
+  snippet: "### مرسوم ملكي رقم (م/49) وتاريخ 1447/03/02هـ  \nبعون الله تعالى  \nنحن\
+    \ سلمان بن عبدالعزيز آل سعود  \nملك المملكة العربية السعودية  \nبناء على المادة\
+    \ (السبعين) من النظام الأساسي للحكم، الصادر بالأمر الملكي رقم (أ/90) بتاريخ 1412/8/27هـ.\
+    \  \nوبناء"
+  score: 3
+  relevance: 2
+  why:
+  - rel+2
+  - newspath-3
+- law_key: civil_code
+  law_name: Civil Code
+  accepted: false
+  depth_used: standard
+  query: Saudi Arabia Civil Code القانون المدني المعاملات المدنية official full text
+  discovered_at: '2026-05-22'
+  official_url: https://uqn.gov.sa/details?p=28786
+  source_domain: uqn.gov.sa
+  source_name: الموافقة على اللوائح التنظيمية للمناطق الاقتصادية الخاصة بجازان والحوسبة
+    السحابية المعلوماتية ومدينة الملك عبدالله الاقت
+  snippet: "### الموافقة على اللوائح التنظيمية للمناطق الاقتصادية الخاصة بجازان والحوسبة\
+    \ السحابية المعلوماتية ومدينة الملك عبدالله الاقتصادية ورأس الخير  \nقرار رقم\
+    \ (468) وتاريخ 1447/07/10هـ  \nإن مجلس الوزراء  \nبعد الاطلاع في جلسته المنعقدة\
+    \ برئاسة خادم "
+  score: -3
+  relevance: 0
+  why:
+  - newspath-3
+  fallback_citation: لا تتوفر في المعلومات المقدمة بيانات حول القانون المدني الرسمي
+    للمملكة العربية السعودية، بما في ذلك رقم القانون وسنة إصداره أو رابط المصدر الرسمي.
+- law_key: civil_procedure
+  law_name: Civil Procedure Code
+  accepted: false
+  depth_used: standard
+  query: Saudi Arabia Civil Procedure Code قانون أصول المحاكمات المدنية المرافعات
+    official full text
+  discovered_at: '2026-05-22'
+  official_url: https://uqn.gov.sa/details?p=28725
+  source_domain: uqn.gov.sa
+  source_name: طرح 22 مشروعاً عبر منصة "استطلاع" لأخذ مرئيات العموم والقطاعين الحكومي
+    والخاص | جريدة أم القرى
+  snippet: "### طرح 22 مشروعاً عبر منصة \"استطلاع\" لأخذ مرئيات العموم والقطاعين الحكومي\
+    \ والخاص  \nطرحت المنصة الإلكترونية الموحّدة لاستطلاع آراء العموم والجهات الحكومية\
+    \ (استطلاع) التابعة للمركز الوطني للتنافسية، 22 مشروعاً ذا صلة بالشأن الاقتصادي\
+    \ والتنمو"
+  score: -3
+  relevance: 0
+  why:
+  - newspath-3
+  fallback_citation: لا تتوفر معلومات في البيانات المقدمة حول القانون الرسمي للإجراءات
+    المدنية في المملكة العربية السعودية، بما في ذلك رقم القانون وسنة إصداره أو المصدر
+    الرسمي الإلكتروني.
+- law_key: penal_code
+  law_name: Penal / Criminal Code
+  accepted: false
+  depth_used: standard
+  query: Saudi Arabia Penal / Criminal Code قانون العقوبات official full text
+  discovered_at: '2026-05-22'
+  official_url: https://uqn.gov.sa/details?p=28662
+  source_domain: uqn.gov.sa
+  source_name: نظام حماية المؤشرات الجغرافية | جريدة أم القرى
+  snippet: "### نظام حماية المؤشرات الجغرافية  \nالفصل الأول:  \nالتعريفات والأهداف\
+    \ ونطاق الحماية  \nالمادة الأولى:  \nيقصد بالعبارات والمصطلحات الآتية -أينما وردت\
+    \ في هذا النظام- المعاني المبيَّنة أمامها ما لم يقتضِ السياق غير ذلك:  \nالنظام:\
+    \ نظام حماية الم"
+  score: 0
+  relevance: 1
+  why:
+  - rel+1
+  - newspath-3
+  fallback_citation: لا تتوفر في المعلومات المقدمة بيانات حول القانون الجنائي أو رقم
+    القانون وسنة إصداره أو المصدر الرسمي له في المملكة العربية السعودية.
+- law_key: criminal_procedure
+  law_name: Criminal Procedure Code
+  accepted: false
+  depth_used: standard
+  query: Saudi Arabia Criminal Procedure Code قانون أصول المحاكمات الجزائية الإجراءات
+    الجنائية official full text
+  discovered_at: '2026-05-22'
+  official_url: https://uqn.gov.sa/details?p=28662
+  source_domain: uqn.gov.sa
+  source_name: نظام حماية المؤشرات الجغرافية | جريدة أم القرى
+  snippet: "الفصل الثالث:  \nإجراءات الضبط والتحقيق والمحاكمة  \nالمادة السادسة عشرة:\
+    \  \nيتولى مفتشون -يصدر بتسميتهم قرار من المجلس- ضبط مخالفات أحكام النظام واللائحة.\
+    \  \nوتكون لهم صفة الضبط.  \nالمادة السابعة عشرة:  \nعلى المسؤولين والعاملين في\
+    \ الأماكن المر"
+  score: -3
+  relevance: 0
+  why:
+  - newspath-3
+  fallback_citation: لا تتوفر في المعلومات المقدمة بيانات حول قانون الإجراءات الجنائية
+    الرسمي في المملكة العربية السعودية، بما في ذلك رقم القانون وسنة الإصدار أو المصدر
+    الرسمي.
+- law_key: commercial_code
+  law_name: Commercial Code
+  accepted: true
+  depth_used: standard
+  query: Saudi Arabia Commercial Code القانون التجاري قانون المعاملات التجارية official
+    full text
+  discovered_at: '2026-05-22'
+  official_url: https://adlm.moj.gov.sa/Alqadaeya/attach/957.pdf
+  source_domain: adlm.moj.gov.sa
+  source_name: بحث محكَّ م تفليس المعسر في النظام التجاري السعودي
+  snippet: 'بحث محكَّ م · تفليس المعسر · في النظام التجاري السعودي · «دراسة تحليلية
+    مقارنة بالفقه اإلسالمي» · إعداد : · د. عبدالحميد الديسطي عبدالحميد شلبي · أستاذ
+    القانون ...
+
+    1993 ) لعام18( ) من قانون املعامالت التجارية الإماراتي رقم645( املادة-
+
+    ) بين'
+  score: 8
+  relevance: 1
+  why:
+  - rel+1
+  - pdf+3
+  - codified+2
+- law_key: companies_law
+  law_name: Companies Law
+  accepted: false
+  depth_used: standard
+  query: Saudi Arabia Companies Law قانون الشركات نظام الشركات official full text
+  discovered_at: '2026-05-22'
+  official_url: https://uqn.gov.sa/details?p=28707
+  source_domain: uqn.gov.sa
+  source_name: مشروع نظام الرياضة | جريدة أم القرى
+  snippet: "2- تمارس الرابطة أعمال إدارة المنافسات الرياضية وتسويقها؛ وفق ما يقضي\
+    \ به نظامها الأساس أو عقد تأسيسها، واللوائح التي تنظم شؤونها، ولوائح الاتحاد المعني.\
+    \  \nالمادة الحادية والعشرون:  \n1- للأندية المشاركة في منافسة رياضية تأسيس رابطة\
+    \ لها؛ وذلك"
+  score: 0
+  relevance: 1
+  why:
+  - rel+1
+  - newspath-3
+  fallback_citation: لا تتوفر في المعلومات المقدمة بيانات حول القانون الرسمي للشركات
+    في المملكة العربية السعودية، بما في ذلك رقم القانون وسنة إصداره أو مصدره الرسمي.
+- law_key: labor_law
+  law_name: Labor Law
+  accepted: false
+  depth_used: standard
+  query: Saudi Arabia Labor Law قانون العمل نظام العمل official full text
+  discovered_at: '2026-05-22'
+  official_url: https://uqn.gov.sa/details?p=28820
+  source_domain: uqn.gov.sa
+  source_name: وزير الإعلام يفتتح أعمال المنتدى السعودي للإعلام في نسخته الخامسة |
+    جريدة أم القرى
+  snippet: وأعلن معالي وزير الإعلام، إطلاق 12 مبادرة نوعية في هذا المنتدى من أبرزها،
+    «معسكر الابتكار الإعلامي» Saudi MIB، في مجالات الصحافة المعزَّزة، وصناعة المحتوى
+    الذكي، والمذيع الافتراضي، بالشراكة مع الهيئة السعودية للبيانات والذكاء الاصطناعي
+    «سدا
+  score: -3
+  relevance: 0
+  why:
+  - newspath-3
+  fallback_citation: لا تتوفر في المعلومات المقدمة بيانات حول القانون الرسمي للعمل
+    في المملكة العربية السعودية، بما في ذلك رقم القانون وسنة صدوره أو رابط المصدر
+    الرسمي.
+- law_key: personal_status
+  law_name: Personal Status / Family Law
+  accepted: false
+  depth_used: standard
+  query: Saudi Arabia Personal Status / Family Law قانون الأحوال الشخصية official
+    full text
+  discovered_at: '2026-05-22'
+  official_url: https://uqn.gov.sa/category?cat=5
+  source_domain: uqn.gov.sa
+  source_name: '| جريدة أم القرى'
+  snippet: جريدة أم القرى الرئيسية الأخبار قرارات وأنظمة بيانات رسمية الإعلانات الأرشيف
+    البــحـث الثلاثاء 22 شعبان 1447 الموافق 10 , فبراير, 2026 الرئيسية الأخبار قرارات
+    وأنظمة تقارير بيانات رسمية الإعلانات الأرشيف بيانات رسمية خادم الحرمين الشريفين
+    ي
+  score: 0
+  relevance: 0
+  why: []
+  fallback_citation: لا تتوفر في المعلومات المقدمة بيانات حول القانون الرسمي للأحوال
+    الشخصية / قانون الأسرة في المملكة العربية السعودية، بما في ذلك رقم القانون وسنة
+    إصداره أو المصدر الرسمي له.
+- law_key: tax_law
+  law_name: Income Tax / VAT Law
+  accepted: false
+  depth_used: standard
+  query: Saudi Arabia Income Tax / VAT Law قانون ضريبة الدخل القيمة المضافة official
+    full text
+  discovered_at: '2026-05-22'
+  official_url: https://uqn.gov.sa/details?p=28707
+  source_domain: uqn.gov.sa
+  source_name: مشروع نظام الرياضة | جريدة أم القرى
+  snippet: "2- تمارس الرابطة أعمال إدارة المنافسات الرياضية وتسويقها؛ وفق ما يقضي\
+    \ به نظامها الأساس أو عقد تأسيسها، واللوائح التي تنظم شؤونها، ولوائح الاتحاد المعني.\
+    \  \nالمادة الحادية والعشرون:  \n1- للأندية المشاركة في منافسة رياضية تأسيس رابطة\
+    \ لها؛ وذلك"
+  score: -3
+  relevance: 0
+  why:
+  - newspath-3
+  fallback_citation: لا تتوفر في المعلومات المقدمة بيانات حول القانون الرسمي لضريبة
+    الدخل أو ضريبة القيمة المضافة في المملكة العربية السعودية، بما في ذلك رقم القانون
+    وسنة إصداره أو المصدر الرسمي الإلكتروني.
+- law_key: arbitration_law
+  law_name: Arbitration Law
+  accepted: false
+  depth_used: standard
+  query: Saudi Arabia Arbitration Law قانون التحكيم نظام التحكيم official full text
+  discovered_at: '2026-05-22'
+  official_url: https://uqn.gov.sa/details?p=28707
+  source_domain: uqn.gov.sa
+  source_name: مشروع نظام الرياضة | جريدة أم القرى
+  snippet: "2- تمارس الرابطة أعمال إدارة المنافسات الرياضية وتسويقها؛ وفق ما يقضي\
+    \ به نظامها الأساس أو عقد تأسيسها، واللوائح التي تنظم شؤونها، ولوائح الاتحاد المعني.\
+    \  \nالمادة الحادية والعشرون:  \n1- للأندية المشاركة في منافسة رياضية تأسيس رابطة\
+    \ لها؛ وذلك"
+  score: -3
+  relevance: 0
+  why:
+  - newspath-3
+  fallback_citation: لا تتوفر معلومات في البيانات المقدمة حول القانون الرسمي للتحكيم
+    في المملكة العربية السعودية، بما في ذلك رقم القانون وسنة صدوره أو المصدر الرسمي
+    له.
+- law_key: data_protection
+  law_name: Data Protection / Privacy Law
+  accepted: true
+  depth_used: standard
+  query: Saudi Arabia Data Protection / Privacy Law قانون حماية البيانات الشخصية official
+    full text
+  discovered_at: '2026-05-22'
+  official_url: https://uqn.gov.sa/details?p=28787
+  source_domain: uqn.gov.sa
+  source_name: القواعد العامة للاستخدام الثانوي للبيانات | جريدة أم القرى
+  snippet: "أولاً: التعريفات  \nباستثناء ما ورد في الفقرتين (2) و(3) من هذا البند،\
+    \ يكون للألفاظ والعبارات الواردة في هذه القواعد المعاني المبيَّنة أمام كلٍّ منها\
+    \ في سياسة مشاركة البيانات الصادرة من الهيئة السعودية للبيانات والذكاء الاصطناعي،\
+    \ إضافةً إلى "
+  score: 3
+  relevance: 2
+  why:
+  - rel+2
+  - newspath-3

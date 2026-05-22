@@ -1,0 +1,259 @@
+cc: LB
+country: Lebanon
+allowlist:
+- lp.gov.lb
+- pcm.gov.lb
+accepted: 6
+total: 12
+laws:
+- law_key: constitution
+  law_name: Constitution / Basic Law
+  accepted: true
+  depth_used: standard
+  query: Lebanon Constitution / Basic Law الدستور القانون الأساسي للحكم official full
+    text
+  discovered_at: '2026-05-22'
+  official_url: https://lp.gov.lb/backoffice/uploads/files/Lebanese%20%20Constitution-%20En.pdf
+  source_domain: lp.gov.lb
+  source_name: Lebanese Constitution- En.pdf
+  snippet: 'partition, or settlement of non-Lebanese in Lebanon. J) There shall be
+    no constitutional legitimacy for any authority which contradicts the pact of
+
+    partition, or settlement of non-Lebanese in Lebanon. J) There shall be no constitutional
+    leg'
+  score: 8
+  relevance: 1
+  why:
+  - rel+1
+  - pdf+3
+  - codified+2
+- law_key: civil_code
+  law_name: Civil Code
+  accepted: false
+  depth_used: standard
+  query: Lebanon Civil Code القانون المدني المعاملات المدنية official full text
+  discovered_at: '2026-05-22'
+  official_url: https://lp.gov.lb/backoffice//uploads/files/%D8%A7%D9%84%D8%A8%D8%AD%D8%B1%D9%8A%D9%86%20-%20%D9%85%D8%B1%D8%B3%D9%88%D9%85%20%D8%A8%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D8%B1%D9%82%D9%85%2036%20%D9%84%D8%B3%D9%86%D8%A9%202002%20-%20%D8%AA%D9%86%D8%B8%D9%8A%D9%85%20%D8%A7%D9%84%D9%85%D9%86%D8%A7%D9%82%D8%B5%D8%A7%D8%AA%20%D9%88%D8%A7%D9%84%D9%85%D8%B4%D8%AA%D8%B1%D9%8A%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AD%D9%83%D9%88%D9%85%D9%8A%D8%A9.pdf
+  source_domain: lp.gov.lb
+  source_name: ) مرسوم بقانون رقم36 ( لسنة2002 بشأن تنظيم المناقصات والمشتريات الحكومية
+  snippet: 'وال تترتب أية مسئولية مدنية أو غيرھا على المجلس أو الجھة المشترية نتيجة
+    إللغاء المناقصة.
+
+    د ( تعزيѧز النزاھѧة والمنافسѧة وتѧوفير معاملѧة عادلѧة لجميѧع المѧوردين والمقѧاولين
+    تحقيقѧاً لمبѧدأ تكѧافؤ
+
+    وال تترتب أية مسئولية مدنية أو غيرھا على المج'
+  score: 5
+  relevance: 0
+  why:
+  - pdf+3
+  - codified+2
+  fallback_citation: The official Civil Code of Lebanon is the Lebanese Code of Obligations
+    and Contracts, established by Law No. 146 of 1932. However, the exact law number
+    and year are not explicitly provided in the avai
+- law_key: civil_procedure
+  law_name: Civil Procedure Code
+  accepted: true
+  depth_used: standard
+  query: Lebanon Civil Procedure Code قانون أصول المحاكمات المدنية المرافعات official
+    full text
+  discovered_at: '2026-05-22'
+  official_url: https://lp.gov.lb/ContentRecordDetails?id=31674
+  source_domain: lp.gov.lb
+  source_name: مجلس النواب | لجنة الإدارة والعدل أقرت مواد مشروع القانون المتعلق بقانون
+    أصول المحاكمات المدنية والتي تناولتها اللجنة ال
+  snippet: '1-تابعت اللجنة درس ... من المرسوم الاشتراعي رقم 90 تاريخ 16/9/1983 وتعديلاته
+    (قانون أصول المحاكمات المدنية)، الذي سبق لجنة أن بدأت بدرسه خلال جلسات سابقة،
+    بعد ...
+
+    عقدت لجنة الإدارة والعدل جلستها المقررة عند الساعة الحادية عشرة والنصف من قبل'
+  score: 5
+  relevance: 1
+  why:
+  - rel+1
+  - codified+2
+- law_key: penal_code
+  law_name: Penal / Criminal Code
+  accepted: true
+  depth_used: standard
+  query: Lebanon Penal / Criminal Code قانون العقوبات official full text
+  discovered_at: '2026-05-22'
+  official_url: https://lp.gov.lb/backoffice//uploads/files/08-09-2021%20-%20Al%20Joumhourieh%20-%20C_%20Maroun.pdf
+  source_domain: lp.gov.lb
+  source_name: الجمهورية90 - 90 - 0902 قانون الشراء العام وسيلة إلرساء الحكم الرشيد
+  snippet: وللمرة األولى ينص القانون على عقوبات على الجهة الشارية، مثل تنزيل االعتماد
+    المخصّص للعملية اذا انغمست او دخلت في ممارسات تواط ؤية او فاسدة، مع بقاء ... مع
+    االشارة الى انّ النص القانوني السابق كان يتضمّن عقوبات على الملتزمين مع االدارة
+    غالبا
+  score: 8
+  relevance: 1
+  why:
+  - rel+1
+  - pdf+3
+  - codified+2
+- law_key: criminal_procedure
+  law_name: Criminal Procedure Code
+  accepted: false
+  depth_used: standard
+  query: Lebanon Criminal Procedure Code قانون أصول المحاكمات الجزائية الإجراءات الجنائية
+    official full text
+  discovered_at: '2026-05-22'
+  official_url: https://www.lp.gov.lb/Resources/Files/66eb2e57-112a-4b28-8684-8b02574ba7eb.doc
+  source_domain: lp.gov.lb
+  source_name: Lp
+  snippet: 'هيئة الشراء العام: اختيار شركة ادارة متخصصة تتولى ادارة صندوق الاستشفاء
+    الخاص بمجلس النواب وفقاً بالبرنامج الممول ذاتياً · اللجان المشتركة تابعت درس إقتراح
+    ...'
+  score: 5
+  relevance: 0
+  why:
+  - pdf+3
+  - codified+2
+  fallback_citation: The available information does not include the exact law number,
+    year, or official source URL for the Criminal Procedure Code of Lebanon.
+- law_key: commercial_code
+  law_name: Commercial Code
+  accepted: false
+  depth_used: standard
+  query: Lebanon Commercial Code القانون التجاري قانون المعاملات التجارية official
+    full text
+  discovered_at: '2026-05-22'
+  official_url: https://www.lp.gov.lb/Resources/Files/1cd49cc8-e73d-4093-aa32-9eea2b23d3c0.pdf
+  source_domain: lp.gov.lb
+  source_name: Lp
+  snippet: 'هيئة الشراء العام: اختيار شركة ادارة متخصصة تتولى ادارة صندوق الاستشفاء
+    الخاص بمجلس النواب وفقاً بالبرنامج الممول ذاتياً · اللجان المشتركة تابعت درس إقتراح
+    ...'
+  score: 5
+  relevance: 0
+  why:
+  - pdf+3
+  - codified+2
+  fallback_citation: No specific information about the official Commercial Code of
+    Lebanon, including its exact law number, year, or an official source URL, is available
+    in the provided data.
+- law_key: companies_law
+  law_name: Companies Law
+  accepted: true
+  depth_used: standard
+  query: Lebanon Companies Law قانون الشركات نظام الشركات official full text
+  discovered_at: '2026-05-22'
+  official_url: https://lp.gov.lb/backoffice//uploads/files/08-09-2021%20-%20Al%20Joumhourieh%20-%20C_%20Maroun.pdf
+  source_domain: lp.gov.lb
+  source_name: الجمهورية90 - 90 - 0902 قانون الشراء العام وسيلة إلرساء الحكم الرشيد
+  snippet: 'تشكيل لجان تلزيم الصفقات في االدارات والمؤسسات العامة والبلديات من دون
+    أسس موحّدة ، مع تجاهل قواعد االستقاللية والكفاءة المنص وص عليها في نظام ...
+
+    للعارضين لتحضير مستنداتهم مثالً، يمكنها اللجوء الى استخدام حق االعتراض او المراجعة
+    امام القضا'
+  score: 8
+  relevance: 1
+  why:
+  - rel+1
+  - pdf+3
+  - codified+2
+- law_key: labor_law
+  law_name: Labor Law
+  accepted: false
+  depth_used: standard
+  query: Lebanon Labor Law قانون العمل نظام العمل official full text
+  discovered_at: '2026-05-22'
+  official_url: https://www.lp.gov.lb/Resources/Files/79a46d0d-398c-4fe9-ba09-5f8be545183c.pdf
+  source_domain: lp.gov.lb
+  source_name: Lp
+  snippet: قانون الشراء العام · منشورات · سلسلة · الخطة الوطنية لحقوق الانسان · دراسات
+    عن قطاعات مختلفة · تقارير ورش عمل · تقارير عن النتائج التشريعية والرقابية لمجلس
+    النواب ...
+  score: 5
+  relevance: 0
+  why:
+  - pdf+3
+  - codified+2
+  fallback_citation: "The official Labor Law of Lebanon is the Labor Code dated 1946.\
+    \ \n\nExact law reference: Labor Code of Lebanon, 1946.\n\nOfficial source URL:\
+    \ http://www.pcm.gov.lb/Library/Files/Labor%20Management%20Proce"
+- law_key: personal_status
+  law_name: Personal Status / Family Law
+  accepted: true
+  depth_used: standard
+  query: Lebanon Personal Status / Family Law قانون الأحوال الشخصية official full
+    text
+  discovered_at: '2026-05-22'
+  official_url: https://www.lp.gov.lb/ContentRecordDetails?id=13687
+  source_domain: lp.gov.lb
+  source_name: مجلس النواب | E-14-حقوق المرأة
+  snippet: 'علماً بأن لبنان لم ... الشخصية. ... إن الدستور اللبناني لا يتضمن أي نص
+    تمييزي بحق المرأة، بل يكرس مساواة جميع المواطنين أمام القانون دون تمييز....
+
+    14- حقوق المرأة يؤكد إعلان بكين (لعام 1995) على أن تقد ّ م المرأة وتحقيق المساواة
+    بينها وبين '
+  score: 5
+  relevance: 1
+  why:
+  - rel+1
+  - codified+2
+- law_key: tax_law
+  law_name: Income Tax / VAT Law
+  accepted: true
+  depth_used: standard
+  query: Lebanon Income Tax / VAT Law قانون ضريبة الدخل القيمة المضافة official full
+    text
+  discovered_at: '2026-05-22'
+  official_url: https://www.lp.gov.lb/ContentRecordDetails?Id=33450
+  source_domain: lp.gov.lb
+  source_name: 'مجلس النواب | لجنة المال والموازنة أنجزت تعديلات قوانين ضريبة الدخل
+    ورسم الطابع المالي وبراءة الإختراع والحماية الفكرية '
+  snippet: 'وعقب الجلسة قال النائب إبراهيم كنعان: &quot;لقد تقدّمنا بشكل كبير في إنجاز
+    مواد قانون الموازنة. وقد أنجزنا تعديلات قوانين ضريبة الدخل ورسم الطابع المالي
+    وبراءة الإختراع والحماية الفكرية والأملاك المبنية والضريبة على القيمة المضافة
+    ورسوم الإ'
+  score: 8
+  relevance: 2
+  why:
+  - rel+2
+  - codified+2
+- law_key: arbitration_law
+  law_name: Arbitration Law
+  accepted: false
+  depth_used: standard
+  query: Lebanon Arbitration Law قانون التحكيم نظام التحكيم official full text
+  discovered_at: '2026-05-22'
+  official_url: https://www.lp.gov.lb/Resources/Files/66eb2e57-112a-4b28-8684-8b02574ba7eb.doc
+  source_domain: lp.gov.lb
+  source_name: Lp
+  snippet: 'هيئة الشراء العام: اختيار شركة ادارة متخصصة تتولى ادارة صندوق الاستشفاء
+    الخاص بمجلس النواب وفقاً بالبرنامج الممول ذاتياً · اللجان المشتركة تابعت درس إقتراح
+    ...'
+  score: 5
+  relevance: 0
+  why:
+  - pdf+3
+  - codified+2
+  fallback_citation: No specific information about the official Arbitration Law of
+    Lebanon, including its exact law number, year, or an official source URL, is available
+    in the provided data.
+- law_key: data_protection
+  law_name: Data Protection / Privacy Law
+  accepted: false
+  depth_used: standard
+  query: Lebanon Data Protection / Privacy Law قانون حماية البيانات الشخصية official
+    full text
+  discovered_at: '2026-05-22'
+  official_url: http://old.lp.gov.lb/Resources/Files/17cf462d-27b5-444b-a4a3-951cfd59c096.pdf
+  source_domain: old.lp.gov.lb
+  source_name: 1 الجمهورية اللبنانية مجلس النواب قانون رقم178 تاريخ28 / 5 / 2020 (ج.ر.
+    عدد23
+  snippet: 'تعهد شخصي من ال شخص الطبيعي مصدق لدى الكاتب العدل يؤكد بموجبه صحة المعلومات
+
+    لتنظيم حمالت توعية بصورة دورية على كامل االراضي%
+
+    شرائها أو تنوي إستثمارها في مجال الزراعة موضوع هذا القانون مع الخطة المف ّص لة
+    المقترحة لزراعة و حماية · ومراقبة ال'
+  score: 5
+  relevance: 0
+  why:
+  - pdf+3
+  - codified+2
+  fallback_citation: The official Data Protection / Privacy Law of Lebanon is Law
+    No. 81 of the year 2018. However, this specific law number and year are not explicitly
+    mentioned in the provided information. The available
