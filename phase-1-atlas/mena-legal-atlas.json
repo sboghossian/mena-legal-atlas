@@ -77,6 +77,157 @@
       "upstream_gap": "medium"
     },
     "notes": "Free zones (DIFC, ADGM) have the best open access. Federal is the hard part.",
+    "additional_sources": [
+      {
+        "domain": "dlp.dubai.gov.ae",
+        "kind": "national-gov",
+        "url": "https://dlp.dubai.gov.ae/en/Pages/OfficialGazette.aspx",
+        "name": "Official Gazette",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "abudhabi.gov.ae",
+        "kind": "national-gov",
+        "url": "https://www.abudhabi.gov.ae/en/policies-and-legislations",
+        "name": "Policies & legislations - Government of Abu Dhabi",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "legal.dubai.gov.ae",
+        "kind": "national-gov",
+        "url": "https://legal.dubai.gov.ae/en/Services/Pages/Official-Gazette.aspx",
+        "name": "Official-Gazette | Legal Affairs Department of Dubai",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "slc.dubai.gov.ae",
+        "kind": "national-gov",
+        "url": "https://slc.dubai.gov.ae/en/services/gazette/Pages/default.aspx",
+        "name": "Official Gazette",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "adjd.gov.ae",
+        "kind": "national-gov",
+        "url": "https://www.adjd.gov.ae/en/pages/courts.aspx",
+        "name": "Courts of Appeal - Abu Dhabi",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "services.cbuae.gov.ae",
+        "kind": "national-gov",
+        "url": "https://services.cbuae.gov.ae/",
+        "name": "CBUAE Services Portal - Central Bank of the UAE",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "sca.gov.ae",
+        "kind": "national-gov",
+        "url": "https://www.sca.gov.ae/en/home.aspx",
+        "name": "Capital Market Authority",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "tax.gov.ae",
+        "kind": "national-gov",
+        "url": "https://tax.gov.ae/en/",
+        "name": "Federal Tax Authority - United Arab Emirates",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "mof.gov.ae",
+        "kind": "national-gov",
+        "url": "https://mof.gov.ae/en/about-us/our-partners/federal-tax-authority/",
+        "name": "Federal Tax Authority | Ministry of Finance - United Arab Emirates",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "eservices.tax.gov.ae",
+        "kind": "national-gov",
+        "url": "https://eservices.tax.gov.ae/",
+        "name": "Federal Tax Authority",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "moet.gov.ae",
+        "kind": "national-gov",
+        "url": "https://www.moet.gov.ae/en/regulation-of-competition",
+        "name": "Regulation of Competition | Ministry of Economy & Tourism - UAE",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "icp.gov.ae",
+        "kind": "national-gov",
+        "url": "https://icp.gov.ae/en/",
+        "name": "UAE ICP | Federal Authority for Identity, Citizenship, Customs & Port Security",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "added.gov.ae",
+        "kind": "national-gov",
+        "url": "https://www.added.gov.ae/en/ipu/understanding-ip/more-about-innovation-and-ip/uae-ip-status",
+        "name": "UAE IP Status | Welcome to Abu Dhabi Intellectual Property Unit",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "wipo.int",
+        "kind": "aggregator",
+        "url": "https://www.wipo.int/directory/en/contact.jsp?country_id=2&type=ADMIN_IP",
+        "name": "Contact Information: United Arab Emirates",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "mohre.gov.ae",
+        "kind": "national-gov",
+        "url": "https://www.mohre.gov.ae/en/home.aspx",
+        "name": "Ministry of Human Resources & Emiratisation - MOHRE",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "traderegistry.ae",
+        "kind": "national",
+        "url": "https://traderegistry.ae/",
+        "name": "UAE Trade Registry Smart Portal - Doing Business in UAE",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "adra.gov.ae",
+        "kind": "national-gov",
+        "url": "https://www.adra.gov.ae/en",
+        "name": "Abu Dhabi Registration Authority | ADRA",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      }
+    ],
+    "key_legislation": [
+      {
+        "law_key": "constitution",
+        "law_name": "Constitution of United Arab Emirates",
+        "title": "United_Arab_Emirates__the - Asia - Constitute",
+        "official_url": "https://constituteproject.org/countries/Asia/United_Arab_Emirates__the",
+        "source_domain": "constituteproject.org",
+        "discovered_via": "linkup_aggregator",
+        "verified_by": "linkup_aggregator (spot-check before relying)",
+        "verified_at": "2026-05-22",
+        "note": "Authoritative aggregator (Constitute Project / WIPO Lex)."
+      }
+    ],
     "worldwidelaw_reconciled": {
       "total": 15,
       "working": 7,
@@ -164,6 +315,109 @@
       "upstream_gap": "high"
     },
     "notes": "One of the worst access situations in the GCC despite small corpus size.",
+    "additional_sources": [
+      {
+        "domain": "mia.gov.bh",
+        "kind": "national-gov",
+        "url": "https://www.mia.gov.bh/official-gazette/?lang=en",
+        "name": "Official Gazette – Ministry of Information | وزارة الاعلام | Kingdom of Bahrain",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "msia.gov.bh",
+        "kind": "national-gov",
+        "url": "http://www.msia.gov.bh/en/official-gazette/Pages/default.aspx",
+        "name": "Official Gazette Home",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "pdp.gov.bh",
+        "kind": "national-gov",
+        "url": "https://www.pdp.gov.bh/en/regulations.html",
+        "name": "The Law | | Kingdom Of Bahrain",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "mola.gov.bh",
+        "kind": "national-gov",
+        "url": "https://www.mola.gov.bh/Legislation/Laws/",
+        "name": "Laws - Ministry of Legal Affairs – Kingdom of Bahrain",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "guides.loc.gov",
+        "kind": "aggregator",
+        "url": "https://guides.loc.gov/law-bahrain/legislative",
+        "name": "Legislative - Guide to Law Online: Bahrain - Research Guides at Library of Congress",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "mofa.gov.bh",
+        "kind": "national-gov",
+        "url": "https://www.mofa.gov.bh/en/legislative-authority",
+        "name": "Legislative Authority",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "moj.gov.bh",
+        "kind": "national-gov",
+        "url": "https://www.moj.gov.bh/en/",
+        "name": "Ministry of Justice, Islamic Affairs and Waqf",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "nbr.gov.bh",
+        "kind": "national-gov",
+        "url": "https://www.nbr.gov.bh/",
+        "name": "الجهاز الوطني للإيرادات - الرئيسية",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "culture.gov.bh",
+        "kind": "national-gov",
+        "url": "https://culture.gov.bh/en/mediacenter/news_center/2021/March2021/Name,19301,en.html",
+        "name": "Bahrain Authority for Culture and Antiquities - Kingdom of Bahrain | March 2021",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "wipo.int",
+        "kind": "aggregator",
+        "url": "https://www.wipo.int/directory/en/details.jsp?country_code=BH",
+        "name": "Information by Country: Bahrain",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "moic.gov.bh",
+        "kind": "national-gov",
+        "url": "https://www.moic.gov.bh/en/service/323",
+        "name": "Trademarks and Patents | Ministry of Industry and Commerce",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      }
+    ],
+    "key_legislation": [
+      {
+        "law_key": "constitution",
+        "law_name": "Constitution of Bahrain",
+        "title": "Bahrain - Asia - Constitute",
+        "official_url": "https://constituteproject.org/countries/Asia/Bahrain",
+        "source_domain": "constituteproject.org",
+        "discovered_via": "linkup_aggregator",
+        "verified_by": "linkup_aggregator (spot-check before relying)",
+        "verified_at": "2026-05-22",
+        "note": "Authoritative aggregator (Constitute Project / WIPO Lex)."
+      }
+    ],
     "worldwidelaw_reconciled": {
       "total": 6,
       "working": 1,
@@ -237,6 +491,117 @@
       "upstream_gap": "high"
     },
     "notes": "HAQQ has limited GCC presence outside UAE/SA — Kuwait is low-customer-density.",
+    "additional_sources": [
+      {
+        "domain": "guides.loc.gov",
+        "kind": "aggregator",
+        "url": "https://guides.loc.gov/law-kuwait/legislative",
+        "name": "Legislative - Guide to Law Online: Kuwait - Research Guides at Library of Congress",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "mof.gov.kw",
+        "kind": "national-gov",
+        "url": "https://www.mof.gov.kw/Desicions/DecreeWithLaw/PDF/pdf1.pdf",
+        "name": "1- Law no. 20 for 1992 AL-KUWAIT AL-YAWM (Gazette)",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "cait.gov.kw",
+        "kind": "national-gov",
+        "url": "https://cait.gov.kw/en/projects/kuwait-government-online-portal-egovkw/",
+        "name": "Kuwait Government Online portal (e.gov.kw)",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "wipo.int",
+        "kind": "aggregator",
+        "url": "https://www.wipo.int/wipolex/en/legislation/details/6148",
+        "name": "Constitution of Kuwait, Kuwait, WIPO Lex",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "moj.gov.kw",
+        "kind": "national-gov",
+        "url": "https://www.moj.gov.kw/EN/Pages/default.aspx",
+        "name": "Ministry of Justice - وزارة العدل",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "cbk.gov.kw",
+        "kind": "national-gov",
+        "url": "https://www.cbk.gov.kw/en",
+        "name": "Central Bank of Kuwait: Home",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "cma.gov.kw",
+        "kind": "national-gov",
+        "url": "https://www.cma.gov.kw/en/web/cma/home",
+        "name": "Capital Markets Authority-Home - CMA",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "ifsah.cma.gov.kw",
+        "kind": "national-gov",
+        "url": "https://ifsah.cma.gov.kw/",
+        "name": "Capital Markets Authority State of Kuwait - CMA",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "citra.gov.kw",
+        "kind": "national-gov",
+        "url": "https://www.citra.gov.kw/sites/en/LegalReferences/Data_Privacy_Protection_Regulation.pdf",
+        "name": "Data Privacy Protection Regulation",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "cpa.gov.kw",
+        "kind": "national-gov",
+        "url": "https://cpa.gov.kw/",
+        "name": "جهاز حماية المنافسة",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "manpower.gov.kw",
+        "kind": "national-gov",
+        "url": "https://www.manpower.gov.kw/EmploymentServiceEnglish.aspx",
+        "name": "- الهيئة العامة للقوى العاملة",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "moci.gov.kw",
+        "kind": "national-gov",
+        "url": "https://www.moci.gov.kw/en/about-us/deputies-and-departments/assistant-agency-corporate-affairs-and-commercial-licenses/commercial-registry-department/",
+        "name": "Commercial Registry Department",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      }
+    ],
+    "key_legislation": [
+      {
+        "law_key": "constitution",
+        "law_name": "Constitution of Kuwait",
+        "title": "Constitute - Asia - Kuwait",
+        "official_url": "https://constituteproject.org/countries/Asia/Kuwait?lang=ar",
+        "source_domain": "constituteproject.org",
+        "discovered_via": "linkup_aggregator",
+        "verified_by": "linkup_aggregator (spot-check before relying)",
+        "verified_at": "2026-05-22",
+        "note": "Authoritative aggregator (Constitute Project / WIPO Lex)."
+      }
+    ],
     "worldwidelaw_reconciled": {
       "total": 3,
       "working": 1,
@@ -310,6 +675,157 @@
       "upstream_gap": "low"
     },
     "notes": "Strong starting point for \"GCC complete\" milestone.",
+    "additional_sources": [
+      {
+        "domain": "wipo.int",
+        "kind": "aggregator",
+        "url": "https://www.wipo.int/wipolex/en/legislation/details/6118",
+        "name": "Basic Law of the Sultanate of Oman (promulgated by the Royal Decree No. 101/96), Oman, WIP",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "cpa.gov.om",
+        "kind": "national-gov",
+        "url": "https://cpa.gov.om/en/pages/omangovernmentalwebsites.aspx",
+        "name": "Consumer Protection Authority E-Portal Oman Government Websites",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "sjc.gov.om",
+        "kind": "national-gov",
+        "url": "https://www.sjc.gov.om/?culture=en",
+        "name": ":: Supreme Judiciary Council - Sultanate of Oman ::",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "admincourt.gov.om",
+        "kind": "national-gov",
+        "url": "https://www.admincourt.gov.om/InnerPage.aspx?ID=2f69fcd5-73f7-4dc8-8ff6-14a70f48c379&culture=en",
+        "name": ":: Supreme Judiciary Council - Sultanate of Oman ::",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "omanportal.gov.om",
+        "kind": "national-gov",
+        "url": "https://omanportal.gov.om/wps/portal/index/cr/justice/regularcourts/!ut/p/a0/04_Sj9CPykssy0xPLMnMz0vMAfGjzOL9Aw3NDD38Dbz9_UINDRw9DEIC_Z3cjCz8TfWDU_P0C7IdFQHaIH_s/?lang=en",
+        "name": "Regular courts - Omanuna Portal",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "portal.sjc.gov.om",
+        "kind": "national-gov",
+        "url": "https://portal.sjc.gov.om/",
+        "name": "Supreme Judiciary Council",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "mjla.gov.om",
+        "kind": "national-gov",
+        "url": "https://www.mjla.gov.om/eng/",
+        "name": "Ministry of Justice and Legal Affairs - Sultanate of Oman",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "stg-portal.service.gov.om",
+        "kind": "national-gov",
+        "url": "https://stg-portal.service.gov.om/ministry-of-justice-and-legal-affairs",
+        "name": "Ministry of Justice and Legal Affairs - Home - Gov.om",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "guides.loc.gov",
+        "kind": "aggregator",
+        "url": "https://guides.loc.gov/law-oman/legislative",
+        "name": "Legislative - Guide to Law Online: Oman - Research Guides at Library of Congress",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "opendata.gov.om",
+        "kind": "national-gov",
+        "url": "https://opendata.gov.om/en/publishers/1dec190b-26c3-476d-b5a5-9d4182f023dc",
+        "name": "Ministry of Justice & legal Affairs - Open Data Portal",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "cbo.gov.om",
+        "kind": "national-gov",
+        "url": "https://cbo.gov.om/",
+        "name": "Central Bank Of Oman - CBOHome",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "fsa.gov.om",
+        "kind": "national-gov",
+        "url": "https://fsa.gov.om/",
+        "name": "Financial Services Authority, Sultanate of Oman - Home",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "tms.taxoman.gov.om",
+        "kind": "national-gov",
+        "url": "https://tms.taxoman.gov.om/portal/",
+        "name": "Sultanate of Oman Tax Authority - Tax Portal",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "mtcit.gov.om",
+        "kind": "national-gov",
+        "url": "https://mtcit.gov.om/library-3/legislations-policies-8/laws-75/personal-data-protection-law-1034",
+        "name": "Personal Data Protection Law | MTCIT",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "mol.gov.om",
+        "kind": "national-gov",
+        "url": "https://www.mol.gov.om/",
+        "name": "وزارة العمل -سلطنة عمان - الرئيسية",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "pamr.gov.om",
+        "kind": "national-gov",
+        "url": "https://pamr.gov.om/en-us/eportal/Public/Pages/default.aspx",
+        "name": "Ministry of Labour",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "business.gov.om",
+        "kind": "national-gov",
+        "url": "https://www.business.gov.om/ieasy/wp/en/services/search-commercial-registrations/",
+        "name": "Search Commercial Registrations – Oman Business Platform",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      }
+    ],
+    "key_legislation": [
+      {
+        "law_key": "constitution",
+        "law_name": "Constitution of Oman",
+        "title": "Oman - Asia - Constitute",
+        "official_url": "https://constituteproject.org/countries/Asia/Oman",
+        "source_domain": "constituteproject.org",
+        "discovered_via": "linkup_aggregator",
+        "verified_by": "linkup_aggregator (spot-check before relying)",
+        "verified_at": "2026-05-22",
+        "note": "Authoritative aggregator (Constitute Project / WIPO Lex)."
+      }
+    ],
     "worldwidelaw_reconciled": {
       "total": 3,
       "working": 3,
@@ -382,6 +898,173 @@
       "upstream_gap": "medium"
     },
     "notes": "Best-organized civil-law portal in the GCC.",
+    "additional_sources": [
+      {
+        "domain": "moj.gov.qa",
+        "kind": "national-gov",
+        "url": "https://www.moj.gov.qa/en/Pages/Official_Gazette_Dept.aspx",
+        "name": "Home Official Gazette Department",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "guides.loc.gov",
+        "kind": "aggregator",
+        "url": "https://guides.loc.gov/law-qatar/legal-guides",
+        "name": "Legal Guides - Guide to Law Online: Qatar - Research Guides at Library of Congress",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "gco.gov.qa",
+        "kind": "national-gov",
+        "url": "https://www.gco.gov.qa/en/media-centre/top-news/",
+        "name": "Top News | Government Communications Office",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "qfz.gov.qa",
+        "kind": "national-gov",
+        "url": "https://qfz.gov.qa/resources/laws/",
+        "name": "Laws - Qatar Free Zones",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "maint.loc.gov",
+        "kind": "aggregator",
+        "url": "https://maint.loc.gov/law/help/guide/nations/qatar.php",
+        "name": "Guide to Law Online: Qatar | Law Library of Congress",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "sjc.gov.qa",
+        "kind": "national-gov",
+        "url": "https://www.sjc.gov.qa/en",
+        "name": "Supreme Judicial Council Portal for Electronic Court Services",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "qicdrc.gov.qa",
+        "kind": "national-gov",
+        "url": "https://www.qicdrc.gov.qa/courts/court",
+        "name": "The Court | QICDRC",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "data.gov.qa",
+        "kind": "national-gov",
+        "url": "https://www.data.gov.qa/explore/",
+        "name": "Explore — State of Qatar Open Data",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "qcb.gov.qa",
+        "kind": "national-gov",
+        "url": "https://www.qcb.gov.qa/",
+        "name": "Qatar Central Bank",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "newap.sw.gov.qa",
+        "kind": "national-gov",
+        "url": "https://newap.sw.gov.qa/wps/wcm/connect/SW_InvestorsPortal_Content_Lib/Explore/Financial_Centers/qatarfinancialmarketsauthority",
+        "name": "Qatar Financial Markets Authority",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "gta.gov.qa",
+        "kind": "national-gov",
+        "url": "https://gta.gov.qa/en/",
+        "name": "General Tax Authority - GTA | General Tax Authority",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "dhareeba.gov.qa",
+        "kind": "national-gov",
+        "url": "https://dhareeba.gov.qa/en",
+        "name": "Dhareeba Portal | Dhareeba Portal",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "ncsa.gov.qa",
+        "kind": "national-gov",
+        "url": "https://ncsa.gov.qa/en/pages/personal-data-privacy-personal-data-privacy-protection-law",
+        "name": "Personal Data & Privacy Protection Law",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "assurance.ncsa.gov.qa",
+        "kind": "national-gov",
+        "url": "https://assurance.ncsa.gov.qa/en/privacy",
+        "name": "Ncsa",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "moci.gov.qa",
+        "kind": "national-gov",
+        "url": "https://www.moci.gov.qa/en/about-the-ministry/departments/departments-under-the-assistant-deputy-of-consumer-affairs/the-competition-protection-department/",
+        "name": "The Competition Protection Department – Ministry of Commerce and Industry",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "cra.gov.qa",
+        "kind": "national-gov",
+        "url": "https://www.cra.gov.qa/-/media/Feature/Publication/Competition-Policy.ashx",
+        "name": "The Competition Policy comprises the Statement of ...",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "caa.gov.qa",
+        "kind": "national-gov",
+        "url": "https://www.caa.gov.qa/en",
+        "name": "Home | QCAA",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "mol.gov.qa",
+        "kind": "national-gov",
+        "url": "https://www.mol.gov.qa/En/pages/default.aspx",
+        "name": "Home | Ministry Of Labour",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "ecommerce.gov.qa",
+        "kind": "national-gov",
+        "url": "https://ecommerce.gov.qa/emerchants/government-processes/",
+        "name": "Government Processes - MCIT Qatar’s eCommerce Portal",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      }
+    ],
+    "key_legislation": [
+      {
+        "law_key": "constitution",
+        "law_name": "Constitution of Qatar",
+        "title": "Qatar - Asia - Constitute",
+        "official_url": "https://constituteproject.org/countries/Asia/Qatar",
+        "source_domain": "constituteproject.org",
+        "discovered_via": "linkup_aggregator",
+        "verified_by": "linkup_aggregator (spot-check before relying)",
+        "verified_at": "2026-05-22",
+        "note": "Authoritative aggregator (Constitute Project / WIPO Lex)."
+      }
+    ],
     "worldwidelaw_reconciled": {
       "total": 7,
       "working": 4,
@@ -475,6 +1158,133 @@
       "upstream_gap": "critical"
     },
     "notes": "Highest-impact gap in the entire region. SA is a top-3 HAQQ ICP market and\nhas ZERO working scrapers in upstream. Hijri calendar handling is the\ntechnical wedge that excludes most non-MENA contributors.\n",
+    "additional_sources": [
+      {
+        "domain": "loc.gov",
+        "kind": "aggregator",
+        "url": "https://www.loc.gov/item/sn97058110/",
+        "name": "Saudi gazette | Library of Congress",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "spa.gov.sa",
+        "kind": "national-gov",
+        "url": "https://spa.gov.sa/en",
+        "name": "The official Saudi Press Agency",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "my.gov.sa",
+        "kind": "national-gov",
+        "url": "https://my.gov.sa/en/content/165",
+        "name": "Digital Government Legislation | National Platform (National Portal)",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "moi.gov.sa",
+        "kind": "national-gov",
+        "url": "https://www.moi.gov.sa/wps/portal/!ut/p/z1/rVLBToNAFPyV9sCx2bcsAnvcmFpQrNoGhb00y4Ltmu5CFUX_XuAOSOI7vZfMTN5MBnGUIG7ElzqKWpVGnNs75e4BQscJsGPfPRC2BubeRHRHAYcY0EsPuN6wwPEiAD_aXEHIgnhHnwgBRhD_C38IcG9P8Z8RR1yauqpPKNWlWuSqEcaCbj2VuljI0tSFqS3oLgvei-PnuXfXESupcpRiITPIABxMCXZpRuWrl0nqyVxQDFnRIz-aDsq9wWfW9oSZ9tvezMCwLgzeQ8binNLgo4m1gaajLgJA-xnJTIjZ_ymGZ4ndTjWnrbZ6u1w4a_vTdeS7Rsm8Au0Lgyodx9onepWAetT6sN2uROb_kIYtl7_JhUJf/dz/d5/L2dBISEvZ0FBIS9nQSEh/",
+        "name": "Rules, Regulations,Guidelines",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "guides.loc.gov",
+        "kind": "aggregator",
+        "url": "https://guides.loc.gov/law-saudi-arabia/legal-guides",
+        "name": "Legal Guides - Guide to Law Online: Saudi Arabia - Research Guides at Library of Congress",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "dga.gov.sa",
+        "kind": "national-gov",
+        "url": "https://dga.gov.sa/en/node/1858",
+        "name": "Saudi Ministry of Justice | Digital Government Authority",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "cma.gov.sa",
+        "kind": "national-gov",
+        "url": "https://cma.gov.sa/en/Pages/default.aspx",
+        "name": "Capital Market Authority | Home",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "mc.gov.sa",
+        "kind": "national-gov",
+        "url": "https://mc.gov.sa/en/mediacenter/News/Pages/26-11-17-01.aspx",
+        "name": "Ministry of Commerce & Investment, Capital Market Authority and Saudi Arabian Monetary Age",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "sdaia.gov.sa",
+        "kind": "national-gov",
+        "url": "https://sdaia.gov.sa/en/Research/Pages/DataProtection.aspx",
+        "name": "SDAIA | Data Protection Law",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "dgp.sdaia.gov.sa",
+        "kind": "national-gov",
+        "url": "https://dgp.sdaia.gov.sa/wps/portal/pdp/Registration/government/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8ziPR1dzTwMgw2MDMOcTA3MjH39TE29jY0M_I31w9EUhIZZAhUEGvl6OXoaGwQY60cRo98AB3A0IKw_Cq8Sd2MMBZhOBCvA44aC3NAIg0xPRQAsYsOH/dz/d5/L0lDUmlTUSEhL3dHa0FKRnNBLzROV3FpQSEhL2Vu/",
+        "name": "Government organizations",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "gac.gov.sa",
+        "kind": "national-gov",
+        "url": "https://gac.gov.sa/index_en.aspx",
+        "name": "General Authority for Competition",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "saip.gov.sa",
+        "kind": "national-gov",
+        "url": "https://www.saip.gov.sa/en/",
+        "name": "Saudi Authority for Intellectual Property",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "hrsd.gov.sa",
+        "kind": "national-gov",
+        "url": "https://www.hrsd.gov.sa/en",
+        "name": "The official website of the Ministry of HRSD",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "scr.bc.gov.sa",
+        "kind": "national-gov",
+        "url": "https://scr.bc.gov.sa/str/search.aspx",
+        "name": "Saudi Business Center - Unified Registry of Rights on Movable Assets",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      }
+    ],
+    "key_legislation": [
+      {
+        "law_key": "constitution",
+        "law_name": "Constitution of Saudi Arabia",
+        "title": "Saudi_Arabia - Asia - Constitute",
+        "official_url": "https://constituteproject.org/countries/Asia/Saudi_Arabia?lang=en",
+        "source_domain": "constituteproject.org",
+        "discovered_via": "linkup_aggregator",
+        "verified_by": "linkup_aggregator (spot-check before relying)",
+        "verified_at": "2026-05-22",
+        "note": "Authoritative aggregator (Constitute Project / WIPO Lex)."
+      }
+    ],
     "worldwidelaw_reconciled": {
       "total": 11,
       "working": 0,
@@ -565,6 +1375,149 @@
       "upstream_gap": "high"
     },
     "notes": "Largest Arabic-speaking legal system. High-value target.",
+    "additional_sources": [
+      {
+        "domain": "loc.gov",
+        "kind": "aggregator",
+        "url": "https://www.loc.gov/item/eg19910502_01/",
+        "name": "The Arab Republic of Egypt Presidency's Official Gazette; v. 34/ no. 18 (cont.) | Library ",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "egypt.gov.eg",
+        "kind": "national-gov",
+        "url": "https://www.egypt.gov.eg/english/laws/default.aspx",
+        "name": "Egypt’s Government Services Portal - Laws and Constitution",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "guides.loc.gov",
+        "kind": "aggregator",
+        "url": "https://guides.loc.gov/law-egypt/legal-guides",
+        "name": "Legal Guides - Guide to Law Online: Egypt - Research Guides at Library of Congress",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "esc.gov.eg",
+        "kind": "national-gov",
+        "url": "https://esc.gov.eg/en/homepage/",
+        "name": "The Egyptian State Council – Official website",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "sis.gov.eg",
+        "kind": "national-gov",
+        "url": "https://sis.gov.eg/en/egypt/system-of-government/regulatory-authorities/central-bank-of-egypt/",
+        "name": "Central Bank of Egypt",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "gafi.gov.eg",
+        "kind": "national-gov",
+        "url": "https://www.gafi.gov.eg/English/StartaBusiness/Pages/Business-Facts.aspx",
+        "name": "Gafi- Business Facts",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "fra.gov.eg",
+        "kind": "national-gov",
+        "url": "https://fra.gov.eg/en/%D8%B3%D9%88%D9%82-%D8%A7%D9%84%D9%85%D8%A7%D9%84/",
+        "name": "Capital Market – الهيئة العامة للرقابة المالية",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "eta.gov.eg",
+        "kind": "national-gov",
+        "url": "https://www.eta.gov.eg/en/home",
+        "name": "Home Page | مصلحة الضرائب المصرية",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "rta.gov.eg",
+        "kind": "national-gov",
+        "url": "https://www.rta.gov.eg/en/related-sites",
+        "name": "Related sites | RTA",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "mof.gov.eg",
+        "kind": "national-gov",
+        "url": "https://mof.gov.eg/en/posts/projects/600f07b8804b06000713f352/Tax-System-Development",
+        "name": "Tax System Development",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "egypo.gov.eg",
+        "kind": "national-gov",
+        "url": "http://www.egypo.gov.eg/default.aspx?lang=en",
+        "name": "Egyption Patent Office",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "wipo.int",
+        "kind": "aggregator",
+        "url": "https://www.wipo.int/directory/en/contact.jsp?country_id=53&type=ADMIN_IP",
+        "name": "Contact Information: Egypt",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "labour.gov.eg",
+        "kind": "national-gov",
+        "url": "https://www.labour.gov.eg/en/",
+        "name": "Home",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "manpower.gov.eg",
+        "kind": "national-gov",
+        "url": "https://www.manpower.gov.eg/index-e.html",
+        "name": "MINISTRY OF MANPOWER",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "presidency.eg",
+        "kind": "national",
+        "url": "https://www.presidency.eg/en/%D8%A7%D9%84%D8%B1%D8%A6%D8%A7%D8%B3%D8%A9/%D8%A5%D9%86%D8%AC%D8%A7%D8%B2%D8%A7%D8%AA-%D9%85%D8%B5%D8%B1-%D9%81%D9%8A-%D8%AC%D9%85%D9%8A%D8%B9-%D8%A7%D9%84%D9%85%D8%AC%D8%A7%D9%84%D8%A7%D8%AA-%D9%81%D9%8A-%D8%A7%D9%84%D9%81%D8%AA%D8%B1%D8%A9-%D9%85%D9%86-2014-%D8%A5%D9%84%D9%89-2021/%D9%85%D8%AD%D9%88%D8%B1-%D8%A8%D9%86%D8%A7%D8%A1-%D8%A7%D9%84%D8%A5%D9%86%D8%B3%D8%A7%D9%86/%D9%88%D8%B2%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%82%D9%88%D9%89-%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D9%84%D8%A9/",
+        "name": "Ministry of Manpower",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "goeic.gov.eg",
+        "kind": "national-gov",
+        "url": "https://www.goeic.gov.eg/en/search",
+        "name": "GOEIC | WebsSite Title",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      }
+    ],
+    "key_legislation": [
+      {
+        "law_key": "constitution",
+        "law_name": "Constitution of Egypt",
+        "title": "Egypt - Africa - Constitute",
+        "official_url": "https://constituteproject.org/countries/Africa/Egypt?lang=es",
+        "source_domain": "constituteproject.org",
+        "discovered_via": "linkup_aggregator",
+        "verified_by": "linkup_aggregator (spot-check before relying)",
+        "verified_at": "2026-05-22",
+        "note": "Authoritative aggregator (Constitute Project / WIPO Lex)."
+      }
+    ],
     "worldwidelaw_reconciled": {
       "total": 10,
       "working": 3,
@@ -657,6 +1610,77 @@
       "upstream_gap": "high"
     },
     "notes": "Politically loaded — KRG vs Federal authority is contested. Abbas/Sherif\nreview required before publishing. Treat as two parallel jurisdictions.\n",
+    "additional_sources": [
+      {
+        "domain": "guides.loc.gov",
+        "kind": "aggregator",
+        "url": "https://guides.loc.gov/law-iraq/legislative",
+        "name": "Legislative - Guide to Law Online: Iraq - Research Guides at Library of Congress",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "iq.parliament.iq",
+        "kind": "national",
+        "url": "https://iq.parliament.iq/en/wp-content/uploads/sites/3/2024/04/Constitution-of-the-Republic-of-Iraq.pdf",
+        "name": "Constitution-of-the-Republic-of-Iraq.pdf",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "constituteproject.org",
+        "kind": "aggregator",
+        "url": "https://www.constituteproject.org/constitution/Iraq_2005.pdf?lang=en",
+        "name": "Iraq's Constitution of 2005",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "isc.gov.iq",
+        "kind": "national-gov",
+        "url": "https://www.isc.gov.iq/en",
+        "name": "Iraqi Securities Commission",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "csd.gov.iq",
+        "kind": "national-gov",
+        "url": "https://csd.gov.iq/en/home-en/",
+        "name": "مركز ايداع الاوراق المالية العراقي – Iraqi CSD",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "mof.gov.iq",
+        "kind": "national-gov",
+        "url": "https://mof.gov.iq/en/General-Tax-Authority.aspx",
+        "name": "General Tax Authority | IMOF",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "wipo.int",
+        "kind": "aggregator",
+        "url": "https://www.wipo.int/directory/en/details.jsp?country_code=IQ",
+        "name": "Information by Country: Iraq",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      }
+    ],
+    "key_legislation": [
+      {
+        "law_key": "constitution",
+        "law_name": "Constitution of Iraq",
+        "title": "Iraq - Asia - Constitute",
+        "official_url": "https://constituteproject.org/countries/Asia/Iraq",
+        "source_domain": "constituteproject.org",
+        "discovered_via": "linkup_aggregator",
+        "verified_by": "linkup_aggregator (spot-check before relying)",
+        "verified_at": "2026-05-22",
+        "note": "Authoritative aggregator (Constitute Project / WIPO Lex)."
+      }
+    ],
     "worldwidelaw_reconciled": {
       "total": 3,
       "working": 0,
@@ -728,6 +1752,109 @@
       "upstream_gap": "medium"
     },
     "notes": "One of the more tractable Mashriq jurisdictions.",
+    "additional_sources": [
+      {
+        "domain": "portal.jordan.gov.jo",
+        "kind": "national-gov",
+        "url": "https://portal.jordan.gov.jo/wps/portal/Home/GovernmentEntities/Ministries/MinistryServiceDetails_en/ministry+of+culture/department+of+the+national+library/services/official+gazette+photocopying,+royal+speeches+,+cultural+agreements+and+parliament+memorandums?lang=en&content_id=com.ibm.workplace.wcm.api.WCM_Content/Official",
+        "name": "Official Gazette Photocopying, Royal Speeches , Cultural ...",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "guides.loc.gov",
+        "kind": "aggregator",
+        "url": "https://guides.loc.gov/law-jordan/legal-guides",
+        "name": "Legal Guides - Guide to Law Online: Jordan - Research Guides at Library of Congress",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "form.jordan.gov.jo",
+        "kind": "national-gov",
+        "url": "https://form.jordan.gov.jo/wps/portal/Home/GovernmentEntities/Agencies/Agency/Legislation%20and%20Opinion%20Bureau?nameEntity=Legislation+and+Opinion+Bureau&entityType=otherEntity",
+        "name": "Legislation and Opinion Bureau",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "gbd.gov.jo",
+        "kind": "national-gov",
+        "url": "https://gbd.gov.jo/en/government-websites",
+        "name": "Government Websites",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "moj.gov.jo",
+        "kind": "national-gov",
+        "url": "https://moj.gov.jo/default/en",
+        "name": "Home Page - Ministry of Justice",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "jordan.gov.jo",
+        "kind": "national-gov",
+        "url": "https://jordan.gov.jo/en/CustomPages/OpenDataItemDetails?hdn=3058&name=Ministry+Of+Justice",
+        "name": "List of court names and classifications - Jordan Gate",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "cbj.gov.jo",
+        "kind": "national-gov",
+        "url": "https://www.cbj.gov.jo/default/en",
+        "name": "Home Page - Central Bank of Jordan",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "jsc.gov.jo",
+        "kind": "national-gov",
+        "url": "https://jsc.gov.jo/Default/en",
+        "name": "Jordan Securities Commission - Amman",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "modee.gov.jo",
+        "kind": "national-gov",
+        "url": "https://www.modee.gov.jo/ebv4.0/root_storage/en/eb_list_page/pdpl.pdf",
+        "name": "Personal Data Protection Law No. (24) of 2023 ( قانـــــــون رقــــــــم24",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "wipo.int",
+        "kind": "aggregator",
+        "url": "https://www.wipo.int/directory/en/contact.jsp?country_id=86&type=ADMIN_IP",
+        "name": "Contact Information: Jordan",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "mol.gov.jo",
+        "kind": "national-gov",
+        "url": "https://mol.gov.jo/Default/EN/",
+        "name": "Home Page - Ministry of labour",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      }
+    ],
+    "key_legislation": [
+      {
+        "law_key": "constitution",
+        "law_name": "Constitution of Jordan",
+        "title": "Jordan - Asia - Constitute",
+        "official_url": "https://constituteproject.org/countries/Asia/Jordan",
+        "source_domain": "constituteproject.org",
+        "discovered_via": "linkup_aggregator",
+        "verified_by": "linkup_aggregator (spot-check before relying)",
+        "verified_at": "2026-05-22",
+        "note": "Authoritative aggregator (Constitute Project / WIPO Lex)."
+      }
+    ],
     "worldwidelaw_reconciled": {
       "total": 5,
       "working": 1,
@@ -828,6 +1955,118 @@
       "upstream_gap": "critical"
     },
     "notes": "Stephane's diaspora wedge. Zero working scrapers + critical HAQQ ICP +\nStephane's direct network. Strongest single bet in the entire Atlas.\n",
+    "key_legislation": [
+      {
+        "law_key": "constitution",
+        "law_name": "Constitution of Lebanon",
+        "title": "Lebanese Constitution (English)",
+        "official_url": "https://lp.gov.lb/backoffice/uploads/files/Lebanese%20%20Constitution-%20En.pdf",
+        "source_domain": "lp.gov.lb",
+        "format": "pdf",
+        "discovered_via": "linkup_domain_constrained",
+        "verified_by": "stephane",
+        "verified_at": "2026-05-22",
+        "note": "Verbatim Taif preamble confirmed in snippet. Primary domain (Parliament)."
+      }
+    ],
+    "additional_sources": [
+      {
+        "domain": "loc.gov",
+        "kind": "aggregator",
+        "url": "https://www.loc.gov/item/lcwaN0017991/",
+        "name": "Lebanon - Legal Gazette (Al-Jarīdah Al-Rasmīyah) | Library of Congress",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "guides.loc.gov",
+        "kind": "aggregator",
+        "url": "https://guides.loc.gov/law-lebanon/legal-guides",
+        "name": "Legal Guides - Guide to Law Online: Lebanon - Research Guides at Library of Congress",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "tra.gov.lb",
+        "kind": "national-gov",
+        "url": "https://www.tra.gov.lb/Useful-Links-Governmental-Institutions",
+        "name": "Governmental Institutions - TRA - Telecommunications Regulatory Authority",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "justice.gov.lb",
+        "kind": "national-gov",
+        "url": "https://www.justice.gov.lb/",
+        "name": "justicegov - الصفحة الرئيسية",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "bdl.gov.lb",
+        "kind": "national-gov",
+        "url": "https://www.bdl.gov.lb/",
+        "name": "Banque Du Liban - Central Bank of Lebanon",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "bccl.gov.lb",
+        "kind": "national-gov",
+        "url": "https://bccl.gov.lb/",
+        "name": "Banking Control Commission of Lebanon – BCCL Official Website",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "cma.gov.lb",
+        "kind": "national-gov",
+        "url": "https://www.cma.gov.lb/",
+        "name": "Home - CMA",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "finance.gov.lb",
+        "kind": "national-gov",
+        "url": "https://www.finance.gov.lb/en-us/Taxation/Na",
+        "name": "Ministry Of Finance",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "wipo.int",
+        "kind": "aggregator",
+        "url": "https://www.wipo.int/members/en/contact.jsp?country_id=99",
+        "name": "Contact Information: Lebanon",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "labor.gov.lb",
+        "kind": "national-gov",
+        "url": "https://www.labor.gov.lb/",
+        "name": "وزارة العمل | الصفحة الرئيسية",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "nclw.gov.lb",
+        "kind": "national-gov",
+        "url": "https://nclw.gov.lb/en/team/ministry-of-labor/",
+        "name": "Ministry of Labor - NCLW",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "dawlati.gov.lb",
+        "kind": "national-gov",
+        "url": "http://www.dawlati.gov.lb/en/directory-detail/-/asset_publisher/x28bFmDP0Kyx/content/ministry-of-labor",
+        "name": "Ministry of Labor - Directory Details - DAWLATI",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      }
+    ],
     "worldwidelaw_reconciled": {
       "total": 6,
       "working": 0,
@@ -916,6 +2155,77 @@
       "upstream_gap": "high"
     },
     "notes": "Politically loaded. Abbas/Sherif review required. Academic partnership with\nBirzeit is the highest-leverage path.\n",
+    "additional_sources": [
+      {
+        "domain": "ogb.gov.ps",
+        "kind": "national-gov",
+        "url": "https://ogb.gov.ps/en",
+        "name": "ديوان الجريدة الرسمية",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "moj.pna.ps",
+        "kind": "national",
+        "url": "https://moj.pna.ps/en/",
+        "name": "Ministry of Justice - Palestine",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "security-legislation.ps",
+        "kind": "national",
+        "url": "https://security-legislation.ps/about-the-database/",
+        "name": "About the Database - Palestine - Legal Databases",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "pcma.ps",
+        "kind": "national",
+        "url": "https://www.pcma.ps/en/home-3/",
+        "name": "PCMA – PCMA Official Website",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "pcbs.gov.ps",
+        "kind": "national-gov",
+        "url": "https://www.pcbs.gov.ps/Document/pdf/privacy-policy-english.pdf",
+        "name": "State of Palestine Palestinian Central Bureau of Statistics ( ...",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "wipo.int",
+        "kind": "aggregator",
+        "url": "https://www.wipo.int/directory/en/details.jsp?country_code=PS",
+        "name": "Information by Country: Palestine",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "palbusiness.gov.ps",
+        "kind": "national-gov",
+        "url": "https://palbusiness.gov.ps/?lng=en",
+        "name": "eRegistrations - Homepage",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      }
+    ],
+    "key_legislation": [
+      {
+        "law_key": "constitution",
+        "law_name": "Constitution of Palestine",
+        "title": "Palestine - Asia - Constitute",
+        "official_url": "https://constituteproject.org/countries/Asia/Palestine",
+        "source_domain": "constituteproject.org",
+        "discovered_via": "linkup_aggregator",
+        "verified_by": "linkup_aggregator (spot-check before relying)",
+        "verified_at": "2026-05-22",
+        "note": "Authoritative aggregator (Constitute Project / WIPO Lex)."
+      }
+    ],
     "worldwidelaw_reconciled": {
       "total": 1,
       "working": 0,
@@ -983,6 +2293,53 @@
       "upstream_gap": "low"
     },
     "notes": "Currently in legal transition (post Dec 2024). Corpus is unstable —\nlegitimacy of pre-transition laws is contested. Atlas should explicitly\ntimestamp Syrian sources.\n",
+    "additional_sources": [
+      {
+        "domain": "spo.gov.sy",
+        "kind": "national-gov",
+        "url": "http://www.spo.gov.sy/en/pdetails.php?id=31&ft=6",
+        "name": "Syrian Patent Office /SPO/:: The Gazette ::: The Gazette",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "guides.loc.gov",
+        "kind": "aggregator",
+        "url": "https://guides.loc.gov/law-syria/legislative",
+        "name": "Legislative - Guide to Law Online: Syria - Research Guides at Library of Congress",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "cb.gov.sy",
+        "kind": "national-gov",
+        "url": "https://cb.gov.sy/index.php?lang=2",
+        "name": "Central Bank of Syria - Damascus - مصرف سورية المركزي",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "wipo.int",
+        "kind": "aggregator",
+        "url": "https://www.wipo.int/wipolex/en/legislation/details/10789",
+        "name": "Law No. 7/2008 on Competition Protection and Prevention of Monopoly, Syrian Arab Republic,",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      }
+    ],
+    "key_legislation": [
+      {
+        "law_key": "constitution",
+        "law_name": "Constitution of Syria",
+        "title": "Syrian_Arab_Republic_the - Asia - Constitute",
+        "official_url": "https://constituteproject.org/countries/Asia/Syrian_Arab_Republic_the",
+        "source_domain": "constituteproject.org",
+        "discovered_via": "linkup_aggregator",
+        "verified_by": "linkup_aggregator (spot-check before relying)",
+        "verified_at": "2026-05-22",
+        "note": "Authoritative aggregator (Constitute Project / WIPO Lex)."
+      }
+    ],
     "worldwidelaw_reconciled": {
       "total": 1,
       "working": 1,
@@ -1054,6 +2411,61 @@
       "upstream_gap": "low"
     },
     "notes": "Strongest Maghreb coverage in upstream. Maintain rather than build.",
+    "additional_sources": [
+      {
+        "domain": "guides.loc.gov",
+        "kind": "aggregator",
+        "url": "https://guides.loc.gov/law-algeria/legal-guides",
+        "name": "Legal Guides - Guide to Law Online: Algeria - Research Guides at Library of Congress",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "constituteproject.org",
+        "kind": "aggregator",
+        "url": "https://www.constituteproject.org/constitution/Algeria_2020",
+        "name": "Algeria 2020 Constitution - Constitute",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "coursupreme.dz",
+        "kind": "national",
+        "url": "https://coursupreme.dz/en/home/",
+        "name": "Home - Supreme Court",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "mjustice.gov.dz",
+        "kind": "national-gov",
+        "url": "https://www.mjustice.gov.dz/en/modernisation-of-justice/",
+        "name": "Modernisation of Justice - وزارة العدل",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "mtess.gov.dz",
+        "kind": "national-gov",
+        "url": "https://www.mtess.gov.dz/en/",
+        "name": "Ministry of Labour, Employment and Social Security",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      }
+    ],
+    "key_legislation": [
+      {
+        "law_key": "constitution",
+        "law_name": "Constitution of Algeria",
+        "title": "Algeria - Africa - Constitute",
+        "official_url": "https://constituteproject.org/countries/Africa/Algeria",
+        "source_domain": "constituteproject.org",
+        "discovered_via": "linkup_aggregator",
+        "verified_by": "linkup_aggregator (spot-check before relying)",
+        "verified_at": "2026-05-22",
+        "note": "Authoritative aggregator (Constitute Project / WIPO Lex)."
+      }
+    ],
     "worldwidelaw_reconciled": {
       "total": 6,
       "working": 4,
@@ -1136,6 +2548,88 @@
       "upstream_gap": "high"
     },
     "notes": "Same political-instability caveats as Syria. Treat as two jurisdictions.",
+    "additional_sources": [
+      {
+        "domain": "guides.loc.gov",
+        "kind": "aggregator",
+        "url": "https://guides.loc.gov/law-libya/legal-guides",
+        "name": "Legal Guides - Guide to Law Online: Libya - Research Guides at Library of Congress",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "security-legislation.ly",
+        "kind": "national",
+        "url": "https://security-legislation.ly/latest-laws/constitutional-declaration-of-2011-consolidated/",
+        "name": "Constitutional Declaration of 2011- Consolidated - Libya - DCAF Legal Databases",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "lcjs.security-legislation.ly",
+        "kind": "national",
+        "url": "https://lcjs.security-legislation.ly/en",
+        "name": "Libyan Criminal Justice System | Welcome | DCAF Libyan Criminal Justice System",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "cbl.gov.ly",
+        "kind": "national-gov",
+        "url": "https://cbl.gov.ly/en/",
+        "name": "The Central Bank of Libya - The Central Bank of Libya",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "lcma.gov.ly",
+        "kind": "national-gov",
+        "url": "https://lcma.gov.ly/about/",
+        "name": "عن الهيئة – LCMA",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "ejraat.gov.ly",
+        "kind": "national-gov",
+        "url": "https://ejraat.gov.ly/?l=en",
+        "name": "Libya",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "gia.gov.ly",
+        "kind": "national-gov",
+        "url": "https://www.gia.gov.ly/en/gia-en/",
+        "name": "Home - GIA",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "lana.gov.ly",
+        "kind": "national-gov",
+        "url": "https://lana.gov.ly/post.php?lang=en&id=351958",
+        "name": "Libyan News Agency - Launch of the unified digital system for chambers of commerce",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "wipo.int",
+        "kind": "aggregator",
+        "url": "https://www.wipo.int/directory/en/details.jsp?country_code=LY",
+        "name": "Information by Country: Libya",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "labour.gov.ly",
+        "kind": "national-gov",
+        "url": "https://labour.gov.ly/",
+        "name": "وزارة العمل و التأهيل",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      }
+    ],
     "worldwidelaw_reconciled": {
       "total": 2,
       "working": 1,
@@ -1217,6 +2711,69 @@
       "upstream_gap": "medium"
     },
     "notes": "Comparatively easy. Maintain + extend rather than rebuild.",
+    "additional_sources": [
+      {
+        "domain": "guides.loc.gov",
+        "kind": "aggregator",
+        "url": "https://guides.loc.gov/law-morocco/legislative",
+        "name": "Legislative - Guide to Law Online: Morocco - Research Guides at Library of Congress",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "constituteproject.org",
+        "kind": "aggregator",
+        "url": "https://www.constituteproject.org/constitution/Morocco_2011",
+        "name": "Morocco 2011 Constitution - Constitute",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "rnesm.justice.gov.ma",
+        "kind": "national-gov",
+        "url": "https://rnesm.justice.gov.ma/index.aspx?redirected=1&lang=en-US",
+        "name": "Morocco Ministry of Justice - National Collateral Registry",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "tax.gov.ma",
+        "kind": "national-gov",
+        "url": "https://www.tax.gov.ma/wps/portal/DGI-Ang/Dgi-Internet-Ang/Moroccan-tax-system",
+        "name": "Morocco Tax Authority",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "miepeec.gov.ma",
+        "kind": "national-gov",
+        "url": "https://miepeec.gov.ma/?lang=en",
+        "name": "MIEPEEC – Ministère de l’inclusion économique’ de la Petite entreprise, de l,Emploi et des",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "mcinet.gov.ma",
+        "kind": "national-gov",
+        "url": "https://www.mcinet.gov.ma/en/content/ompic",
+        "name": "OMPIC | Ministère de l’Industrie et du Commerce",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      }
+    ],
+    "key_legislation": [
+      {
+        "law_key": "constitution",
+        "law_name": "Constitution of Morocco",
+        "title": "Constitute - Africa - Morocco",
+        "official_url": "https://constituteproject.org/countries/Africa/Morocco?lang=ar",
+        "source_domain": "constituteproject.org",
+        "discovered_via": "linkup_aggregator",
+        "verified_by": "linkup_aggregator (spot-check before relying)",
+        "verified_at": "2026-05-22",
+        "note": "Authoritative aggregator (Constitute Project / WIPO Lex)."
+      }
+    ],
     "worldwidelaw_reconciled": {
       "total": 6,
       "working": 3,
@@ -1289,6 +2846,53 @@
       "upstream_gap": "low"
     },
     "notes": "Small but tractable. Low priority unless completionism mandates it.",
+    "additional_sources": [
+      {
+        "domain": "guides.loc.gov",
+        "kind": "aggregator",
+        "url": "https://guides.loc.gov/law-mauritania/legal-guides",
+        "name": "Legal Guides - Guide to Law Online: Mauritania - Research Guides at Library of Congress",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "loc.gov",
+        "kind": "aggregator",
+        "url": "https://www.loc.gov/item/guide-to-law-online/mauritania/",
+        "name": "Introduction - Guide to Law Online: Mauritania - Research Guides at Library of Congress",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "anrpts.gov.mr",
+        "kind": "national-gov",
+        "url": "https://anrpts.gov.mr/en",
+        "name": "National Agency for the Population Register and Secure ...",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "wipo.int",
+        "kind": "aggregator",
+        "url": "https://www.wipo.int/en/web/country-profiles/MR",
+        "name": "Explore IP Landscape: Mauritania",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      }
+    ],
+    "key_legislation": [
+      {
+        "law_key": "constitution",
+        "law_name": "Constitution of Mauritania",
+        "title": "Mauritania - Africa - Constitute",
+        "official_url": "https://constituteproject.org/countries/Africa/Mauritania",
+        "source_domain": "constituteproject.org",
+        "discovered_via": "linkup_aggregator",
+        "verified_by": "linkup_aggregator (spot-check before relying)",
+        "verified_at": "2026-05-22",
+        "note": "Authoritative aggregator (Constitute Project / WIPO Lex)."
+      }
+    ],
     "worldwidelaw_reconciled": {
       "total": 1,
       "working": 1,
@@ -1366,6 +2970,77 @@
       "tractability": "high",
       "upstream_gap": "medium"
     },
+    "additional_sources": [
+      {
+        "domain": "loc.gov",
+        "kind": "aggregator",
+        "url": "https://www.loc.gov/resource/llflg.2003348216_20140605_01/?st=gallery",
+        "name": "Official Gazette of the Republic of Tunisia. Legal, Regulatory, and Judicial Announcements",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "guides.loc.gov",
+        "kind": "aggregator",
+        "url": "https://guides.loc.gov/law-tunisia/legislative",
+        "name": "Legislative - Guide to Law Online: Tunisia - Research Guides at Library of Congress",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "bct.gov.tn",
+        "kind": "national-gov",
+        "url": "https://www.bct.gov.tn/bct/siteprod/index.jsp?la=AN",
+        "name": "Central Bank of Tunisia, Home",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "tia.gov.tn",
+        "kind": "national-gov",
+        "url": "https://www.tia.gov.tn/en",
+        "name": "TIA - Tunisia Investment Authority",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "wipo.int",
+        "kind": "aggregator",
+        "url": "https://www.wipo.int/members/en/details.jsp?country_id=171",
+        "name": "Country IP Profiles",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "emploi.gov.tn",
+        "kind": "national-gov",
+        "url": "http://www.emploi.gov.tn/index.php?L=1&id=9",
+        "name": "Useful links – Employment Tunisia, Ministry for the Employment and the Professional Insert",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "guide.tia.gov.tn",
+        "kind": "national-gov",
+        "url": "https://guide.tia.gov.tn/en/tunisian_labor_law",
+        "name": "Tunisian labour law",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      }
+    ],
+    "key_legislation": [
+      {
+        "law_key": "constitution",
+        "law_name": "Constitution of Tunisia",
+        "title": "Tunisia - Africa - Constitute",
+        "official_url": "https://constituteproject.org/countries/Africa/Tunisia",
+        "source_domain": "constituteproject.org",
+        "discovered_via": "linkup_aggregator",
+        "verified_by": "linkup_aggregator (spot-check before relying)",
+        "verified_at": "2026-05-22",
+        "note": "Authoritative aggregator (Constitute Project / WIPO Lex)."
+      }
+    ],
     "worldwidelaw_reconciled": {
       "total": 6,
       "working": 2,
@@ -1450,6 +3125,48 @@
       "upstream_gap": "maximum"
     },
     "notes": "The ONLY MENA country with zero entries in worldwidelaw. Greenfield\ncontribution opportunity, but politically and operationally hard.\n",
+    "additional_sources": [
+      {
+        "domain": "guides.loc.gov",
+        "kind": "aggregator",
+        "url": "https://guides.loc.gov/law-yemen/legal-guides",
+        "name": "Legal Guides - Guide to Law Online: Yemen - Research Guides at Library of Congress",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "wipo.int",
+        "kind": "aggregator",
+        "url": "https://www.wipo.int/wipolex/en/legislation/details/19992",
+        "name": "Constitution of the Republic of Yemen, Yemen, WIPO Lex",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "loc.gov",
+        "kind": "aggregator",
+        "url": "https://www.loc.gov/law/help/guide/nations/yemen.php",
+        "name": "Introduction - Guide to Law Online: Yemen - Research Guides at Library of Congress",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "centralbank.gov.ye",
+        "kind": "national-gov",
+        "url": "https://www.centralbank.gov.ye/Home/index",
+        "name": "Central Bank Of Yemen",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "nsw.gov.ye",
+        "kind": "national-gov",
+        "url": "https://nsw.gov.ye/en",
+        "name": "مركز النافذة الواحدة",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      }
+    ],
     "worldwidelaw_reconciled": {
       "total": 0,
       "working": 0,
@@ -1516,6 +3233,77 @@
       "upstream_gap": "high"
     },
     "notes": "Defer until conflict stabilizes.",
+    "additional_sources": [
+      {
+        "domain": "guides.loc.gov",
+        "kind": "aggregator",
+        "url": "https://guides.loc.gov/law-sudan/legal-guides",
+        "name": "Legal Guides - Guide to Law Online: Sudan - Research Guides at Library of Congress",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "refworld.org",
+        "kind": "aggregator",
+        "url": "https://www.refworld.org/document-sources/sudan-supreme-court",
+        "name": "Sudan: Supreme Court | Refworld",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "cbos.gov.sd",
+        "kind": "national-gov",
+        "url": "https://cbos.gov.sd/en",
+        "name": "Central Bank of Sudan",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "fma.gov.sd",
+        "kind": "national-gov",
+        "url": "https://fma.gov.sd/",
+        "name": "Financial Markets Authority – Fair Financial Environment for sustainable investment",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "tax.gov.sd",
+        "kind": "national-gov",
+        "url": "https://tax.gov.sd/en/home/",
+        "name": "Home - SudanTax",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "sca.gov.sd",
+        "kind": "national-gov",
+        "url": "https://sca.gov.sd/en/sudapass",
+        "name": "Sudanese Cybersecurity Authority",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "wipo.int",
+        "kind": "aggregator",
+        "url": "https://www.wipo.int/edocs/mdocs/africa/en/wipo_ip_hre_16/wipo_ip_hre_16_t_12_h.pdf",
+        "name": "Republic of Sudan - Ministry of Justice Registrar General of ...",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      }
+    ],
+    "key_legislation": [
+      {
+        "law_key": "constitution",
+        "law_name": "Constitution of Sudan",
+        "title": "Sudan_the - Africa - Constitute",
+        "official_url": "https://constituteproject.org/countries/Africa/Sudan_the",
+        "source_domain": "constituteproject.org",
+        "discovered_via": "linkup_aggregator",
+        "verified_by": "linkup_aggregator (spot-check before relying)",
+        "verified_at": "2026-05-22",
+        "note": "Authoritative aggregator (Constitute Project / WIPO Lex)."
+      }
+    ],
     "worldwidelaw_reconciled": {
       "total": 1,
       "working": 0,
@@ -1585,6 +3373,128 @@
       "upstream_gap": "high"
     },
     "notes": "Lowest priority. Cover only after every other MENA jurisdiction is at v1.",
+    "additional_sources": [
+      {
+        "domain": "guides.loc.gov",
+        "kind": "aggregator",
+        "url": "https://guides.loc.gov/law-somalia/legal-guides",
+        "name": "Legal Guides - Guide to Law Online: Somalia - Research Guides at Library of Congress",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "constituteproject.org",
+        "kind": "aggregator",
+        "url": "https://www.constituteproject.org/constitution/Somalia_2012",
+        "name": "Somalia 2012 Constitution - Constitute",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "loc.gov",
+        "kind": "aggregator",
+        "url": "https://www.loc.gov/item/guide-to-law-online/somalia/",
+        "name": "Introduction - Guide to Law Online: Somalia - Research Guides at Library of Congress",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "judiciary.gov.so",
+        "kind": "national-gov",
+        "url": "https://judiciary.gov.so/supreme-court/",
+        "name": "Supreme Court - The Supreme Court of Somalia",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "supremecourt.gov.so",
+        "kind": "national-gov",
+        "url": "https://supremecourt.gov.so/",
+        "name": "Supreme Court of Somalia is under construction",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "centralbank.gov.so",
+        "kind": "national-gov",
+        "url": "https://centralbank.gov.so/",
+        "name": "Central Bank of Somalia – CBS",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "revenuedirectorate.gov.so",
+        "kind": "national-gov",
+        "url": "https://www.revenuedirectorate.gov.so/about",
+        "name": "About | Somalia Revenue Directorate",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "mof.gov.so",
+        "kind": "national-gov",
+        "url": "https://mof.gov.so/departments/revenue-department",
+        "name": "REVENUE DEPARTMENT | Ministry of Finance - Somalia",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "mail.dpa.gov.so",
+        "kind": "national-gov",
+        "url": "https://mail.dpa.gov.so/",
+        "name": "DPA | Data Protection Authority - Somalia",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "dpa.gov.so",
+        "kind": "national-gov",
+        "url": "https://www.dpa.gov.so/",
+        "name": "Somali Data Protection Authority",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "nca.gov.so",
+        "kind": "national-gov",
+        "url": "https://nca.gov.so/",
+        "name": "National Communications Authority of Somalia: NCA",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "wipo.int",
+        "kind": "aggregator",
+        "url": "https://www.wipo.int/directory/en/details.jsp?country_code=SO",
+        "name": "Information by Country: Somalia",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "molsa.gov.so",
+        "kind": "national-gov",
+        "url": "https://molsa.gov.so/",
+        "name": "HOME - Ministry of labour and social affairs",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "data.gov.so",
+        "kind": "national-gov",
+        "url": "https://www.data.gov.so/en/organization/about/ministry-of-labor-and-social-affairs",
+        "name": "About - Ministry of Labor and Social Affairs - Organizations - Somalia Open Government Ini",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "moci.gov.so",
+        "kind": "national-gov",
+        "url": "https://moci.gov.so/licensing-and-business-registration/",
+        "name": "Licensing and Business Registration - Moci",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      }
+    ],
     "worldwidelaw_reconciled": {
       "total": 1,
       "working": 0,
@@ -1650,6 +3560,53 @@
       "tractability": "high",
       "upstream_gap": "low"
     },
+    "additional_sources": [
+      {
+        "domain": "wipo.int",
+        "kind": "aggregator",
+        "url": "https://www.wipo.int/wipolex/en/legislation/details/19927",
+        "name": "Constitution of the Republic of Djibouti, Djibouti, WIPO Lex",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "guides.loc.gov",
+        "kind": "aggregator",
+        "url": "https://guides.loc.gov/law-djibouti/legal-guides",
+        "name": "Legal Guides - Guide to Law Online: Djibouti - Research Guides at Library of Congress",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "justice.gouv.dj",
+        "kind": "national",
+        "url": "https://justice.gouv.dj/",
+        "name": "Justice",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "dpfza.gov.dj",
+        "kind": "national-gov",
+        "url": "https://dpfza.gov.dj/",
+        "name": "Home | DPFZA",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      }
+    ],
+    "key_legislation": [
+      {
+        "law_key": "constitution",
+        "law_name": "Constitution of Djibouti",
+        "title": "Djibouti - Africa - Constitute",
+        "official_url": "https://constituteproject.org/countries/Africa/Djibouti",
+        "source_domain": "constituteproject.org",
+        "discovered_via": "linkup_aggregator",
+        "verified_by": "linkup_aggregator (spot-check before relying)",
+        "verified_at": "2026-05-22",
+        "note": "Authoritative aggregator (Constitute Project / WIPO Lex)."
+      }
+    ],
     "worldwidelaw_reconciled": {
       "total": 1,
       "working": 1,
@@ -1706,6 +3663,53 @@
       "upstream_gap": "high"
     },
     "notes": "Skip in v1 unless completionism demands it.",
+    "additional_sources": [
+      {
+        "domain": "guides.loc.gov",
+        "kind": "aggregator",
+        "url": "https://guides.loc.gov/law-comoros/legal-guides",
+        "name": "Legal Guides - Guide to Law Online: Comoros - Research Guides at Library of Congress",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "wipo.int",
+        "kind": "aggregator",
+        "url": "https://www.wipo.int/wipolex/en/legislation/details/20721",
+        "name": "Constitution of the Union of the Comoros, Comoros, WIPO Lex",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "constituteproject.org",
+        "kind": "aggregator",
+        "url": "https://www.constituteproject.org/constitution/Comoros_2018",
+        "name": "Comoros 2018 Constitution - Constitute",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "justice.gouv.km",
+        "kind": "national",
+        "url": "https://justice.gouv.km/en/home/",
+        "name": "Ministry of Justice – Union of the Comoros",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      }
+    ],
+    "key_legislation": [
+      {
+        "law_key": "constitution",
+        "law_name": "Constitution of Comoros",
+        "title": "Comoros_the - Africa - Constitute",
+        "official_url": "https://constituteproject.org/countries/Africa/Comoros_the",
+        "source_domain": "constituteproject.org",
+        "discovered_via": "linkup_aggregator",
+        "verified_by": "linkup_aggregator (spot-check before relying)",
+        "verified_at": "2026-05-22",
+        "note": "Authoritative aggregator (Constitute Project / WIPO Lex)."
+      }
+    ],
     "worldwidelaw_reconciled": {
       "total": 1,
       "working": 0,
@@ -1778,6 +3782,69 @@
       "upstream_gap": "high"
     },
     "notes": "Sanctions and language barrier make this politically and technically\ndistinct from Arab MENA. Often excluded from \"Arab Legal Atlas\" framing.\nDecision required: include or carve out into separate sub-project.\n",
+    "additional_sources": [
+      {
+        "domain": "loc.gov",
+        "kind": "aggregator",
+        "url": "https://www.loc.gov/item/lcwaN0017935/",
+        "name": "Iran - Legal Gazette (Rūznāmeh-e Rasmī-e Jumhūrī-e Islāmī-e Īrān) | Library of Congress",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "guides.loc.gov",
+        "kind": "aggregator",
+        "url": "https://guides.loc.gov/law-iran/legal-guides",
+        "name": "Legal Guides - Guide to Law Online: Iran - Research Guides at Library of Congress",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "iran.gov.ir",
+        "kind": "national-gov",
+        "url": "https://iran.gov.ir/en/",
+        "name": "Government Electronic Services Information Getway",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "milan.mfa.gov.ir",
+        "kind": "national-gov",
+        "url": "https://milan.mfa.gov.ir/files/enMilan/newspics/1444841873_139904022011.pdf",
+        "name": "Iran Capital Market Securities and Exchange Organization of Iran",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "wipo.int",
+        "kind": "aggregator",
+        "url": "https://www.wipo.int/directory/en/details.jsp?country_code=IR",
+        "name": "Information by Country: Iran (Islamic Republic of)",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "mcls.gov.ir",
+        "kind": "national-gov",
+        "url": "https://www.mcls.gov.ir/en/home",
+        "name": "Ministry of Cooperatives Labour and Social Welfare",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      }
+    ],
+    "key_legislation": [
+      {
+        "law_key": "constitution",
+        "law_name": "Constitution of Iran",
+        "title": "Iran_Islamic_Rep_of_ - Asia - Constitute",
+        "official_url": "https://constituteproject.org/countries/Asia/Iran_Islamic_Rep_of_?lang=es",
+        "source_domain": "constituteproject.org",
+        "discovered_via": "linkup_aggregator",
+        "verified_by": "linkup_aggregator (spot-check before relying)",
+        "verified_at": "2026-05-22",
+        "note": "Authoritative aggregator (Constitute Project / WIPO Lex)."
+      }
+    ],
     "worldwidelaw_reconciled": {
       "total": 2,
       "working": 0,
@@ -1860,6 +3927,24 @@
       "upstream_gap": "high"
     },
     "notes": "Politically sensitive in MENA framing. Stephane's stated peace-first\nposture suggests including without commentary. Abbas review required.\n",
+    "additional_sources": [
+      {
+        "domain": "guides.loc.gov",
+        "kind": "aggregator",
+        "url": "https://guides.loc.gov/law-israel/legislative",
+        "name": "Legislative - Guide to Law Online: Israel - Research Guides at Library of Congress",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "wipo.int",
+        "kind": "aggregator",
+        "url": "https://www.wipo.int/wipolex/en/legislation/details/16941",
+        "name": "Basic Law: The Government, 2001 (consolidated version of 2016), Israel, WIPO Lex",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      }
+    ],
     "worldwidelaw_reconciled": {
       "total": 7,
       "working": 0,
@@ -1937,6 +4022,109 @@
       "upstream_gap": "low"
     },
     "notes": "Whether Turkey is \"MENA\" is contested. Included here because HAQQ has\nTurkish-speaking customers and Turkey is in the regional regulatory\nconversation.\n",
+    "additional_sources": [
+      {
+        "domain": "loc.gov",
+        "kind": "aggregator",
+        "url": "https://www.loc.gov/item/lcwaN0017936/",
+        "name": "Turkey - Legal Gazette (T.C. Resmi Gazete) | Library of Congress",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "guides.loc.gov",
+        "kind": "aggregator",
+        "url": "https://guides.loc.gov/law-turkey/legislative",
+        "name": "Legislative - Guide to Law Online: Turkey - Research Guides at Library of Congress",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "justice.gov.tr",
+        "kind": "national-gov",
+        "url": "https://justice.gov.tr/",
+        "name": "REPUBLIC OF TÜRKİYE MINISTRY OF JUSTICE",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "diabgm.adalet.gov.tr",
+        "kind": "national-gov",
+        "url": "https://diabgm.adalet.gov.tr/Resimler/SayfaDokuman/2492019170148THE_JUDICIAL_SYSTEM_OF_TURKEY_AND_ORGANISATION_OF_THE_MINISTRY_OF_JUSTICE.pdf",
+        "name": "THE JUDICIAL SYSTEM OF TURKEY AND ORGANISATION OF THE MINISTRY OF JUSTICE",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "tcmb.gov.tr",
+        "kind": "national-gov",
+        "url": "https://www.tcmb.gov.tr/wps/wcm/connect/en/tcmb+en",
+        "name": "Central Bank of the Republic of Türkiye",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "cmb.gov.tr",
+        "kind": "national-gov",
+        "url": "https://cmb.gov.tr/",
+        "name": "Capital Markets Board of Türkiye",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "cbfo.gov.tr",
+        "kind": "national-gov",
+        "url": "https://www.cbfo.gov.tr/en/capital-markets/capital-markets-board-turkey",
+        "name": "Capital Markets Board of Türkiye | Finance Office of the Presidency of Türkiye",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "en-vdk.hmb.gov.tr",
+        "kind": "national-gov",
+        "url": "https://en-vdk.hmb.gov.tr/",
+        "name": "Tax Inspection Board - English",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "turkpatent.gov.tr",
+        "kind": "national-gov",
+        "url": "https://www.turkpatent.gov.tr/en",
+        "name": "TÜRKPATENT",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "csgb.gov.tr",
+        "kind": "national-gov",
+        "url": "https://www.csgb.gov.tr/en/",
+        "name": "T.C. Çalışma ve Sosyal Güvenlik Bakanlığı | Anasayfa",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      },
+      {
+        "domain": "tccb.gov.tr",
+        "kind": "national-gov",
+        "url": "https://www.tccb.gov.tr/en/cabinet/minister-of-labor-and-social-security",
+        "name": "Presidency Of The Republic Of Türkiye : Presidential Cabinet",
+        "discovered_via": "linkup",
+        "added_at": "2026-05-22"
+      }
+    ],
+    "key_legislation": [
+      {
+        "law_key": "constitution",
+        "law_name": "Constitution of Turkey",
+        "title": "Turkey - Asia - Constitute",
+        "official_url": "https://constituteproject.org/countries/Asia/Turkey",
+        "source_domain": "constituteproject.org",
+        "discovered_via": "linkup_aggregator",
+        "verified_by": "linkup_aggregator (spot-check before relying)",
+        "verified_at": "2026-05-22",
+        "note": "Authoritative aggregator (Constitute Project / WIPO Lex)."
+      }
+    ],
     "worldwidelaw_reconciled": {
       "total": 13,
       "working": 9,

@@ -19,9 +19,10 @@ Usage: python3 scripts/filter_sources.py
 """
 import pathlib, yaml
 
+import sys
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUTDIR = ROOT / "phase-2-enrichment"
-SRC = OUTDIR / "source-discovery.yaml"
+SRC = pathlib.Path(sys.argv[1]) if len(sys.argv) > 1 else OUTDIR / "source-discovery.yaml"
 
 CCTLD = {
     "AE": "ae", "BH": "bh", "KW": "kw", "OM": "om", "QA": "qa", "SA": "sa",
@@ -69,9 +70,10 @@ def main():
         if d_list:
             dropped.append({"cc": cc, "country": j["country"], "sources": d_list})
 
-    (OUTDIR / "source-discovery.clean.yaml").write_text(
+    stem = SRC.stem  # e.g. source-discovery  or  source-discovery-deep
+    (OUTDIR / f"{stem}.clean.yaml").write_text(
         yaml.safe_dump({"jurisdictions": kept}, allow_unicode=True, sort_keys=False))
-    (OUTDIR / "source-discovery.dropped.yaml").write_text(
+    (OUTDIR / f"{stem}.dropped.yaml").write_text(
         yaml.safe_dump({"jurisdictions": dropped}, allow_unicode=True, sort_keys=False))
 
     tk = sum(len(x["sources"]) for x in kept)
@@ -88,7 +90,7 @@ def main():
             tally[r] = tally.get(r, 0) + 1
     print(f"\nKEPT {tk}  |  DROPPED {td}")
     print("dropped by reason:", ", ".join(f"{k}={v}" for k, v in sorted(tally.items())))
-    print(f"clean -> {OUTDIR}/source-discovery.clean.yaml")
+    print(f"clean -> {OUTDIR}/{stem}.clean.yaml")
 
 if __name__ == "__main__":
     main()

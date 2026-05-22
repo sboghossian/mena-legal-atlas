@@ -86,6 +86,21 @@ HAQQ Legal AI is a MENA-focused legal AI company. Operating in the region quickl
 
 The Atlas is the map. The corpus is the byproduct.
 
+## Enriched layers (Linkup experiment, 2026-05)
+
+Two new layers were added to `atlas.yaml` via a sourced-search API (Linkup), staged and
+filtered before merge — see [`linkup-smoke-test.md`](linkup-smoke-test.md) and
+[`phase-2-enrichment/PRECISION-BENCHMARK.md`](phase-2-enrichment/PRECISION-BENCHMARK.md):
+
+- **`additional_sources`** — 233 official-source domains (central banks, tax/data-protection/
+  competition/IP authorities, courts, registrars) the gazette-centric map missed. Domain-level
+  discovery is where AI search reliably works.
+- **`key_legislation`** — constitutions for 21 jurisdictions (via Constitute Project / WIPO Lex)
+  + 1 verified primary entry (Lebanon).
+
+Honest caveat: building a *document-level* laws catalog by AI search caps at ~3% precision —
+MENA portals are search-DB SPAs whose law text no crawler indexes. The benchmark documents why.
+
 ## Roadmap
 
 - **v1.0 (now)** — researcher-compiled Atlas + Phase 0 audit + URL validation

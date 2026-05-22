@@ -14,10 +14,11 @@ import sys, pathlib, yaml
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 ATLAS = ROOT / "phase-1-atlas" / "atlas.yaml"
-VERIFIED = ROOT / "phase-2-enrichment" / "verified-laws.yaml"
 
 def main():
     apply = "--apply" in sys.argv
+    paths = [a for a in sys.argv[1:] if not a.startswith("-")]
+    VERIFIED = pathlib.Path(paths[0]) if paths else ROOT / "phase-2-enrichment" / "verified-laws.yaml"
     atlas = yaml.safe_load(ATLAS.read_text())
     verified = yaml.safe_load(VERIFIED.read_text()) or {}
     added = 0

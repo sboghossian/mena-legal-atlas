@@ -71,3 +71,23 @@ behind the query interface. Not a tuning problem — a crawlability ceiling.
 merge of high-confidence hits only + publish the precision benchmark; (2) pivot
 Linkup to the SOURCE layer (re-verify + discover official domains across 25);
 (3) keep full sweep as phase-2 staging for lawyer review, never canonical.
+
+---
+
+## Deep sweep + merge — 2026-05-22 (the "improve massively" pass)
+
+Went wide with Linkup where it's validated (domain-level + authoritative aggregators):
+
+- **Sectoral source discovery** (`scripts/discover_deep.py`): 8 regulator queries
+  (central bank, capital-markets, tax, data-protection, competition, IP, labour,
+  registrar) × 25 → 282 raw → **149 clean** after `filter_sources.py`.
+- **Constitutions layer**: constrained to Constitute Project / WIPO Lex (crawlable,
+  unlike national portals) → 25 hits → **21 country-correct** (dropped 4 that matched
+  Constitute Project's Nauru page).
+
+**Merged into canonical `atlas.yaml`** (provenance-tagged, reversible, in PR #1 diff):
+- `additional_sources`: **233** across all 25 jurisdictions (e.g. Oman 1→11).
+- `key_legislation`: **21** constitutions + the 1 verified Lebanon entry.
+
+Compiled outputs regenerated via `generate_atlas.py`. New scripts: `discover_deep.py`,
+`merge_sources.py` (+ `filter_sources.py` / `merge_laws.py` now take an input-path arg).
