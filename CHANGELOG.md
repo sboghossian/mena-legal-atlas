@@ -3,6 +3,29 @@
 All notable changes to this project will be documented here.
 The format is loosely based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [1.1] — 2026-06-06
+
+### Added
+- **Coverage scoring layer** (`scripts/score_coverage.py`) — scores all 25 jurisdictions
+  on five axes: source depth, reachability tier, language regime, recency, and
+  codifiability (internal-only). Recency is checked via Linkup constrained to each
+  jurisdiction's official domains; language + codifiability via OpenRouter (model IDs
+  read from env, never hard-coded). Outputs `data/coverage-scores.json` (public, no
+  codifiability) and `data/coverage-scores-internal.json`.
+- **Coverage scorecard viz** (`viz/build_scorecard.py` → `viz/coverage-scorecard.html`
+  + `.png`) — heatmap table, HAQQ ICP markets pinned first. Reachability shown by
+  working-source tier, not raw %, to avoid the small-denominator trap.
+- README "Coverage Scorecard (Phase 2)" section.
+
+### Changed
+- Refreshed the Legal Data Hunter benchmark off the live public `status.json`
+  (2026-06-06): LDH MENA now 243 sources / 44% complete (was 163 / 41% on 2026-05-22);
+  unique official domains we surface that LDH lacks is now 99 (was ~150) as LDH expanded.
+
+### Headline finding
+- 20/25 jurisdictions have full 5-category source depth, but only 4 are actually
+  reachable (4+ live sources) and 10 are fully blocked (0 live sources).
+
 ## [1.0] — 2026-05-16
 
 First public release.

@@ -1,26 +1,26 @@
 # Benchmark: Legal Data Hunter vs MENA Legal Atlas — MENA coverage
 
-> Data: Legal Data Hunter live `status.json` (generated 2026-05-22) +
+> Data: Legal Data Hunter live `status.json` (generated 2026-06-06) +
 > this atlas's compiled `mena-legal-atlas.json`. MENA = 25 jurisdictions.
 
 ## Headline
 
 | | Legal Data Hunter | MENA Legal Atlas (this repo) |
 |---|---|---|
-| Scope | Global (235 countries) | MENA-only (25 jurisdictions) |
-| Sources, global | 2,376 (56.4% complete) | — |
-| Sources, MENA | 163 (41% complete) | +233 official sources mapped |
-| MENA sources producing data | 67 working collection scripts | 0 (maps sources, does not retrieve) |
-| MENA source coverage | 41% of its own sources working | 80% of jurisdictions complete across 5 categories |
+| Scope | Global (236 countries) | MENA-only (25 jurisdictions) |
+| Sources, global | 2,770 (57.9% complete) | — |
+| Sources, MENA | 243 (44% complete) | +233 official sources mapped |
+| MENA sources producing data | 107 working collection scripts | 0 (maps sources, does not retrieve) |
+| MENA source coverage | 44% of its own sources working | 80% of jurisdictions complete across 5 categories |
 | Constitutions located | (per source) | 21 / 25 (via Constitute Project / WIPO Lex) |
 
 ## The complementary read (honest)
 
-- **Legal Data Hunter wins on retrieval.** It runs 67 working MENA collection
+- **Legal Data Hunter wins on retrieval.** It runs 107 working MENA collection
   scripts that actually produce data. We map sources; we do not retrieve documents.
-- **Legal Data Hunter's MENA slice is its weak slice.** Globally 56.4% of its sources are
-  complete; across MENA only 41% (67/163) are. The region is blocked, not missing.
-- **The atlas is the MENA expansion map for LDH.** We surfaced **152 official
+- **Legal Data Hunter's MENA slice is its weak slice.** Globally 57.9% of its sources are
+  complete; across MENA only 44% (107/243) are. The region is blocked, not missing.
+- **The atlas is the MENA expansion map for LDH.** We surfaced **99 official
   source domains** not currently tracked in LDH's MENA set — direct candidates for new
   collection scripts upstream.
 
@@ -28,34 +28,34 @@
 
 | CC | Country | LDH complete/total | Atlas sources mapped |
 |----|---------|--------------------|----------------------|
-| AE | United Arab Emirates | 7/15 | +17 |
-| BH | Bahrain | 1/6 | +11 |
-| KW | Kuwait | 3/6 | +12 |
-| OM | Oman | 4/6 | +17 |
-| QA | Qatar | 4/7 | +19 |
-| SA | Saudi Arabia | 0/10 | +14 |
-| EG | Egypt | 3/10 | +16 |
-| IQ | Iraq | 2/7 | +7 |
-| JO | Jordan | 2/7 | +11 |
-| LB | Lebanon | 1/8 | +12 |
-| PS | Palestine | 4/7 | +7 |
-| SY | Syria | 1/3 | +4 |
-| DZ | Algeria | 3/6 | +5 |
-| LY | Libya | 3/5 | +10 |
-| MA | Morocco | 2/6 | +6 |
+| AE | United Arab Emirates | 9/22 | +17 |
+| BH | Bahrain | 3/10 | +11 |
+| KW | Kuwait | 4/8 | +12 |
+| OM | Oman | 6/13 | +17 |
+| QA | Qatar | 5/13 | +19 |
+| SA | Saudi Arabia | 2/16 | +14 |
+| EG | Egypt | 3/15 | +16 |
+| IQ | Iraq | 3/10 | +7 |
+| JO | Jordan | 4/9 | +11 |
+| LB | Lebanon | 5/12 | +12 |
+| PS | Palestine | 4/9 | +7 |
+| SY | Syria | 2/5 | +4 |
+| DZ | Algeria | 7/10 | +5 |
+| LY | Libya | 4/7 | +10 |
+| MA | Morocco | 6/11 | +6 |
 | MR | Mauritania | 3/5 | +4 |
-| TN | Tunisia | 2/7 | +7 |
+| TN | Tunisia | 4/9 | +7 |
 | YE | Yemen | 3/3 | +5 |
-| SD | Sudan | 1/3 | +7 |
-| SO | Somalia | 2/3 | +15 |
+| SD | Sudan | 3/5 | +7 |
+| SO | Somalia | 3/6 | +15 |
 | DJ | Djibouti | 2/3 | +4 |
-| KM | Comoros | 0/1 | +4 |
+| KM | Comoros | 2/4 | +4 |
 | IR | Iran | 3/8 | +6 |
-| IL | Israel | 2/8 | +2 |
-| TR | Turkey | 9/13 | +11 |
+| IL | Israel | 2/9 | +2 |
+| TR | Turkey | 15/21 | +11 |
 
-## Sources we surfaced that Legal Data Hunter doesn't track (152)
+## Sources we surfaced that Legal Data Hunter doesn't track (99)
 
-abudhabi.gov.ae, added.gov.ae, adjd.gov.ae, admincourt.gov.om, adra.gov.ae, anrpts.gov.mr, assurance.ncsa.gov.qa, bccl.gov.lb, bct.gov.tn, bdl.gov.lb, business.gov.om, caa.gov.qa, cait.gov.kw, cbfo.gov.tr, cbo.gov.om, cbos.gov.sd, centralbank.gov.so, centralbank.gov.ye, citra.gov.kw, cma.gov.kw, cma.gov.lb, cma.gov.sa, cmb.gov.tr, constituteproject.org, cpa.gov.kw, cpa.gov.om, cra.gov.qa, csd.gov.iq, csgb.gov.tr, culture.gov.bh, data.gov.qa, data.gov.so, dawlati.gov.lb, dga.gov.sa, dgp.sdaia.gov.sa, dhareeba.gov.qa, diabgm.adalet.gov.tr, dlp.dubai.gov.ae, dpa.gov.so, dpfza.gov.dj, ecommerce.gov.qa, egypo.gov.eg, egypt.gov.eg, ejraat.gov.ly, emploi.gov.tn, en-vdk.hmb.gov.tr, esc.gov.eg, fma.gov.sd, form.jordan.gov.jo, fsa.gov.om, gafi.gov.eg, gbd.gov.jo, gco.gov.qa, gia.gov.ly, goeic.gov.eg, guide.tia.gov.tn, guides.loc.gov, hrsd.gov.sa, icp.gov.ae, ifsah.cma.gov.kw …
+added.gov.ae, adra.gov.ae, anrpts.gov.mr, assurance.ncsa.gov.qa, business.gov.om, caa.gov.qa, cait.gov.kw, cbfo.gov.tr, centralbank.gov.ye, cmb.gov.tr, constituteproject.org, cpa.gov.kw, cpa.gov.om, csd.gov.iq, csgb.gov.tr, culture.gov.bh, data.gov.so, dawlati.gov.lb, dga.gov.sa, dhareeba.gov.qa, diabgm.adalet.gov.tr, dpfza.gov.dj, ecommerce.gov.qa, egypo.gov.eg, ejraat.gov.ly, emploi.gov.tn, fma.gov.sd, form.jordan.gov.jo, gafi.gov.eg, gbd.gov.jo, gco.gov.qa, gia.gov.ly, goeic.gov.eg, guide.tia.gov.tn, guides.loc.gov, hrsd.gov.sa, icp.gov.ae, iq.parliament.iq, iran.gov.ir, justice.gov.tr, labor.gov.lb, labour.gov.eg, labour.gov.ly, lana.gov.ly, loc.gov, maint.loc.gov, manpower.gov.eg, manpower.gov.kw, mc.gov.sa, mcinet.gov.ma, mcls.gov.ir, miepeec.gov.ma, milan.mfa.gov.ir, mjustice.gov.dz, moci.gov.kw, moci.gov.qa, moci.gov.so, modee.gov.jo, moet.gov.ae, mof.gov.ae …
 
 _Generated by `viz/benchmark_ldh.py`. LDH data is public (status.json); no API key required._

@@ -16,3 +16,8 @@ viz/topojson-client.min.js
 viz/countries-50m.json
 viz/ldh-status.json
 viz/coverage-map.html
+viz/coverage-scorecard.html
+viz/cache/
+
+# INTERNAL ONLY — codifiability scores are not for public release
+data/coverage-scores-internal.json
