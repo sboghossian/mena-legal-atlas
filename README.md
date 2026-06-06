@@ -43,6 +43,34 @@ Top 5 priority targets (composite score = ICP × 3 + upstream gap × 2 + tractab
 
 See [phase-1-atlas/priority-action-list.md](phase-1-atlas/priority-action-list.md) for the full ranking.
 
+## Coverage Scorecard (Phase 2) — where legal AI can actually operate
+
+The atlas maps where the law *lives*. The scorecard scores where you can actually *use* it.
+Across the 25 jurisdictions: **20/25 have full 5-category source depth**, but only **4 are
+actually reachable** (4+ live sources) and **10 are fully blocked** (0 live sources). Mapped
+is not the same as reachable, current, or in your language.
+
+![Coverage scorecard](viz/coverage-scorecard.png)
+
+Five axes per jurisdiction (open [`viz/coverage-scorecard.html`](viz/coverage-scorecard.html)):
+
+- **Source depth** — how many of the 5 source categories exist (local, from the atlas).
+- **Reachability** — working-source *tier* (hi / mid / lo), not raw %, to avoid the
+  small-denominator trap (1 working / 0 blocked ≠ "100% reachable").
+- **Language regime** — Arabic-only vs bilingual vs other (the HAQQ wedge).
+- **Recency** — any major 2025–26 reform, checked via Linkup *constrained to each
+  jurisdiction's official domains*; every "active" flag carries its source link and is
+  only marked yes when the sources support it.
+
+```bash
+python3 scripts/score_coverage.py     # -> data/coverage-scores.json (needs Linkup + OpenRouter keys)
+python3 viz/build_scorecard.py        # -> viz/coverage-scorecard.html
+```
+
+See the live-data comparison in
+[phase-2-enrichment/BENCHMARK-vs-legal-data-hunter.md](phase-2-enrichment/BENCHMARK-vs-legal-data-hunter.md)
+(this atlas vs Legal Data Hunter, recomputed from LDH's public `status.json`).
+
 ## How to use
 
 ### Read the Atlas

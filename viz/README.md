@@ -16,6 +16,10 @@ curl -sL https://zachlaik.github.io/LegalDataHunter/status.json -o ldh-status.js
 python3 build_map.py        # -> coverage-map.html
 python3 benchmark_ldh.py    # -> ../phase-2-enrichment/BENCHMARK-vs-legal-data-hunter.md
 
+# coverage scorecard (needs ../.env.local with LINKUP_API_KEY + OPENROUTER_API_KEY):
+python3 ../scripts/score_coverage.py   # -> ../data/coverage-scores.json (+ internal file, gitignored)
+python3 build_scorecard.py             # -> coverage-scorecard.html
+
 # render to PNG (headless Chrome):
 "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --headless=new --disable-gpu \
   --force-device-scale-factor=2 --window-size=1840,1040 \
@@ -26,4 +30,6 @@ python3 benchmark_ldh.py    # -> ../phase-2-enrichment/BENCHMARK-vs-legal-data-h
 
 - `build_map.py` — two-panel MENA choropleth: *where the law lives* (source coverage) vs *where you can reach it* (reachability).
 - `benchmark_ldh.py` — MENA Legal Atlas vs Legal Data Hunter, computed from LDH's live public `status.json`.
+- `build_scorecard.py` — coverage scorecard heatmap table over the public scoring axes (source depth, reachability tier, language regime, recency); ICP markets first.
 - `coverage-map.png` — committed artifact (the two-panel map).
+- `coverage-scorecard.png` — committed artifact (the scorecard). The `.html` is regenerable (gitignored).

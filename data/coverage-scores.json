@@ -1,0 +1,771 @@
+[
+  {
+    "cc": "AE",
+    "country": "United Arab Emirates",
+    "region": "GCC",
+    "is_icp": true,
+    "corpus_depth": 5,
+    "reachability": {
+      "working": 7,
+      "blocked": 8,
+      "pct": 47,
+      "tier": "hi"
+    },
+    "language_regime": "bilingual_ar_en",
+    "language_note": "Legal texts are published in Arabic, with official English translations often available.",
+    "recency": {
+      "recent_major_reform": "yes",
+      "laws": [
+        "Civil Transactions Law",
+        "Central Bank and Financial Institutions Law",
+        "Child Digital Safety Law",
+        "Organ Donation and Transplantation Law",
+        "Civil Procedures Code",
+        "Narcotics Law",
+        "Industrial Hemp Uses Law",
+        "National Media Authority Law"
+      ],
+      "grounded_in_sources": true,
+      "linkup_answer": "Yes, the United Arab Emirates has enacted and substantially amended several major national laws in 2025 and 2026. Notable examples include:\n\n1. **Federal Decree Law on Civil Transactions (Civil Code)**  \n   - Issued as a Federal Decree Law promulgating the Civil Transactions Law, representing a comprehensive and integrated legal framework modernizing civil transactions in the UAE.  \n   - It was part of a continuous national legislative trajectory focused on modernizing the legal framework, enhancing judicial discretion, and aligning corporate provisions with commercial legislation.  \n   - The ",
+      "sources": [
+        "https://tax.gov.ae/en/services/renewal.of.the.designated.zone.registration.aspx",
+        "https://tax.gov.ae/en/media.centre/News/implementation.of.amendments.to.certain.provisions.of.the.federal.tax.authoritys.service.fees.effective.from.1.january.2026.aspx",
+        "https://tax.gov.ae/ar/services/registration.of.tax.agents.aspx",
+        "https://tax.gov.ae/ar/services/vat.group.amendment.aspx",
+        "https://uaelegislation.gov.ae/ar/legislations/3983",
+        "https://tax.gov.ae/ar/services/amendment.of.warehouse.keeper.records.aspx"
+      ],
+      "domain_constrained": true
+    }
+  },
+  {
+    "cc": "BH",
+    "country": "Bahrain",
+    "region": "GCC",
+    "is_icp": false,
+    "corpus_depth": 5,
+    "reachability": {
+      "working": 1,
+      "blocked": 5,
+      "pct": 17,
+      "tier": "mid"
+    },
+    "language_regime": "bilingual_ar_en",
+    "language_note": "Laws are published in Arabic, with official English translations often available.",
+    "recency": {
+      "recent_major_reform": "no",
+      "laws": [],
+      "grounded_in_sources": true,
+      "linkup_answer": "There is no information available indicating that Bahrain has enacted or substantially amended any major national law (civil code, commercial/companies law, labor law, penal code, or data-protection law) in 2025 or 2026.",
+      "sources": [
+        "https://www.moic.gov.bh/en/node/2790",
+        "https://www.moic.gov.bh/en/faq",
+        "https://www.moic.gov.bh/en/faq/22",
+        "https://www.moic.gov.bh/en/faq/25",
+        "https://www.moic.gov.bh/en/node/2729",
+        "https://www.moic.gov.bh/en/node/6071"
+      ],
+      "domain_constrained": true
+    }
+  },
+  {
+    "cc": "KW",
+    "country": "Kuwait",
+    "region": "GCC",
+    "is_icp": false,
+    "corpus_depth": 5,
+    "reachability": {
+      "working": 1,
+      "blocked": 2,
+      "pct": 33,
+      "tier": "mid"
+    },
+    "language_regime": "arabic_native",
+    "language_note": "Legal texts are published exclusively in Arabic, the official language of Kuwait.",
+    "recency": {
+      "recent_major_reform": "no",
+      "laws": [],
+      "grounded_in_sources": true,
+      "linkup_answer": "Based on the provided information, there is no indication that Kuwait has enacted or substantially amended any major national law (such as civil code, commercial/companies law, labor law, penal code, or data-protection law) in 2025 or 2026. The latest legislative references pertain to older laws, such as Law No. 32 of 1968 concerning the Central Bank of Kuwait, and Law No. 20 of 2014 regarding electronic transactions.\n\nIn 2025, there were updates related to payment systems overseen by the Central Bank of Kuwait, including extended operating hours for the Kuwait Electronic Cheque Clearing Syste",
+      "sources": [
+        "https://www.cbk.gov.kw/en/legislation-and-regulation/cbk-law/Law-intro",
+        "https://www.cbk.gov.kw/en/legislation-and-regulation/cbk-law/chapter-three",
+        "https://www.cbk.gov.kw/en/legislation-and-regulation/cbk-law/chapter-four",
+        "https://www.cbk.gov.kw/en/payment-systems/development-of-payment-systems",
+        "https://www.cbk.gov.kw/en/payment-systems/payment-systems-oversight",
+        "https://www.mof.gov.kw/TCRS_Public/en"
+      ],
+      "domain_constrained": true
+    }
+  },
+  {
+    "cc": "OM",
+    "country": "Oman",
+    "region": "GCC",
+    "is_icp": false,
+    "corpus_depth": 5,
+    "reachability": {
+      "working": 3,
+      "blocked": 0,
+      "pct": 100,
+      "tier": "mid"
+    },
+    "language_regime": "bilingual_ar_en",
+    "language_note": "Official legal texts are published in Arabic, with English translations often available.",
+    "recency": {
+      "recent_major_reform": "no",
+      "laws": [],
+      "grounded_in_sources": true,
+      "linkup_answer": "Based on the available information, Oman has not enacted or substantially amended any major national law (such as civil code, commercial/companies law, labor law, penal code, or data-protection law) in 2025 or 2026. The references are primarily about enforcement and regulatory activities under the existing Consumer Protection Law (Royal Decree No. 66/2014) and its Executive Regulations, but no new laws or major amendments in 2025 or 2026 are mentioned.",
+      "sources": [
+        "https://cpa.gov.om/en/Pages/NewsDetail.aspx?NewsID=12745",
+        "https://cpa.gov.om/en/Pages/NewsDetail.aspx?NewsID=12751",
+        "https://cpa.gov.om/en/Pages/NewsDetail.aspx?NewsID=12734",
+        "https://cpa.gov.om/en/Pages/NewsDetail.aspx?NewsID=12762",
+        "https://cpa.gov.om/en/Pages/NewsDetail.aspx?NewsID=12841",
+        "https://cpa.gov.om/en/Pages/NewsDetail.aspx?NewsID=12827"
+      ],
+      "domain_constrained": true
+    }
+  },
+  {
+    "cc": "QA",
+    "country": "Qatar",
+    "region": "GCC",
+    "is_icp": false,
+    "corpus_depth": 5,
+    "reachability": {
+      "working": 4,
+      "blocked": 3,
+      "pct": 57,
+      "tier": "hi"
+    },
+    "language_regime": "bilingual_ar_en",
+    "language_note": "Legal texts are primarily published in Arabic, with official English translations often available.",
+    "recency": {
+      "recent_major_reform": "yes",
+      "laws": [
+        "Law No. (2) of 2025 on the State Emblem",
+        "Amendments to the Qatar Financial Centre (QFC) Law",
+        "Law No. (2) of 2026 amending selective tax law",
+        "Constitutional amendments"
+      ],
+      "grounded_in_sources": true,
+      "linkup_answer": "Yes, Qatar has enacted and substantially amended major national laws in 2025 and 2026:\n\n1. Law No. (2) of 2025 on the State Emblem was enacted in 2025. It regulates the usage of the state emblem, protects it from misuse, and ensures its unified application based on approved standards. The law was followed by Cabinet Decision No. (19) of 2025 on the state emblem’s usage guide.\n\n2. Amendments to the Qatar Financial Centre (QFC) Law (Law No. 7 of 2005) were issued in December 2024, with updated Regulations and Procedural Rules published in June 2025. These amendments introduced court fees, shorte",
+      "sources": [
+        "https://www.qicdrc.gov.qa/media-center/news/qicdrc-discusses-key-amendments-qfc-law-and-its-updated-regulations-and",
+        "https://qfz.gov.qa/resource/laws/",
+        "https://www.gco.gov.qa/en/media-centre/top-news/gco-organises-training-workshop-on-the-state-emblem-law/",
+        "https://www.gco.gov.qa/en/state-of-qatar/the-constitution/",
+        "https://www.gco.gov.qa/en/media-centre/major-events/wsj-tech-live-qatar/",
+        "https://www.gco.gov.qa/en/media-centre/in-focus/labour-reform/"
+      ],
+      "domain_constrained": true
+    }
+  },
+  {
+    "cc": "SA",
+    "country": "Saudi Arabia",
+    "region": "GCC",
+    "is_icp": true,
+    "corpus_depth": 5,
+    "reachability": {
+      "working": 0,
+      "blocked": 11,
+      "pct": 0,
+      "tier": "lo"
+    },
+    "language_regime": "arabic_native",
+    "language_note": "Legal texts are primarily published in Arabic, with some official translations or summaries available in English.",
+    "recency": {
+      "recent_major_reform": "unclear",
+      "laws": [],
+      "grounded_in_sources": false,
+      "linkup_answer": "Based on the available information, there is no explicit mention of Saudi Arabia enacting or substantially amending any major national law (such as civil code, commercial/companies law, labor law, penal code, or data-protection law) specifically in 2025 or 2026. The closest relevant updates include:\n\n- Amendments to the Bankruptcy Law, with a consultation updated on 05/02/2026, aiming to develop bankruptcy provisions in line with international best practices.\n- Executive Regulation for The Geographical Indications Protection Law issued within 180 days from the law's publication (date not speci",
+      "sources": [
+        "https://eparticipation.my.gov.sa/en/e-consultations/consultations/general/general-consultation-651/",
+        "https://mc.gov.sa:443/en/About/Pages/Terms-Conditions.aspx",
+        "https://mc.gov.sa:443/en/About/who-we-are/Pages/default.aspx",
+        "https://eparticipation.my.gov.sa/en/e-consultations/consultations/legal/legal-consultation-65351/",
+        "https://eparticipation.my.gov.sa/en/e-consultations/consultations/legal/legal-consultation-65353/",
+        "https://eparticipation.my.gov.sa/en/e-consultations/consultations/legal/legal-consultation-65358/"
+      ],
+      "domain_constrained": true
+    }
+  },
+  {
+    "cc": "EG",
+    "country": "Egypt",
+    "region": "Mashriq",
+    "is_icp": true,
+    "corpus_depth": 5,
+    "reachability": {
+      "working": 3,
+      "blocked": 7,
+      "pct": 30,
+      "tier": "mid"
+    },
+    "language_regime": "arabic_native",
+    "language_note": "Legal texts are published exclusively in Arabic, the official language of Egypt.",
+    "recency": {
+      "recent_major_reform": "no",
+      "laws": [
+        "Penal Code",
+        "NGOs Law",
+        "Companies Law",
+        "Capital Market Law"
+      ],
+      "grounded_in_sources": true,
+      "linkup_answer": "Based on the available information, Egypt has not enacted or substantially amended any major national law (civil code, commercial/companies law, labor law, penal code, or data-protection law) specifically in 2025 or 2026. The most recent relevant amendments include:\n\n- Amendments to the Penal Code approved by President Sisi under Law No. 150/2021 (date not in 2025 or 2026).\n- Ratification of bylaws for the NGOs Law No. 149 of 2019, ratified with immediate effect (no specific date in 2025 or 2026).\n- Amendments to the executive regulations of the Companies Law No. 159 of 1981 approved in 2022.\n",
+      "sources": [
+        "https://sis.gov.eg/en/media-center/news/egypt-s-government-ratifies-bylaws-of-new-ngos-law-no149-for-year-2019/",
+        "https://www.gafi.gov.eg/English/StartaBusiness/Laws-and-Regulations/Pages/TradeLaws.aspx",
+        "https://sis.gov.eg/en/media-center/news/sisi-approves-amendments-to-penal-code/",
+        "https://sis.gov.eg/en/media-center/news/cabinet-approves-new-decisions-to-improve-business-climate/",
+        "https://www.gafi.gov.eg/English/StartaBusiness/Laws-and-Regulations/Pages/FinancialLaws.aspx",
+        "https://sis.gov.eg/en/media-center/news/pm-issued-decision-amending-capital-market-law-regulation/"
+      ],
+      "domain_constrained": true
+    }
+  },
+  {
+    "cc": "IQ",
+    "country": "Iraq",
+    "region": "Mashriq",
+    "is_icp": false,
+    "corpus_depth": 5,
+    "reachability": {
+      "working": 0,
+      "blocked": 3,
+      "pct": 0,
+      "tier": "lo"
+    },
+    "language_regime": "bilingual_ar_en",
+    "language_note": "Legal texts are published in Arabic and Kurdish, with some English translations available.",
+    "recency": {
+      "recent_major_reform": "unclear",
+      "laws": [],
+      "grounded_in_sources": false,
+      "linkup_answer": "لا توجد معلومات متاحة في المصادر المقدمة تفيد بأن العراق قد أصدر أو عدل بشكل جوهري أي قانون وطني رئيسي (كالقانون المدني، قانون الشركات، قانون العمل، القانون الجنائي، أو قانون حماية البيانات) في عام 2025 أو 2026.",
+      "sources": [
+        "https://moj.gov.iq/view.9957/",
+        "https://moj.gov.iq/view.9919/",
+        "https://moj.gov.iq/view.9722/",
+        "https://moj.gov.iq/view.9865/",
+        "https://moj.gov.iq/view.9922/",
+        "https://moj.gov.iq/tashkelat.9/"
+      ],
+      "domain_constrained": true
+    }
+  },
+  {
+    "cc": "JO",
+    "country": "Jordan",
+    "region": "Mashriq",
+    "is_icp": true,
+    "corpus_depth": 5,
+    "reachability": {
+      "working": 1,
+      "blocked": 4,
+      "pct": 20,
+      "tier": "mid"
+    },
+    "language_regime": "arabic_native",
+    "language_note": "Legal texts are published exclusively in Arabic.",
+    "recency": {
+      "recent_major_reform": "unclear",
+      "laws": [],
+      "grounded_in_sources": false,
+      "linkup_answer": "لا توجد معلومات متاحة في المصادر المقدمة تفيد بأن الأردن قد أصدر أو عدل بشكل جوهري أي قانون وطني رئيسي (مثل القانون المدني، قانون الشركات/التجارة، قانون العمل، القانون الجنائي، أو قانون حماية البيانات) في عام 2025 أو 2026.",
+      "sources": [
+        "https://pm.gov.jo/AR/Pages/%D9%85%D8%B9%D8%A7%D9%84%D9%8A_%D8%A7%D9%84%D8%B3%D9%8A%D8%AF_%D8%B9%D8%A8%D8%AF_%D8%A7%D9%84%D9%84%D8%B7%D9%8A%D9%81_%D8%A7%D9%84%D9%86%D8%AC%D8%AF%D8%A7%D9%88%D9%8A_%D8%B3%D9%8A%D8%B1%D8%A9_%D8%B0%D8%A7%D8%AA%D9%8A%D8%A9_%D8%A7%D9%86%D8%AC%D9%84%D9%8A%D8%B2%D9%8A",
+        "https://www.modee.gov.jo/Ar/NewsDetails/Jordan_Ranks_Third_in_the_Arab_World_and_29th_Globally_in_the_AI_Diffusion_Index",
+        "https://www.cbj.gov.jo/EN/Forms/Evaluation_Questionnaire_for_the_Monetary_and_Balance_of_Payments_Statistics?View=1049&__ncforminfo=fOMO3M_yi-M-8QX3fbM68w-v98q1qyg1Y_dA70Qzci2iy5LsdSbHEcpfH1pgOnTka81PkfhAxcTOOrrPyL-jYG1p6epMroq_",
+        "https://pm.gov.jo/AR/CustomPages/Minister?MinisterID=763",
+        "https://www.modee.gov.jo/AR/Pages/%D8%B9%D9%86_%D9%85%D8%A8%D8%B1%D9%85%D8%AC%D9%88_%D8%A7%D9%84%D8%A3%D8%B1%D8%AF%D9%86?View=3216",
+        "https://www.modee.gov.jo/AR/ListDetails/%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA_%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D8%A9_%D9%88%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA/15/1093"
+      ],
+      "domain_constrained": true
+    }
+  },
+  {
+    "cc": "LB",
+    "country": "Lebanon",
+    "region": "Mashriq",
+    "is_icp": true,
+    "corpus_depth": 5,
+    "reachability": {
+      "working": 0,
+      "blocked": 6,
+      "pct": 0,
+      "tier": "lo"
+    },
+    "language_regime": "bilingual_ar_fr",
+    "language_note": "Legal texts are published in Arabic, with French translations often available due to historical influence.",
+    "recency": {
+      "recent_major_reform": "unclear",
+      "laws": [],
+      "grounded_in_sources": false,
+      "linkup_answer": "No information is available indicating that Lebanon has enacted or substantially amended any major national law (civil code, commercial/companies law, labor law, penal code, or data-protection law) in 2025 or 2026.",
+      "sources": [
+        "https://www.usj.edu.lb/dubai/school-law/",
+        "https://www.usj.edu.lb/universite/haut-conseil.php?member=WalidALDAOUK",
+        "https://www.usj.edu.lb/dubai/bachelor-law",
+        "https://www.usj.edu.lb/news.php?id=15633",
+        "https://www.bdl.gov.lb/committeesandcommissions.php",
+        "https://www.bdl.gov.lb/paymentsystemoverview.php"
+      ],
+      "domain_constrained": true
+    }
+  },
+  {
+    "cc": "PS",
+    "country": "Palestine",
+    "region": "Mashriq",
+    "is_icp": false,
+    "corpus_depth": 5,
+    "reachability": {
+      "working": 0,
+      "blocked": 1,
+      "pct": 0,
+      "tier": "lo"
+    },
+    "language_regime": "arabic_native",
+    "language_note": "Legal texts are primarily published in Arabic, with some English translations available for certain documents.",
+    "recency": {
+      "recent_major_reform": "no",
+      "laws": [],
+      "grounded_in_sources": true,
+      "linkup_answer": "Based on the available information, there is no indication that Palestine has enacted or substantially amended any major national law (such as civil code, commercial/companies law, labor law, penal code, or data-protection law) in 2025 or 2026. The sources mention the continued applicability of older laws (e.g., Jordanian Trademark Law No. 33 of 1952) and discuss statistical codes and environmental laws from earlier years, but no new or substantially amended major national laws in the specified period are reported.",
+      "sources": [
+        "https://maqam.najah.edu/blog/articles/49/",
+        "https://www.pcbs.gov.ps/site/lang__en/575/default.aspx",
+        "https://www.pcbs.gov.ps/site/lang__en/598/default.aspx",
+        "https://maqam.najah.edu/blog/articles/61/",
+        "https://www.pcbs.gov.ps/post.aspx?ItemID=4522&lang=en",
+        "https://www.pcbs.gov.ps/post.aspx?ItemID=2996&lang=en"
+      ],
+      "domain_constrained": true
+    }
+  },
+  {
+    "cc": "SY",
+    "country": "Syria",
+    "region": "Mashriq",
+    "is_icp": false,
+    "corpus_depth": 5,
+    "reachability": {
+      "working": 1,
+      "blocked": 0,
+      "pct": 100,
+      "tier": "mid"
+    },
+    "language_regime": "arabic_native",
+    "language_note": "Legal texts are published in Arabic, the official language of Syria.",
+    "recency": {
+      "recent_major_reform": "no",
+      "laws": [],
+      "grounded_in_sources": true,
+      "linkup_answer": "No data is available regarding Syria enacting or substantially amending any major national law (civil code, commercial/companies law, labor law, penal code, or data-protection law) in 2025 or 2026.",
+      "sources": [
+        "https://guides.loc.gov/law-syria/legal-guides",
+        "https://guides.loc.gov/law-syria",
+        "https://guides.loc.gov/law-syria/legislative",
+        "https://guides.loc.gov/law-syria/constitution",
+        "https://guides.loc.gov/law-syria/general-sources",
+        "https://guides.loc.gov/law-syria/judicial"
+      ],
+      "domain_constrained": true
+    }
+  },
+  {
+    "cc": "DZ",
+    "country": "Algeria",
+    "region": "Maghreb",
+    "is_icp": false,
+    "corpus_depth": 5,
+    "reachability": {
+      "working": 4,
+      "blocked": 2,
+      "pct": 67,
+      "tier": "hi"
+    },
+    "language_regime": "bilingual_ar_fr",
+    "language_note": "Legal texts are officially published in Arabic, with French translations often available and influential.",
+    "recency": {
+      "recent_major_reform": "unclear",
+      "laws": [],
+      "grounded_in_sources": false,
+      "linkup_answer": "لا تتوفر معلومات في المصادر المقدمة تفيد بأن الجزائر قد أصدرت أو عدلت بشكل جوهري أي قانون وطني رئيسي (مثل القانون المدني، قانون الشركات/التجارة، قانون العمل، القانون الجنائي، أو قانون حماية البيانات) في عامي 2025 أو 2026.",
+      "sources": [
+        "https://www.mtess.gov.dz/ar/%D8%AE%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%A5%D8%B9%D9%84%D8%A7%D9%85-%D9%88-%D8%A7%D9%84%D8%A5%D8%AA%D8%B5%D8%A7%D9%84/",
+        "https://coursupreme.dz",
+        "https://coursupreme.dz/%D8%AA%D9%88%D8%B8%D9%8A%D9%81/",
+        "https://coursupreme.dz/%D8%A2%D8%AE%D8%B1-%D9%85%D8%AC%D9%84%D8%A9-%D9%85%D8%B9%D8%B1%D9%88%D8%B6%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9/",
+        "https://www.mtess.gov.dz/ar/%D8%A7%D9%84%D8%AD%D8%B5%D9%8A%D9%84%D8%A9-%D8%A7%D9%84%D8%A3%D9%88%D9%84%D9%8A%D8%A9-%D9%84%D8%B9%D9%85%D9%84%D9%8A%D8%A9-%D8%AA%D8%B9%D8%A7%D9%82%D8%AF-%D9%87%D9%8A%D8%A6%D8%A7%D8%AA-%D8%A7%D9%84/",
+        "https://coursupreme.dz/sessions/d8-ac-d8-af-d9-88-d9-84-d8-ac-d9-84-d8-b3-d8-a7-d8-aa-d8-a7-d9-84-d8-ae-d9-85-d9-8a-d8-b3-25-d9-85-d8-a7-d8-b1-d8-b3/"
+      ],
+      "domain_constrained": true
+    }
+  },
+  {
+    "cc": "LY",
+    "country": "Libya",
+    "region": "Maghreb",
+    "is_icp": false,
+    "corpus_depth": 4,
+    "reachability": {
+      "working": 1,
+      "blocked": 1,
+      "pct": 50,
+      "tier": "mid"
+    },
+    "language_regime": "arabic_native",
+    "language_note": "Legal texts are published in Arabic, with historical Italian influence.",
+    "recency": {
+      "recent_major_reform": "unclear",
+      "laws": [],
+      "grounded_in_sources": false,
+      "linkup_answer": "Yes, Libya enacted Law No. (3) of 2025 concerning the regulation of the development budget, which is a major national law related to economic development and budgeting. This law serves as a governing reference for the Libyan Development and Reconstruction Fund's work and programs.",
+      "sources": [
+        "https://lana.gov.ly/post.php?id=353846&lang=en",
+        "https://lana.gov.ly/category.php?id=5&lang=en&page=1",
+        "https://lana.gov.ly/post.php?id=353820&lang=en",
+        "https://cbl.gov.ly/en/history/",
+        "https://cbl.gov.ly/en/banking-supervision/",
+        "https://cbl.gov.ly/en/accounting-legal-firms/?sf_paged=11"
+      ],
+      "domain_constrained": true
+    }
+  },
+  {
+    "cc": "MA",
+    "country": "Morocco",
+    "region": "Maghreb",
+    "is_icp": false,
+    "corpus_depth": 5,
+    "reachability": {
+      "working": 3,
+      "blocked": 3,
+      "pct": 50,
+      "tier": "mid"
+    },
+    "language_regime": "bilingual_ar_fr",
+    "language_note": "Legal texts are officially published in Arabic, with French translations often available.",
+    "recency": {
+      "recent_major_reform": "no",
+      "laws": [],
+      "grounded_in_sources": true,
+      "linkup_answer": "No information is available indicating that Morocco has enacted or substantially amended any major national law (civil code, commercial/companies law, labor law, penal code, or data-protection law) in 2025 or 2026. The provided data only references existing laws such as Law No. 31-08 on consumer protection and Law No. 24-09 on product safety, but no new enactments or substantial amendments in 2025 or 2026 are mentioned.",
+      "sources": [
+        "https://mcinet.gov.ma/en/content/consumer-protection-0",
+        "https://www.mcinet.gov.ma/en/content/consumer-protection-0",
+        "https://mcinet.gov.ma/en/content/consumer-protection",
+        "https://www.mcinet.gov.ma/en/content/consumer-protection",
+        "https://www.mcinet.gov.ma/en/content/export-support-programs",
+        "https://mcinet.gov.ma/en/content/export-support-programs"
+      ],
+      "domain_constrained": true
+    }
+  },
+  {
+    "cc": "MR",
+    "country": "Mauritania",
+    "region": "Maghreb",
+    "is_icp": false,
+    "corpus_depth": 5,
+    "reachability": {
+      "working": 1,
+      "blocked": 0,
+      "pct": 100,
+      "tier": "mid"
+    },
+    "language_regime": "bilingual_ar_fr",
+    "language_note": "Legal texts are published in both Arabic and French, reflecting the country's bilingual legal environment.",
+    "recency": {
+      "recent_major_reform": "unclear",
+      "laws": [],
+      "grounded_in_sources": false,
+      "linkup_answer": "No data is available indicating that Mauritania has enacted or substantially amended any major national law (civil code, commercial/companies law, labor law, penal code, or data-protection law) in 2025 or 2026.",
+      "sources": [
+        "https://www.journalofficiel.dj/arabe/texte-juridique/decision-n-30-12-janvier-1951/",
+        "https://www.journalofficiel.dj/arabe/texte-juridique/decision-n-54-17-janvier-1951/",
+        "https://www.journalofficiel.dj/arabe/texte-juridique/decision-n-28-12-janvier-1951/",
+        "https://www.journalofficiel.dj/arabe/texte-juridique/decision-n-39-15-janvier-1951/",
+        "https://www.journalofficiel.dj/arabe/texte-juridique/decision-n-41-15-janvier-1951/",
+        "https://www.journalofficiel.dj/texte-juridique/decision-n-23-9-janvier-1951/"
+      ],
+      "domain_constrained": true
+    }
+  },
+  {
+    "cc": "TN",
+    "country": "Tunisia",
+    "region": "Maghreb",
+    "is_icp": false,
+    "corpus_depth": 5,
+    "reachability": {
+      "working": 2,
+      "blocked": 4,
+      "pct": 33,
+      "tier": "mid"
+    },
+    "language_regime": "bilingual_ar_fr",
+    "language_note": "Legal texts are published in both Arabic and French, with Arabic being the official language.",
+    "recency": {
+      "recent_major_reform": "no",
+      "laws": [],
+      "grounded_in_sources": true,
+      "linkup_answer": "No data is available indicating that Tunisia has enacted or substantially amended any major national law (civil code, commercial/companies law, labor law, penal code, or data-protection law) in 2025 or 2026.",
+      "sources": [
+        "https://www.bct.gov.tn/bct/siteprod/page.jsp?id=220&la=AN",
+        "https://www.bct.gov.tn/bct/siteprod/page.jsp?id=76",
+        "https://www.bct.gov.tn/bct/siteprod/page.jsp?id=220",
+        "https://www.bct.gov.tn/bct/siteprod/page.jsp?id=76null",
+        "https://www.bct.gov.tn/bct/siteprod/arabe/page_ar.jsp?id=220",
+        "https://www.bct.gov.tn/bct/siteprod/page.jsp?id=153&la=AN"
+      ],
+      "domain_constrained": true
+    }
+  },
+  {
+    "cc": "YE",
+    "country": "Yemen",
+    "region": "Arabian_Peninsula",
+    "is_icp": false,
+    "corpus_depth": 4,
+    "reachability": {
+      "working": 0,
+      "blocked": 0,
+      "pct": 0,
+      "tier": "lo"
+    },
+    "language_regime": "arabic_native",
+    "language_note": "Legal texts are published in Arabic, often with both Hijri and Gregorian dates.",
+    "recency": {
+      "recent_major_reform": "unclear",
+      "laws": [],
+      "grounded_in_sources": false,
+      "linkup_answer": "No data is available in the provided information regarding Yemen enacting or substantially amending any major national law (civil code, commercial/companies law, labor law, penal code, or data-protection law) in 2025 or 2026.",
+      "sources": [
+        "https://guides.loc.gov/law-yemen/legal-guides",
+        "https://guides.loc.gov/law-yemen",
+        "https://guides.loc.gov/law-yemen/legislative",
+        "https://guides.loc.gov/law-yemen/constitution",
+        "https://guides.loc.gov/law-library-of-congress-databases/legislative-and-statutory-resources",
+        "https://guides.loc.gov/law-library-of-congress-databases/foreign-comparative-and-international-law-resources"
+      ],
+      "domain_constrained": true
+    }
+  },
+  {
+    "cc": "SD",
+    "country": "Sudan",
+    "region": "Africa",
+    "is_icp": false,
+    "corpus_depth": 5,
+    "reachability": {
+      "working": 0,
+      "blocked": 1,
+      "pct": 0,
+      "tier": "lo"
+    },
+    "language_regime": "bilingual_ar_en",
+    "language_note": "Legal texts are published in Arabic, with English translations often available for key legislation.",
+    "recency": {
+      "recent_major_reform": "unclear",
+      "laws": [],
+      "grounded_in_sources": false,
+      "linkup_answer": "Sudan established the Sudanese Cybersecurity Authority in 2025, which represents a major institutional step toward building a comprehensive national cybersecurity framework. This includes developing policies and regulatory frameworks for cybersecurity and data protection. However, there is no explicit mention of enactment or substantial amendment of major national laws such as a civil code, commercial/companies law, labor law, penal code, or a dedicated data-protection law in 2025 or 2026 in the provided information.",
+      "sources": [
+        "https://cbos.gov.sd/ar/node/24604/",
+        "https://sca.gov.sd/en/news/sudan-news2-sudanese-cybersecurity-authority",
+        "https://tax.gov.sd/en/tax-laws/",
+        "https://sca.gov.sd/en/news/sudan-launches-sudanese-cybersecurity-authority",
+        "https://sca.gov.sd/en/authentication",
+        "https://sca.gov.sd/en/news"
+      ],
+      "domain_constrained": true
+    }
+  },
+  {
+    "cc": "SO",
+    "country": "Somalia",
+    "region": "Horn",
+    "is_icp": false,
+    "corpus_depth": 4,
+    "reachability": {
+      "working": 0,
+      "blocked": 1,
+      "pct": 0,
+      "tier": "lo"
+    },
+    "language_regime": "bilingual_ar_en",
+    "language_note": "Official legal texts are published in Somali and Arabic, with English translations often available.",
+    "recency": {
+      "recent_major_reform": "unclear",
+      "laws": [],
+      "grounded_in_sources": false,
+      "linkup_answer": "Yes, Somalia enacted the Financial Institutions Law (FIL) in May 2025. Additionally, the Islamic Insurance (Takaful) Law was enacted in May 2025. These are major national laws related to the financial sector. The Financial Institutions Law provides the legal and regulatory basis for microfinance businesses, and the Takaful Law regulates the Islamic insurance sector.",
+      "sources": [
+        "https://centralbank.gov.so/central-bank-of-somalia-grants-first-licences-to-microfinance-institutions/",
+        "https://centralbank.gov.so/central-bank-of-somalia-cbs-grants-first-licenses-to-takaful-companies/",
+        "https://centralbank.gov.so/cbs-opens-licensing-process-for-non-deposit-taking-microfinance-institutions/",
+        "https://centralbank.gov.so/nps/",
+        "https://centralbank.gov.so/regulatory-guidelines/",
+        "https://centralbank.gov.so/governors-statement/"
+      ],
+      "domain_constrained": true
+    }
+  },
+  {
+    "cc": "DJ",
+    "country": "Djibouti",
+    "region": "Horn",
+    "is_icp": false,
+    "corpus_depth": 5,
+    "reachability": {
+      "working": 1,
+      "blocked": 0,
+      "pct": 100,
+      "tier": "mid"
+    },
+    "language_regime": "bilingual_ar_fr",
+    "language_note": "Legal texts are published in both French and Arabic, reflecting the country's official languages.",
+    "recency": {
+      "recent_major_reform": "unclear",
+      "laws": [],
+      "grounded_in_sources": false,
+      "linkup_answer": "Aucune information disponible dans les données fournies n'indique que Djibouti a adopté ou modifié substantiellement une loi nationale majeure (code civil, code commercial/sociétés, code du travail, code pénal ou loi sur la protection des données) en 2025 ou 2026.",
+      "sources": [
+        "https://www.journalofficiel.dj/texte-juridique/decision-n-437-decisions-concernant-les-services-territoriaux/",
+        "https://www.journalofficiel.dj/arabe/journal-officiel/n-60-du-01-06-1902/",
+        "https://www.journalofficiel.dj/texte-juridique/arrete-n-34-396-1929-nomination/",
+        "https://www.journalofficiel.dj/journal-officiel/n-461-du-30-04-1935/",
+        "https://www.journalofficiel.dj/texte-juridique/decision-n-443-decisions-concernant-les-services-detat-2/",
+        "https://www.journalofficiel.dj/texte-juridique/arrete-n-37-396-1929-25-11-1929/"
+      ],
+      "domain_constrained": true
+    }
+  },
+  {
+    "cc": "KM",
+    "country": "Comoros",
+    "region": "Africa",
+    "is_icp": false,
+    "corpus_depth": 4,
+    "reachability": {
+      "working": 0,
+      "blocked": 1,
+      "pct": 0,
+      "tier": "lo"
+    },
+    "language_regime": "bilingual_ar_fr",
+    "language_note": "Legal texts are published in French and Arabic, reflecting the country's official languages.",
+    "recency": {
+      "recent_major_reform": "no",
+      "laws": [],
+      "grounded_in_sources": true,
+      "linkup_answer": "No data is available indicating that Comoros has enacted or substantially amended any major national law (civil code, commercial/companies law, labor law, penal code, or data-protection law) in 2025 or 2026.",
+      "sources": [
+        "https://guides.loc.gov/law-comoros/legal-guides",
+        "https://guides.loc.gov/law-comoros/legislative",
+        "https://guides.loc.gov/law-comoros",
+        "https://guides.loc.gov/law-comoros/constitution",
+        "https://guides.loc.gov/law-comoros/general-sources",
+        "https://guides.loc.gov/law-cote-divoire/legal-guides"
+      ],
+      "domain_constrained": true
+    }
+  },
+  {
+    "cc": "IR",
+    "country": "Iran",
+    "region": "Non-Arab_MENA",
+    "is_icp": false,
+    "corpus_depth": 5,
+    "reachability": {
+      "working": 0,
+      "blocked": 2,
+      "pct": 0,
+      "tier": "lo"
+    },
+    "language_regime": "persian_native",
+    "language_note": "Legal texts are published in Farsi, with Arabic used for religious texts.",
+    "recency": {
+      "recent_major_reform": "unclear",
+      "laws": [],
+      "grounded_in_sources": false,
+      "linkup_answer": "No data is available in the provided information regarding Iran enacting or substantially amending any major national law (civil code, commercial/companies law, labor law, penal code, or data-protection law) in 2025 or 2026.",
+      "sources": [
+        "https://guides.loc.gov/law-iran/legal-guides",
+        "https://guides.loc.gov/law-iran/legislative",
+        "https://guides.loc.gov/law-iran",
+        "https://guides.loc.gov/law-iran/judicial",
+        "https://guides.loc.gov/law-iran/constitution",
+        "https://iran.gov.ir/en/"
+      ],
+      "domain_constrained": true
+    }
+  },
+  {
+    "cc": "IL",
+    "country": "Israel",
+    "region": "Non-Arab_MENA",
+    "is_icp": false,
+    "corpus_depth": 4,
+    "reachability": {
+      "working": 0,
+      "blocked": 7,
+      "pct": 0,
+      "tier": "lo"
+    },
+    "language_regime": "hebrew_native",
+    "language_note": "Official legal texts are published in Hebrew, with some Arabic and partial English translations available.",
+    "recency": {
+      "recent_major_reform": "unclear",
+      "laws": [],
+      "grounded_in_sources": false,
+      "linkup_answer": "No information is available indicating that Israel has enacted or substantially amended any major national law (civil code, commercial/companies law, labor law, penal code, or data-protection law) in 2025 or 2026.",
+      "sources": [
+        "https://www.israc.gov.il/?CategoryID=260",
+        "https://www.btl.gov.il:443/English%20Homepage/About/Pages/default.aspx",
+        "https://www.btl.gov.il:443/English%20Homepage/About/Office%20Holders/Pages/default.aspx",
+        "https://nbctf.mod.gov.il/en/aboutus/Pages/mandate.aspx",
+        "https://www.btl.gov.il:443/English%20Homepage/About/FreedomInformation/Pages/default.aspx",
+        "https://www.israc.gov.il/?CategoryID=249"
+      ],
+      "domain_constrained": true
+    }
+  },
+  {
+    "cc": "TR",
+    "country": "Turkey",
+    "region": "Non-Arab_MENA",
+    "is_icp": false,
+    "corpus_depth": 5,
+    "reachability": {
+      "working": 9,
+      "blocked": 4,
+      "pct": 69,
+      "tier": "hi"
+    },
+    "language_regime": "turkish_native",
+    "language_note": "Official legal texts are published in Turkish; English translations are often available but not authoritative.",
+    "recency": {
+      "recent_major_reform": "unclear",
+      "laws": [],
+      "grounded_in_sources": false,
+      "linkup_answer": "Based on the provided information, there is no indication that Turkey has enacted or substantially amended any major national law (such as civil code, commercial/companies law, labor law, penal code, or data-protection law) specifically in 2025 or 2026. The latest major law mentioned is the International Labour Force Law No. 6735, which was enacted on 13 August 2016. No new or amended major national laws in the specified categories for 2025 or 2026 are referenced in the available data.",
+      "sources": [
+        "https://www.csgb.gov.tr/uigm/en/general-directorate/about/",
+        "https://www.csgb.gov.tr/uigm/en/general-information/exceptional-turkish-citizenship/",
+        "https://www.csgb.gov.tr/uigm/tr/genel-bilgi/mevzuat/",
+        "https://www.csgb.gov.tr/uigm/tr/haberler/15-09-2023/",
+        "https://www.tcmb.gov.tr/wps/wcm/connect/blog/en/main+menu/analyses/statistics+on+participation+banks+profit+rates",
+        "https://www.csgb.gov.tr/uigm/tr/genel-mudurluk/hakkimizda/"
+      ],
+      "domain_constrained": true
+    }
+  }
+]
