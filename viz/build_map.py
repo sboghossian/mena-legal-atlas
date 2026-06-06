@@ -99,9 +99,10 @@ PANELS.forEach((p,i)=>{
 svg.append("rect").attr("x",0).attr("y",H-92).attr("width",W).attr("height",92).attr("fill","#070b16");
 svg.append("text").attr("x",60).attr("y",H-58).attr("fill","#cdd8ea").attr("font-size","15px").attr("font-weight","700")
   .attr("letter-spacing","1px").text("BENCHMARK · MENA legal-source coverage");
+// footer numbers: refresh from `python3 benchmark_ldh.py` output when status.json changes
 const bench=[
-  ["Legal Data Hunter (global crawler)","163 MENA sources · 41% working · 56% complete globally"],
-  ["MENA Legal Atlas (this map)","+233 official sources · 152 new to LDH · 80% jurisdiction coverage"],
+  ["Legal Data Hunter (global crawler)","243 MENA sources · 44% working · 58% complete globally"],
+  ["MENA Legal Atlas (this map)","+233 official sources · 99 new to LDH · 80% jurisdiction coverage"],
 ];
 bench.forEach((b,i)=>{const y=H-32+i*0; const x=60+i*820;
   svg.append("text").attr("x",x).attr("y",H-34).attr("fill","#9fb0cc").attr("font-size","13px").attr("font-weight","700").text(b[0]);
